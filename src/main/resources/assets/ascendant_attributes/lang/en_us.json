@@ -1,13 +1,1 @@
-{
-  "itemGroup.ascendant_attributes": "Example Mod Tab",
-  "block.ascendant_attributes.example_block": "Example Block",
-  "item.ascendant_attributes.example_item": "Example Item",
-
-  "ascendant_attributes.configuration.title": "Ascendant Attributes Configs",
-  "ascendant_attributes.configuration.section.ascendant_attributes.common.toml": "Ascendant Attributes Configs",
-  "ascendant_attributes.configuration.section.ascendant_attributes.common.toml.title": "Ascendant Attributes Configs",
-  "ascendant_attributes.configuration.items": "Item List",
-  "ascendant_attributes.configuration.logDirtBlock": "Log Dirt Block",
-  "ascendant_attributes.configuration.magicNumberIntroduction": "Magic Number Text",
-  "ascendant_attributes.configuration.magicNumber": "Magic Number"
-}
+{}

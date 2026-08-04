@@ -1,0 +1,21 @@
+package com.skd.ascendantattributes.mob_effect;
+
+import com.skd.ascendantattributes.AscendantAttributes;
+
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.entity.ai.attributes.AttributeMap;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier.Operation;
+import net.neoforged.neoforge.common.NeoForgeMod;
+
+public class FlyingEffect extends MobEffect {
+    public FlyingEffect() {
+        super(MobEffectCategory.BENEFICIAL, 0xFF5555);
+        this.addAttributeModifier(NeoForgeMod.CREATIVE_FLIGHT, AscendantAttributes.loc("flying"), 1.0, Operation.ADD_VALUE);
+    }
+
+    @Override
+    public void addAttributeModifiers(AttributeMap pAttributeMap, int pAmplifier) {
+        super.addAttributeModifiers(pAttributeMap, 0);
+    }
+}

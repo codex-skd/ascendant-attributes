@@ -121,6 +121,12 @@ dependencies {
     compileOnly files("lib_ext/curios-neoforge-15.0.0-beta.2+26.2.jar")
     localRuntime files("lib_ext/curios-neoforge-15.0.0-beta.2+26.2.jar")
 
+    // EvalEx (com.udojava:EvalEx) is the real Maven library that replaces the original mod's
+    // repackaged copy (dev.shadowsoffire.apothic_attributes.repack.evalex), used to evaluate the
+    // configurable combat-rule formulas. Bundled into the mod jar via the NeoForge moddev jarJar
+    // mechanism so it ships with the mod instead of being a user-installed dependency.
+    jarJar(implementation('com.udojava:EvalEx:2.7'))
+
     // Ascendant Equipment (fork of Apotheosis, this mod's conceptual parent) does not yet
     // expose the affix/attribute API this mod will eventually build on (still scaffold-only
     // as of 0.0.0-beta.1). Wire this dependency once that API ships:

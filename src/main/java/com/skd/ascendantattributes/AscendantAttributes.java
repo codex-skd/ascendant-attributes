@@ -1,117 +1,170 @@
 package com.skd.ascendantattributes;
 
-import org.slf4j.Logger;
+import java.io.File;
+import java.util.function.BiConsumer;
 
-import com.mojang.logging.LogUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
+import com.skd.ascendantattributes.api.AscendantAttributesObjects;
+import com.skd.ascendantattributes.api.CooldownTracker;
+import com.skd.commontoolkit.registry.DeferredHelper;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.MapColor;
-import net.neoforged.api.distmarker.Dist;
+import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.resources.Identifier;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityTypes;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.ai.attributes.Attribute;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.attributes.DefaultAttributes;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier.Operation;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.TooltipFlag;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.config.ModConfig;
-import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.fml.loading.FMLEnvironment;
+import net.neoforged.fml.loading.FMLPaths;
 import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
-import net.neoforged.neoforge.event.server.ServerStartingEvent;
-import net.neoforged.neoforge.registries.DeferredBlock;
-import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.registries.DeferredItem;
-import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.common.NeoForgeMod;
+import net.neoforged.neoforge.data.event.GatherDataEvent.Client;
+import net.neoforged.neoforge.event.entity.EntityAttributeModificationEvent;
+import net.neoforged.neoforge.event.entity.player.AttackEntityEvent;
+import net.neoforged.neoforge.event.entity.player.PlayerEvent.PlayerLoggedInEvent;
 
-// The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(AscendantAttributes.MODID)
 public class AscendantAttributes {
-    // Define mod id in a common place for everything to reference
     public static final String MODID = "ascendant_attributes";
-    // Directly reference a slf4j logger
-    public static final Logger LOGGER = LogUtils.getLogger();
-    // Create a Deferred Register to hold Blocks which will all be registered under the "ascendant_attributes" namespace
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
-    // Create a Deferred Register to hold Items which will all be registered under the "ascendant_attributes" namespace
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
-    // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "ascendant_attributes" namespace
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
+    public static final Logger LOGGER = LogManager.getLogger("ascendant_attributes");
+    public static final DeferredHelper R = DeferredHelper.create("ascendant_attributes");
+    public static final boolean DEBUG_AUX_DMG = "on".equalsIgnoreCase(System.getenv("ASCENDANT_DEBUG_AUX_DMG"));
+    private static final File configDir = new File(FMLPaths.CONFIGDIR.get().toFile(), "ascendant_attributes");
+    private static float localAtkStrength = 1.0F;
 
-    // Creates a new Block with the id "ascendant_attributes:example_block", combining the namespace and path
-    public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerSimpleBlock("example_block", p -> p.mapColor(MapColor.STONE));
-    // Creates a new BlockItem with the id "ascendant_attributes:example_block", combining the namespace and path
-    public static final DeferredItem<BlockItem> EXAMPLE_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("example_block", EXAMPLE_BLOCK);
-
-    // Creates a new food item with the id "ascendant_attributes:example_id", nutrition 1 and saturation 2
-    public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.registerSimpleItem("example_item", p -> p.food(new FoodProperties.Builder()
-            .alwaysEdible().nutrition(1).saturationModifier(2f).build()));
-
-    // Creates a creative tab with the id "ascendant_attributes:example_tab" for the example item, that is placed after the combat tab
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
-            .title(Component.translatable("itemGroup.ascendant_attributes")) //The language key for the title of your CreativeModeTab
-            .withTabsBefore(CreativeModeTabs.COMBAT)
-            .icon(() -> EXAMPLE_ITEM.get().getDefaultInstance())
-            .displayItems((parameters, output) -> {
-                output.accept(EXAMPLE_ITEM.get());// Add the example item to the tab. For your own tabs, this method is preferred over the event
-            }).build());
-
-    // The constructor for the mod class is the first code that is run when your mod is loaded.
-    // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public AscendantAttributes(IEventBus modEventBus, ModContainer modContainer) {
-        // Register the commonSetup method for modloading
-        modEventBus.addListener(this::commonSetup);
-
-        // Register the Deferred Register to the mod event bus so blocks get registered
-        BLOCKS.register(modEventBus);
-        // Register the Deferred Register to the mod event bus so items get registered
-        ITEMS.register(modEventBus);
-        // Register the Deferred Register to the mod event bus so tabs get registered
-        CREATIVE_MODE_TABS.register(modEventBus);
-
-        // Register ourselves for server and other game events we are interested in.
-        // Note that this is necessary if and only if we want *this* class (AscendantAttributes) to respond directly to events.
-        // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
-        NeoForge.EVENT_BUS.register(this);
-
-        // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
-
-        // Register our mod's ModConfigSpec so that FML can create and load the config file for us
-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
-    }
-
-    private void commonSetup(FMLCommonSetupEvent event) {
-        // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
-
-        if (Config.LOG_DIRT_BLOCK.getAsBoolean()) {
-            LOGGER.info("DIRT BLOCK >> {}", BuiltInRegistries.BLOCK.getKey(Blocks.DIRT));
+    public AscendantAttributes(IEventBus bus) {
+        bus.register(this);
+        // TODO(Phase 5): Register AttributeEvents on NeoForge.EVENT_BUS (see original ApothicAttributes constructor).
+        NeoForge.EVENT_BUS.addListener(AscendantAttributes::trackAttackStrength);
+        NeoForge.EVENT_BUS.addListener(AscendantAttributes::pruneCooldowns);
+        if (FMLEnvironment.getDist().isClient()) {
+            // TODO(Phase 9): Register AttributesLibClient on NeoForge.EVENT_BUS and its ModBusSub on the mod bus (see original ApothicAttributes constructor).
         }
-
-        LOGGER.info("{}{}", Config.MAGIC_NUMBER_INTRODUCTION.get(), Config.MAGIC_NUMBER.getAsInt());
-
-        Config.ITEM_STRINGS.get().forEach((item) -> LOGGER.info("ITEM >> {}", item));
+        // TODO(Phase 6): PayloadHelper.registerPayload(new CritParticlePayload.Provider()) (see original ApothicAttributes constructor).
+        AscendantAttributesObjects.bootstrap(bus);
+        NeoForgeMod.enableMergedAttributeTooltips();
     }
 
-    // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(EXAMPLE_BLOCK_ITEM);
-        }
-    }
-
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {
-        // Do something when the server starts
-        LOGGER.info("HELLO from server starting");
+    public void init(FMLCommonSetupEvent e) {
+        e.enqueueWork(() -> {
+            AttributesConfig.load();
+            ((MobEffect) MobEffects.BLINDNESS.value()).addAttributeModifier(Attributes.FOLLOW_RANGE, loc("blindness"), -0.75, Operation.ADD_MULTIPLIED_TOTAL);
+        });
+        // TODO(Phase 6): PayloadHelper.registerPayload(new ConfigPayload.Provider()) (see original ApothicAttributes.init).
+    }
+
+    @SubscribeEvent
+    public void applyAttribs(EntityAttributeModificationEvent e) {
+        e.getTypes().forEach(type -> addAll(type, e::add,
+                AscendantAttributesObjects.Attributes.DRAW_SPEED,
+                AscendantAttributesObjects.Attributes.CRIT_CHANCE,
+                AscendantAttributesObjects.Attributes.CRIT_DAMAGE,
+                AscendantAttributesObjects.Attributes.COLD_DAMAGE,
+                AscendantAttributesObjects.Attributes.FIRE_DAMAGE,
+                AscendantAttributesObjects.Attributes.LIFE_STEAL,
+                AscendantAttributesObjects.Attributes.CURRENT_HP_DAMAGE,
+                AscendantAttributesObjects.Attributes.OVERHEAL,
+                AscendantAttributesObjects.Attributes.GHOST_HEALTH,
+                AscendantAttributesObjects.Attributes.ARROW_DAMAGE,
+                AscendantAttributesObjects.Attributes.ARROW_VELOCITY,
+                AscendantAttributesObjects.Attributes.EXPERIENCE_GAINED,
+                AscendantAttributesObjects.Attributes.HEALING_RECEIVED,
+                AscendantAttributesObjects.Attributes.ARMOR_PIERCE,
+                AscendantAttributesObjects.Attributes.ARMOR_SHRED,
+                AscendantAttributesObjects.Attributes.PROJECTILE_DAMAGE,
+                AscendantAttributesObjects.Attributes.PROT_PIERCE,
+                AscendantAttributesObjects.Attributes.PROT_SHRED,
+                AscendantAttributesObjects.Attributes.DODGE_CHANCE,
+                AscendantAttributesObjects.Attributes.ELYTRA_FLIGHT,
+                AscendantAttributesObjects.Attributes.COOLDOWN_REDUCTION));
+    }
+
+    @SafeVarargs
+    private static void addAll(EntityType<? extends LivingEntity> type, BiConsumer<EntityType<? extends LivingEntity>, Holder<Attribute>> add, Holder<Attribute>... attribs) {
+        for (Holder<Attribute> a : attribs) {
+            add.accept(type, a);
+        }
+    }
+
+    @SubscribeEvent
+    public void setup(FMLCommonSetupEvent e) {
+        AttributeSupplier playerAttribs = DefaultAttributes.getSupplier(EntityTypes.PLAYER);
+        BuiltInRegistries.ATTRIBUTE.listElements().forEach(attr -> {
+            if (playerAttribs.hasAttribute(attr)) {
+                ((Attribute) attr.value()).setSyncable(true);
+            }
+        });
+        if (ModList.get().isLoaded("curios")) {
+            // TODO(Phase 11): e.enqueueWork(CuriosCompat::init) (see original ApothicAttributes.setup).
+        }
+    }
+
+    @SubscribeEvent
+    public void data(Client e) {
+        // TODO(Phase 8): DataGenBuilder.create(new String[]{"ascendant_attributes"}).provider(MixProvider::new).build(e) (see original ApothicAttributes.data).
+    }
+
+    public static File getConfigFile(String path) {
+        return new File(configDir, path + ".cfg");
+    }
+
+    public static float getLocalAtkStrength(Entity entity) {
+        return entity instanceof Player ? localAtkStrength : 1.0F;
+    }
+
+    public static TooltipFlag getTooltipFlag() {
+        return FMLEnvironment.getDist().isClient() ? AscendantAttributes.ClientAccess.getTooltipFlag() : TooltipFlag.NORMAL;
+    }
+
+    public static Identifier loc(String path) {
+        return Identifier.fromNamespaceAndPath("ascendant_attributes", path);
+    }
+
+    public static MutableComponent lang(String type, String path, Object... args) {
+        return Component.translatable(langKey(type, path), args);
+    }
+
+    public static String langKey(String type, String path) {
+        return type + ".ascendant_attributes." + path;
+    }
+
+    private static void trackAttackStrength(AttackEntityEvent e) {
+        Player p = e.getEntity();
+        localAtkStrength = p.getAttackStrengthScale(0.5F);
+    }
+
+    private static void pruneCooldowns(PlayerLoggedInEvent e) {
+        Player p = e.getEntity();
+        CooldownTracker tracker = p.getData(AscendantAttributesObjects.Attachments.COOLDOWNS);
+        if (tracker.prune(p.level().getGameTime())) {
+            p.setData(AscendantAttributesObjects.Attachments.COOLDOWNS, tracker);
+        }
+    }
+
+    private static class ClientAccess {
+        static TooltipFlag getTooltipFlag() {
+            return Minecraft.getInstance().options.advancedItemTooltips ? TooltipFlag.ADVANCED : TooltipFlag.NORMAL;
+        }
     }
 }

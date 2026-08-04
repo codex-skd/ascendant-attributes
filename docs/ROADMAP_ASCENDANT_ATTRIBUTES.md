@@ -48,17 +48,14 @@ Cada fase = un encargo a OpenCode. Orden pensado por dependencia técnica y tama
 | Fase | Alcance | Paquetes origen (nº archivos) | Depende de |
 |---|---|---|---|
 | **0** | ✅ Setup: decompilar, identificar `repack/`, resolver dependencias, mapping completo | — | — |
-| **1** | Núcleo: clase principal (`AscendantAttributes`), `AttributesConfig`, dependencia EvalEx real, utilidades base | raíz (2: `ApothicAttributes`, `ALConfig`), `util` (4) | Fase 0 |
-| **2** | API pública: registro de objetos (attributes, mob effects, attachments, sonidos, damage types, potions, tags), helpers de atributos y cooldowns | `api` (5: `ALObjects`, `AbilityCooldowns`, `ALCombatRules`, `AttributeHelper`, `CooldownTracker`) | Fase 1 |
-| **3** | Efectos de estado propios | `mob_effect` (7: Bleeding, Detonation, Flying, Grievous, Knowledge, Sundering, Vitality) | Fase 2 |
-| **4** | Modificadores de atributos por stack/equipo | `modifiers` (7: EntityEquipmentSlot, EntitySlotGroup, EquipmentSlotCompat, StackAttributeModifiers(+Event), VanillaEquipmentSlot) | Fase 2 |
-| **5** | Lógica de eventos e implementación central (aplica todo lo anterior al gameplay) | `impl` (1: `AttributeEvents`), `event` (1: `AttributesCommandEvent`) | Fases 2–4 |
+| **1-4** | ✅ **Completada, fusionada** (ver nota abajo): núcleo (`AscendantAttributes`, `AttributesConfig`, EvalEx real), API de registro (`AscendantAttributesObjects`, cooldowns, combat rules, attribute helper), efectos de estado y modificadores de atributos por stack/equipo | raíz (2), `util` (4), `api` (5), `mob_effect` (7), `modifiers` (7) = 25 archivos | Fase 0 |
+| **5** | Lógica de eventos e implementación central (aplica todo lo anterior al gameplay) | `impl` (1: `AttributeEvents`), `event` (1: `AttributesCommandEvent`) | Fases 1-4 |
 | **6** | Red: payloads de sincronización cliente/servidor | `payload` (2: ConfigPayload, CritParticlePayload) | Fase 1 |
 | **7** | Comandos | `commands` (1: BonusModifierCommand) | Fase 5 |
-| **8** | Datos: brewing mixes, damage types, tags (JSON, equivalentes propios no copiados) | `data` (1: MixProvider) + JSONs de `data/apothic_attributes/` | Fase 3, 5 |
-| **9** | Cliente: HUD/render de atributos, GUI | `client` (6: AttributeModifierComponent, AttributesGui, AttributesLibClient, ButtonPlacement, ModifierSource(Type)) | Fases 2–5 según feature |
+| **8** | Datos: brewing mixes, damage types, tags (JSON, equivalentes propios no copiados) | `data` (1: MixProvider) + JSONs de `data/apothic_attributes/` | Fases 1-4, 5 |
+| **9** | Cliente: HUD/render de atributos, GUI | `client` (6: AttributeModifierComponent, AttributesGui, AttributesLibClient, ButtonPlacement, ModifierSource(Type)) | Fases 1-4, 5 según feature |
 | **10** | Mixins (al final: tocan clases vanilla, lo más frágil entre versiones de Minecraft) | `mixin` (7, incl. `mixin/client/AbstractContainerScreenMixin` — **revisar solapamiento** con el mixin homónimo ya existente en Common Toolkit antes de portar) | Todas las anteriores relevantes |
-| **11** | Compat opcional: Curios (integración de slots de accesorio) | `compat` (2: CurioEquipmentSlot, CuriosCompat) | Fase 4, 5 |
+| **11** | Compat opcional: Curios (integración de slots de accesorio) | `compat` (2: CurioEquipmentSlot, CuriosCompat) | Fases 1-4, 5 |
 | **12** | Arte propio: sustituir placeholders por texturas/sonidos/partículas originales | — (todo `assets/`) | Trabajo paralelo, no bloquea el resto |
 | **13** | QA de paridad funcional: probar que el comportamiento replica el original fase por fase | — | Todas |
 
@@ -71,4 +68,4 @@ Cada fase = un encargo a OpenCode. Orden pensado por dependencia técnica y tama
 
 ## Estado
 
-Fase 0 completa. Próximo paso: **Fase 1** (núcleo: clase principal, config, dependencia EvalEx, utilidades base).
+Fases 0-4 completas (build verde, `./gradlew.bat clean build` → `ascendant_attributes-26.2-neoforge-0.0.0-beta.1.jar`, sin residuos del original salvo la atribución obligatoria en `credits`). Implementadas con OpenCode (`opencode-go/deepseek-v4-flash`), verificado el diff y el build de forma independiente. Próximo paso: **Fase 5** (lógica de eventos e implementación central — `impl.AttributeEvents`, `event.AttributesCommandEvent`).
