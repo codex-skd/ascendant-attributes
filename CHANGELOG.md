@@ -1,5 +1,10 @@
 # Changelog — Ascendant Attributes
 
+## 0.0.0-beta.2
+
+- **Primera subida real a CurseForge con contenido funcional.** Todo el trabajo listado bajo `0.0.0-beta.1` más abajo (Fases 1-13 del roadmap) se hizo sin subir el `mod_version` correspondiente — el único archivo publicado hasta ahora seguía siendo el scaffold vacío original (file ID `8572977`, verificado vía API de CurseForge). Este bump corrige eso: empaqueta el port completo (atributos, efectos, GUI, mixins, compat Curios, arte propio) como la versión que realmente se sube.
+- Ver `docs/curseforge/versions/0.0.0-beta.2.md` para las release notes de esta versión.
+
 ## 0.0.0-beta.1
 
 - Scaffold inicial desde el esqueleto `codex-docs/mod_template/neoforge/26.2-26.2.0.32-beta` (NeoForge 26.2 / NeoForge 26.2.0.32-beta).
