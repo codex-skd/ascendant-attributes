@@ -1,0 +1,6 @@
+{
+  "mix_type": "potion",
+  "from": "ascendant_attributes:knowledge",
+  "ingredient": "minecraft:experience_bottle",
+  "to": "ascendant_attributes:strong_knowledge"
+}

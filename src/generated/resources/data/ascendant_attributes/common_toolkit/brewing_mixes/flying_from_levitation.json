@@ -1,0 +1,6 @@
+{
+  "mix_type": "potion",
+  "from": "ascendant_attributes:levitation",
+  "ingredient": "minecraft:popped_chorus_fruit",
+  "to": "ascendant_attributes:flying"
+}

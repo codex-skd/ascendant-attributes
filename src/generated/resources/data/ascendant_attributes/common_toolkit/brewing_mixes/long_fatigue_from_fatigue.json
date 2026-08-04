@@ -1,0 +1,6 @@
+{
+  "mix_type": "potion",
+  "from": "ascendant_attributes:fatigue",
+  "ingredient": "minecraft:redstone",
+  "to": "ascendant_attributes:long_fatigue"
+}

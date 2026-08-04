@@ -1,0 +1,6 @@
+{
+  "mix_type": "potion",
+  "from": "minecraft:awkward",
+  "ingredient": "minecraft:golden_apple",
+  "to": "ascendant_attributes:absorption"
+}

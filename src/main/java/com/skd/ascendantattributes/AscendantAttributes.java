@@ -8,9 +8,11 @@ import org.apache.logging.log4j.Logger;
 
 import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import com.skd.ascendantattributes.api.CooldownTracker;
+import com.skd.ascendantattributes.data.MixProvider;
 import com.skd.ascendantattributes.impl.AttributeEvents;
 import com.skd.ascendantattributes.payload.ConfigPayload;
 import com.skd.ascendantattributes.payload.CritParticlePayload;
+import com.skd.commontoolkit.datagen.DataGenBuilder;
 import com.skd.commontoolkit.network.PayloadHelper;
 import com.skd.commontoolkit.registry.DeferredHelper;
 
@@ -126,7 +128,7 @@ public class AscendantAttributes {
 
     @SubscribeEvent
     public void data(Client e) {
-        // TODO(Phase 8): DataGenBuilder.create(new String[]{"ascendant_attributes"}).provider(MixProvider::new).build(e) (see original ApothicAttributes.data).
+        DataGenBuilder.create(new String[]{"ascendant_attributes"}).provider(MixProvider::new).build(e);
     }
 
     public static File getConfigFile(String path) {

@@ -1,0 +1,6 @@
+{
+  "mix_type": "potion",
+  "from": "ascendant_attributes:haste",
+  "ingredient": "minecraft:redstone",
+  "to": "ascendant_attributes:long_haste"
+}

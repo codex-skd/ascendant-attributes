@@ -1,0 +1,6 @@
+{
+  "mix_type": "potion",
+  "from": "ascendant_attributes:long_flying",
+  "ingredient": "minecraft:redstone",
+  "to": "ascendant_attributes:extra_long_flying"
+}

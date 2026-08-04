@@ -1,0 +1,6 @@
+{
+  "mix_type": "potion",
+  "from": "ascendant_attributes:vitality",
+  "ingredient": "minecraft:glowstone_dust",
+  "to": "ascendant_attributes:strong_vitality"
+}
