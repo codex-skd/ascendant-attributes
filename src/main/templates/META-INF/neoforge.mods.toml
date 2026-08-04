@@ -30,9 +30,7 @@ displayName="${mod_name}" #mandatory
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 
 # A file name (in the root of the mod JAR) containing a logo for display
-# Pending: assets/${mod_id}/icon.png does not exist yet — design a dedicated icon before the
-# first CurseForge upload (do not reuse Apothic Attributes' or Ascendant Equipment's icon).
-#logoFile="assets/${mod_id}/icon.png" #optional
+logoFile="assets/${mod_id}/icon.png" #optional
 
 # A text field displayed in the mod UI
 credits="Port of Apothic Attributes by Shadows_of_Fire (MIT)" #optional
