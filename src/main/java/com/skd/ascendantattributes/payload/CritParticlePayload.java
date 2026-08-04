@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import com.skd.ascendantattributes.AscendantAttributes;
+import com.skd.ascendantattributes.client.AscendantAttributesClientHandler;
 import com.skd.commontoolkit.network.PayloadProvider;
 
 import net.minecraft.network.ConnectionProtocol;
@@ -39,7 +40,7 @@ public record CritParticlePayload(int entityId) implements CustomPacketPayload {
 
         @Override
         public void handleClient(CritParticlePayload msg, IPayloadContext ctx) {
-            // TODO(Phase 9): call the ported AttributesLibClient's crit particle spawn method here (see original CritParticlePayload.Provider.handleClient)
+            AscendantAttributesClientHandler.spawnCritParticle(msg.entityId);
         }
 
         @Override

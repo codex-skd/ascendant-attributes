@@ -9,5 +9,5 @@ import net.neoforged.fml.common.Mod;
 // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
 @EventBusSubscriber(modid = AscendantAttributes.MODID, value = Dist.CLIENT)
 public class AscendantAttributesClient {
-    // TODO(Phase 9): The real client-side GUI registration (AttributesLibClient port) is handled in Phase 9.
+    // The real client-side GUI registration (the AscendantAttributesClientHandler port) is handled in Phase 9.
 }

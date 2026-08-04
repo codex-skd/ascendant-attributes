@@ -8,6 +8,7 @@ import org.apache.logging.log4j.Logger;
 
 import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import com.skd.ascendantattributes.api.CooldownTracker;
+import com.skd.ascendantattributes.client.AscendantAttributesClientHandler;
 import com.skd.ascendantattributes.data.MixProvider;
 import com.skd.ascendantattributes.impl.AttributeEvents;
 import com.skd.ascendantattributes.payload.ConfigPayload;
@@ -64,7 +65,8 @@ public class AscendantAttributes {
         NeoForge.EVENT_BUS.addListener(AscendantAttributes::trackAttackStrength);
         NeoForge.EVENT_BUS.addListener(AscendantAttributes::pruneCooldowns);
         if (FMLEnvironment.getDist().isClient()) {
-            // TODO(Phase 9): Register AttributesLibClient on NeoForge.EVENT_BUS and its ModBusSub on the mod bus (see original ApothicAttributes constructor).
+            NeoForge.EVENT_BUS.register(new AscendantAttributesClientHandler());
+            bus.register(AscendantAttributesClientHandler.ModBusSub.class);
         }
         PayloadHelper.registerPayload(new CritParticlePayload.Provider());
         AscendantAttributesObjects.bootstrap(bus);
