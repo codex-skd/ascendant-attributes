@@ -1,0 +1,37 @@
+{
+  "build.gradle": {
+    "mtime": 1785806706.9079778,
+    "ast_hash": "83eeb943d32f8b7aa2fbdb1ddb557556",
+    "semantic_hash": "83eeb943d32f8b7aa2fbdb1ddb557556"
+  },
+  "gradlew": {
+    "mtime": 1785805547.6680229,
+    "ast_hash": "794669d78aef1dd5c7d889ef618b311a",
+    "semantic_hash": "794669d78aef1dd5c7d889ef618b311a"
+  },
+  "settings.gradle": {
+    "mtime": 1785805547.7794127,
+    "ast_hash": "58a5df05c6546d7d2671a516793e02e7",
+    "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
+  },
+  "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java": {
+    "mtime": 1785805657.2706807,
+    "ast_hash": "b78b106ec09b3bcee31ca42ec089045a",
+    "semantic_hash": "b78b106ec09b3bcee31ca42ec089045a"
+  },
+  "src/main/java/com/skd/ascendantattributes/AscendantAttributesClient.java": {
+    "mtime": 1785805664.0039322,
+    "ast_hash": "f0e502ff020e4c48c9968120527724c6",
+    "semantic_hash": "f0e502ff020e4c48c9968120527724c6"
+  },
+  "src/main/java/com/skd/ascendantattributes/Config.java": {
+    "mtime": 1785805642.932896,
+    "ast_hash": "e9da9f420897501436d8618978b24913",
+    "semantic_hash": "e9da9f420897501436d8618978b24913"
+  },
+  "src/main/resources/assets/ascendant_attributes/lang/en_us.json": {
+    "mtime": 1785805677.3311026,
+    "ast_hash": "441ad238bec1ad529e376c988c6404e6",
+    "semantic_hash": "441ad238bec1ad529e376c988c6404e6"
+  }
+}

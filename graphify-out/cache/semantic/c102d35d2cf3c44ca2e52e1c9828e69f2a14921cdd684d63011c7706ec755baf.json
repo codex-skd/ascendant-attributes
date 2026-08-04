@@ -1,0 +1,1 @@
+{"nodes": [{"id": "2", "type": "image", "source_file": "src\\main\\resources\\assets\\ascendant_attributes\\icon.png", "label": "Mod Icon", "edges": [{"from": "2", "to": "3"}]}], "edges": [], "hyperedges": []}
