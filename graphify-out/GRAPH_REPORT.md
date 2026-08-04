@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-04)
 
 ## Corpus Check
-- 39 files · ~17,475 words
+- 43 files · ~19,169 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 382 nodes · 737 edges · 28 communities (24 shown, 4 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 15 edges (avg confidence: 0.8)
+- 476 nodes · 977 edges · 30 communities (27 shown, 3 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 22 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `60de732a`
+- Built from commit: `d9263fc5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -39,18 +39,20 @@
 - CLAUDE.md — ascendant_attributes (26.2)
 - Changelog — Ascendant Attributes
 - LEInvoker
+- AttributesCommandEvent
+- DetonationEffect.java
 
 ## God Nodes (most connected - your core abstractions)
-1. `EntitySlotGroup` - 24 edges
-2. `AuxDmgTracker` - 21 edges
-3. `StackAttributeModifiers` - 19 edges
-4. `Entry` - 19 edges
-5. `AscendantAttributes` - 18 edges
-6. `StackAttributeModifiersEvent` - 18 edges
-7. `CooldownTracker` - 14 edges
-8. `EntityEquipmentSlot` - 14 edges
-9. `StackAttributeModifiersBuilder` - 13 edges
-10. `AttributesConfig` - 11 edges
+1. `AttributeEvents` - 29 edges
+2. `EntitySlotGroup` - 24 edges
+3. `AuxDmgTracker` - 22 edges
+4. `StackAttributeModifiersEvent` - 21 edges
+5. `StackAttributeModifiers` - 19 edges
+6. `Entry` - 19 edges
+7. `AscendantAttributes` - 18 edges
+8. `CooldownTracker` - 14 edges
+9. `EntityEquipmentSlot` - 14 edges
+10. `StackAttributeModifiersBuilder` - 13 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Mod Icon` ----> `Project Variables`  [EXTRACTED]
@@ -67,15 +69,15 @@
 ## Import Cycles
 - None detected.
 
-## Communities (28 total, 4 thin omitted)
+## Communities (30 total, 3 thin omitted)
 
 ### Community 0 - "Item Management"
-Cohesion: 0.09
-Nodes (20): AttackEntityEvent, Client, DeferredHelper, Entity, EntityAttributeModificationEvent, EntityType, FMLCommonSetupEvent, Logger (+12 more)
+Cohesion: 0.06
+Nodes (30): AttackEntityEvent, AttributeMap, Client, DeferredHelper, Entity, EntityAttributeModificationEvent, EntityType, FMLCommonSetupEvent (+22 more)
 
 ### Community 1 - "Configuration Management"
 Cohesion: 0.07
-Nodes (29): AttachmentType, DataComponentType, Experimental, Potion, SimpleParticleType, SoundEvent, AscendantAttributesObjects, Attachments (+21 more)
+Nodes (32): AttachmentType, DataComponentType, Experimental, Potion, SimpleParticleType, SoundEvent, AscendantAttributesObjects, Attachments (+24 more)
 
 ### Community 2 - "Client Initialization"
 Cohesion: 0.83
@@ -86,27 +88,27 @@ Cohesion: 0.83
 Nodes (3): gradlew script, die(), warn()
 
 ### Community 4 - "Event Handling"
-Cohesion: 0.07
-Nodes (18): AttributeMap, MobEffect, Identifier, Identifier, BleedingEffect, LivingEntity, Override, ServerLevel (+10 more)
+Cohesion: 0.36
+Nodes (4): BleedingEffect, LivingEntity, Override, ServerLevel
 
 ### Community 5 - "Server Startup"
 Cohesion: 0.13
 Nodes (21): BiMap, EquipmentSlotGroup, BuiltInRegs, EquipmentSlotGroups, HolderSet, Registry, EntityEquipmentSlot, ItemStack (+13 more)
 
 ### Community 7 - "Creative Mode Content"
-Cohesion: 0.19
+Cohesion: 0.20
 Nodes (12): IdentityHashMap, Marker, AuxDmgTracker, Entry, Attribute, Codec, DamageSource, DamageType (+4 more)
 
 ### Community 8 - "Common Setup"
-Cohesion: 0.19
-Nodes (12): Event, Attribute, AttributeModifier, Entry, Holder, Identifier, Internal, ItemStack (+4 more)
+Cohesion: 0.20
+Nodes (11): Attribute, AttributeModifier, Entry, Holder, Identifier, Internal, ItemStack, Nullable (+3 more)
 
 ### Community 12 - "Entry"
 Cohesion: 0.18
 Nodes (11): Builder, Entry, Attribute, AttributeModifier, Codec, Holder, Identifier, ItemAttributeModifiers (+3 more)
 
 ### Community 13 - "AttributesConfig"
-Cohesion: 0.17
+Cohesion: 0.16
 Nodes (9): Configuration, Expression, Offset, ResourceManagerReloadListener, CombatRules, DamageSource, LivingEntity, AttributesConfig (+1 more)
 
 ### Community 14 - "CooldownTracker"
@@ -134,8 +136,8 @@ Cohesion: 0.25
 Nodes (7): Convención de renombrado por archivo, Corrección importante sobre el roadmap anterior, Dependencias externas confirmadas (todas con Gradle cache local ya poblada), Estado, Librería repackaged identificada, Mapa de renombrado — Ascendant Attributes (Fase 0), Namespace de assets/data
 
 ### Community 20 - "VanillaEquipmentSlot.java"
-Cohesion: 0.43
-Nodes (5): EquipmentSlot, ItemStack, LivingEntity, Override, VanillaEquipmentSlot
+Cohesion: 0.11
+Nodes (22): CustomPacketPayload, PayloadProvider, ConfigPayload, ConnectionProtocol, FriendlyByteBuf, IPayloadContext, Override, PacketFlow (+14 more)
 
 ### Community 21 - "Ascendant Attributes"
 Cohesion: 0.33
@@ -149,25 +151,37 @@ Nodes (3): Comparators, Registry, SafeVarargs
 Cohesion: 0.50
 Nodes (3): CLAUDE.md — ascendant_attributes (26.2), Prioridad de instrucciones, Workflow del mod
 
+### Community 25 - "LEInvoker"
+Cohesion: 0.07
+Nodes (22): AddServerReloadListenersEvent, BlockDropsEvent, CriticalHitEvent, EntityJoinLevelEvent, ItemAttributeModifierEvent, LivingExperienceDropEvent, LivingHealEvent, LivingIncomingDamageEvent (+14 more)
+
+### Community 28 - "AttributesCommandEvent"
+Cohesion: 0.50
+Nodes (5): CommandBuildContext, CommandSourceStack, Event, LiteralArgumentBuilder, AttributesCommandEvent
+
+### Community 29 - "DetonationEffect.java"
+Cohesion: 0.36
+Nodes (4): DetonationEffect, LivingEntity, Override, ServerLevel
+
 ## Knowledge Gaps
 - **42 isolated node(s):** `Workflow del mod`, `Prioridad de instrucciones`, `0.0.0-beta.1`, `Status`, `Requirements` (+37 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `StackAttributeModifiers` connect `Entry` to `Common Setup`, `Configuration Management`?**
-  _High betweenness centrality (0.090) - this node is a cross-community bridge._
-- **Why does `EntitySlotGroup` connect `Server Startup` to `Common Setup`, `Configuration Management`, `Entry`?**
-  _High betweenness centrality (0.084) - this node is a cross-community bridge._
 - **Why does `CooldownTracker` connect `CooldownTracker` to `Item Management`, `Configuration Management`?**
-  _High betweenness centrality (0.079) - this node is a cross-community bridge._
+  _High betweenness centrality (0.069) - this node is a cross-community bridge._
+- **Why does `StackAttributeModifiersEvent` connect `Common Setup` to `LEInvoker`, `AttributesCommandEvent`, `Entry`?**
+  _High betweenness centrality (0.063) - this node is a cross-community bridge._
+- **Why does `AuxDmgTracker` connect `Creative Mode Content` to `Configuration Management`, `LEInvoker`?**
+  _High betweenness centrality (0.062) - this node is a cross-community bridge._
 - **What connects `Workflow del mod`, `Prioridad de instrucciones`, `0.0.0-beta.1` to the rest of the system?**
   _42 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Item Management` be split into smaller, more focused modules?**
-  _Cohesion score 0.09365079365079365 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05727644652250146 - nodes in this community are weakly interconnected._
 - **Should `Configuration Management` be split into smaller, more focused modules?**
-  _Cohesion score 0.0708245243128964 - nodes in this community are weakly interconnected._
-- **Should `Event Handling` be split into smaller, more focused modules?**
-  _Cohesion score 0.07422402159244265 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06753006475485661 - nodes in this community are weakly interconnected._
+- **Should `Server Startup` be split into smaller, more focused modules?**
+  _Cohesion score 0.12903225806451613 - nodes in this community are weakly interconnected._
