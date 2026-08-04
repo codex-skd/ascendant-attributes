@@ -4,6 +4,7 @@
 
 - **Primera subida real a CurseForge con contenido funcional.** Todo el trabajo listado bajo `0.0.0-beta.1` más abajo (Fases 1-13 del roadmap) se hizo sin subir el `mod_version` correspondiente — el único archivo publicado hasta ahora seguía siendo el scaffold vacío original (file ID `8572977`, verificado vía API de CurseForge). Este bump corrige eso: empaqueta el port completo (atributos, efectos, GUI, mixins, compat Curios, arte propio) como la versión que realmente se sube.
 - Ver `docs/curseforge/versions/0.0.0-beta.2.md` para las release notes de esta versión.
+- Subido a CurseForge vía `curseforge-upload.ps1` (file ID `8575449`, 292 KB — verificado vía API, frente a los 21 KB del scaffold original).
 
 ## 0.0.0-beta.1
 
