@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-04)
 
 ## Corpus Check
-- 89 files · ~20,294 words
+- 95 files · ~23,921 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 495 nodes · 1020 edges · 31 communities (28 shown, 3 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 24 edges (avg confidence: 0.8)
+- 631 nodes · 1333 edges · 35 communities (32 shown, 3 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 29 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ac1f6f7f`
+- Built from commit: `2ad2bdf5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -42,18 +42,22 @@
 - AttributesCommandEvent
 - DetonationEffect.java
 - VanillaEquipmentSlot.java
+- EquipmentSlots
+- EquipmentSlotCompat
+- EntityEquipmentSlot
+- .positionGuiButton
 
 ## God Nodes (most connected - your core abstractions)
-1. `AttributeEvents` - 29 edges
-2. `EntitySlotGroup` - 24 edges
-3. `AuxDmgTracker` - 22 edges
-4. `StackAttributeModifiersEvent` - 21 edges
-5. `StackAttributeModifiers` - 19 edges
-6. `Entry` - 19 edges
-7. `AscendantAttributes` - 18 edges
-8. `CooldownTracker` - 14 edges
-9. `EntityEquipmentSlot` - 14 edges
-10. `StackAttributeModifiersBuilder` - 13 edges
+1. `AttributesGui` - 38 edges
+2. `AttributeEvents` - 29 edges
+3. `EntitySlotGroup` - 24 edges
+4. `AuxDmgTracker` - 22 edges
+5. `StackAttributeModifiersEvent` - 21 edges
+6. `StackAttributeModifiers` - 19 edges
+7. `Entry` - 19 edges
+8. `AscendantAttributes` - 18 edges
+9. `CooldownTracker` - 14 edges
+10. `EntityEquipmentSlot` - 14 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Mod Icon` ----> `Project Variables`  [EXTRACTED]
@@ -62,23 +66,23 @@
   src/main/java/com/skd/ascendantattributes/api/AscendantAttributesObjects.java → src/main/java/com/skd/ascendantattributes/api/CooldownTracker.java
 - `Attachments` --references--> `AuxDmgTracker`  [EXTRACTED]
   src/main/java/com/skd/ascendantattributes/api/AscendantAttributesObjects.java → src/main/java/com/skd/ascendantattributes/util/AuxDmgTracker.java
+- `BuiltInRegs` --references--> `EntitySlotGroup`  [EXTRACTED]
+  src/main/java/com/skd/ascendantattributes/api/AscendantAttributesObjects.java → src/main/java/com/skd/ascendantattributes/modifiers/EntitySlotGroup.java
 - `Components` --references--> `StackAttributeModifiers`  [EXTRACTED]
   src/main/java/com/skd/ascendantattributes/api/AscendantAttributesObjects.java → src/main/java/com/skd/ascendantattributes/modifiers/StackAttributeModifiers.java
-- `VanillaEquipmentSlot` --implements--> `EntityEquipmentSlot`  [EXTRACTED]
-  src/main/java/com/skd/ascendantattributes/modifiers/VanillaEquipmentSlot.java → src/main/java/com/skd/ascendantattributes/modifiers/EntityEquipmentSlot.java
 
 ## Import Cycles
 - None detected.
 
-## Communities (31 total, 3 thin omitted)
+## Communities (35 total, 3 thin omitted)
 
 ### Community 0 - "Item Management"
-Cohesion: 0.06
-Nodes (30): AttackEntityEvent, AttributeMap, Client, DeferredHelper, Entity, EntityAttributeModificationEvent, EntityType, FMLCommonSetupEvent (+22 more)
+Cohesion: 0.05
+Nodes (34): AttackEntityEvent, AttributeMap, Client, DeferredHelper, Entity, EntityAttributeModificationEvent, EntityType, FMLCommonSetupEvent (+26 more)
 
 ### Community 1 - "Configuration Management"
-Cohesion: 0.05
-Nodes (48): AttachmentType, BiMap, DataComponentType, EquipmentSlotGroup, Experimental, SimpleParticleType, SoundEvent, AscendantAttributesObjects (+40 more)
+Cohesion: 0.10
+Nodes (21): AttachmentType, DataComponentType, SoundEvent, AscendantAttributesObjects, Attachments, Attributes, Components, DamageTypes (+13 more)
 
 ### Community 2 - "Client Initialization"
 Cohesion: 0.83
@@ -101,16 +105,16 @@ Cohesion: 0.19
 Nodes (12): IdentityHashMap, Marker, AuxDmgTracker, Entry, Attribute, Codec, DamageSource, DamageType (+4 more)
 
 ### Community 8 - "Common Setup"
-Cohesion: 0.19
-Nodes (11): Attribute, AttributeModifier, Entry, Holder, Identifier, Internal, ItemStack, Nullable (+3 more)
+Cohesion: 0.10
+Nodes (22): Builder, Entry, Attribute, AttributeModifier, Codec, Holder, Identifier, ItemAttributeModifiers (+14 more)
 
 ### Community 12 - "Entry"
-Cohesion: 0.18
-Nodes (11): Builder, Entry, Attribute, AttributeModifier, Codec, Holder, Identifier, ItemAttributeModifiers (+3 more)
+Cohesion: 0.05
+Nodes (43): AbstractButton, AddClientReloadListenersEvent, AttributeInstance, ChatFormatting, ClientLevel, Component, CritParticle, DecimalFormat (+35 more)
 
 ### Community 13 - "AttributesConfig"
-Cohesion: 0.16
-Nodes (9): Configuration, Expression, Offset, ResourceManagerReloadListener, CombatRules, DamageSource, LivingEntity, AttributesConfig (+1 more)
+Cohesion: 0.15
+Nodes (10): AnchorPoint, Configuration, Expression, ResourceManagerReloadListener, CombatRules, DamageSource, LivingEntity, AttributesConfig (+2 more)
 
 ### Community 14 - "CooldownTracker"
 Cohesion: 0.19
@@ -145,8 +149,8 @@ Cohesion: 0.33
 Nodes (5): Ascendant Attributes, Installation, License, Requirements, Status
 
 ### Community 22 - "Comparators"
-Cohesion: 0.40
-Nodes (3): Comparators, Registry, SafeVarargs
+Cohesion: 0.08
+Nodes (24): ClientTooltipComponent, FormattedCharSequence, FormattedText, AttributeModifierComponent, Font, GuiGraphicsExtractor, Identifier, EffectModifierSource (+16 more)
 
 ### Community 23 - "CLAUDE.md — ascendant_attributes (26.2)"
 Cohesion: 0.50
@@ -161,12 +165,28 @@ Cohesion: 0.23
 Nodes (10): CommandBuildContext, Event, RegisterCommandsEvent, BonusModifierCommand, CommandSourceStack, LiteralArgumentBuilder, AttributesCommandEvent, CommandSourceStack (+2 more)
 
 ### Community 29 - "DetonationEffect.java"
-Cohesion: 0.36
-Nodes (4): DetonationEffect, LivingEntity, Override, ServerLevel
+Cohesion: 0.23
+Nodes (10): EquipmentSlotGroups, HolderSet, EntitySlotGroup, Codec, Holder, HolderSet, Identifier, Override (+2 more)
 
 ### Community 30 - "VanillaEquipmentSlot.java"
 Cohesion: 0.43
 Nodes (5): EquipmentSlot, ItemStack, LivingEntity, Override, VanillaEquipmentSlot
+
+### Community 31 - "EquipmentSlots"
+Cohesion: 0.24
+Nodes (6): Experimental, EquipmentSlots, EquipmentSlot, Holder, MobEffect, MobEffects
+
+### Community 32 - "EquipmentSlotCompat"
+Cohesion: 0.56
+Nodes (6): BiMap, EquipmentSlotGroup, EquipmentSlotCompat, EquipmentSlot, Holder, Nullable
+
+### Community 33 - "EntityEquipmentSlot"
+Cohesion: 0.32
+Nodes (5): BuiltInRegs, Registry, EntityEquipmentSlot, ItemStack, LivingEntity
+
+### Community 34 - ".positionGuiButton"
+Cohesion: 0.53
+Nodes (4): Box, ButtonPlacement, ImageButton, Offset
 
 ## Knowledge Gaps
 - **42 isolated node(s):** `Workflow del mod`, `Prioridad de instrucciones`, `0.0.0-beta.1`, `Status`, `Requirements` (+37 more)
@@ -177,16 +197,16 @@ Nodes (5): EquipmentSlot, ItemStack, LivingEntity, Override, VanillaEquipmentSlo
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `CooldownTracker` connect `CooldownTracker` to `Item Management`, `Configuration Management`?**
-  _High betweenness centrality (0.067) - this node is a cross-community bridge._
-- **Why does `StackAttributeModifiersEvent` connect `Common Setup` to `LEInvoker`, `AttributesCommandEvent`, `Entry`?**
-  _High betweenness centrality (0.060) - this node is a cross-community bridge._
-- **Why does `AuxDmgTracker` connect `Creative Mode Content` to `Configuration Management`, `LEInvoker`?**
-  _High betweenness centrality (0.059) - this node is a cross-community bridge._
+  _High betweenness centrality (0.056) - this node is a cross-community bridge._
+- **Why does `StackAttributeModifiersEvent` connect `Common Setup` to `LEInvoker`, `AttributesCommandEvent`?**
+  _High betweenness centrality (0.048) - this node is a cross-community bridge._
 - **What connects `Workflow del mod`, `Prioridad de instrucciones`, `0.0.0-beta.1` to the rest of the system?**
   _42 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Item Management` be split into smaller, more focused modules?**
-  _Cohesion score 0.05868118572292801 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05081585081585081 - nodes in this community are weakly interconnected._
 - **Should `Configuration Management` be split into smaller, more focused modules?**
-  _Cohesion score 0.053923541247484906 - nodes in this community are weakly interconnected._
-- **Should `VanillaEquipmentSlot.java` be split into smaller, more focused modules?**
-  _Cohesion score 0.11201079622132254 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09885057471264368 - nodes in this community are weakly interconnected._
+- **Should `Common Setup` be split into smaller, more focused modules?**
+  _Cohesion score 0.09831649831649832 - nodes in this community are weakly interconnected._
+- **Should `Entry` be split into smaller, more focused modules?**
+  _Cohesion score 0.05070028011204482 - nodes in this community are weakly interconnected._

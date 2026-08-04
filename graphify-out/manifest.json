@@ -15,13 +15,13 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java": {
-    "mtime": 1785834682.5587597,
-    "ast_hash": "b496fbf82bef245f17e18825c42b0d5d",
+    "mtime": 1785836276.8380492,
+    "ast_hash": "a3bb23920e4dfb92dca050d54c8065ba",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ascendantattributes/AscendantAttributesClient.java": {
-    "mtime": 1785829373.0275438,
-    "ast_hash": "ea1130d37796f4cefbc1f4de2bf8798d",
+    "mtime": 1785836554.9882772,
+    "ast_hash": "c0b6eb7bf39877a19fd7437b5254e46a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/ascendant_attributes/lang/en_us.json": {
@@ -155,8 +155,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785835074.8987083,
-    "ast_hash": "ae469e1411901383683acf29778fce7e",
+    "mtime": 1785836666.8093884,
+    "ast_hash": "f56c277ca9f7e49e43423999a74284b6",
     "semantic_hash": ""
   },
   "README.md": {
@@ -170,8 +170,8 @@
     "semantic_hash": ""
   },
   "docs/ROADMAP_ASCENDANT_ATTRIBUTES.md": {
-    "mtime": 1785835095.9929338,
-    "ast_hash": "eca1e7361873a3ec3839e4a5dafd0585",
+    "mtime": 1785836685.2014856,
+    "ast_hash": "a7d4ed05e5fa857b18a4d6df7e8e0cac",
     "semantic_hash": ""
   },
   "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md": {
@@ -220,8 +220,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ascendantattributes/payload/CritParticlePayload.java": {
-    "mtime": 1785833637.8574617,
-    "ast_hash": "f788da07ed79a6629e00f955b9961790",
+    "mtime": 1785836289.1658635,
+    "ast_hash": "f613845693f9c4f3798e0941178ae36f",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ascendantattributes/commands/BonusModifierCommand.java": {
@@ -452,6 +452,36 @@
   "src/main/resources/data/ascendant_attributes/tags/damage_type/is_non_physical.json": {
     "mtime": 1785834689.0606606,
     "ast_hash": "6cdb40c9bbc25b4c5b6ad777b4322d90",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/client/AscendantAttributesClientHandler.java": {
+    "mtime": 1785836241.9152346,
+    "ast_hash": "512c41f385da8922c18963c82fd2c582",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/client/AttributeModifierComponent.java": {
+    "mtime": 1785836170.4030445,
+    "ast_hash": "4665e174a4974d266d72b2b54755dc46",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java": {
+    "mtime": 1785836515.645335,
+    "ast_hash": "25695446418f9135638a0a49578c46ba",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/client/ButtonPlacement.java": {
+    "mtime": 1785836193.5329745,
+    "ast_hash": "63b2370127d7eb311e1c34bd5db6efd4",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/client/ModifierSource.java": {
+    "mtime": 1785836178.099537,
+    "ast_hash": "b7203791d911677483922b779d944c37",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/client/ModifierSourceType.java": {
+    "mtime": 1785836187.2849774,
+    "ast_hash": "399038e5898cc75c9e9b5f431d5aadde",
     "semantic_hash": ""
   }
 }
