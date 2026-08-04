@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/ascendant_attributes/lang/en_us.json": {
-    "mtime": 1785829566.5842917,
-    "ast_hash": "8a80554c91d9fca8acb82f023de02f11",
+    "mtime": 1785843102.0374696,
+    "ast_hash": "d89d21eeba5a792ec2c474677319e8b6",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ascendantattributes/AttributesConfig.java": {
@@ -155,8 +155,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785838490.0539086,
-    "ast_hash": "9b55eb1e3a71358203d424c7822b47c4",
+    "mtime": 1785843176.3167665,
+    "ast_hash": "ee43b463fdf606b8a915a3f164cfa7ee",
     "semantic_hash": ""
   },
   "README.md": {
@@ -170,8 +170,8 @@
     "semantic_hash": ""
   },
   "docs/ROADMAP_ASCENDANT_ATTRIBUTES.md": {
-    "mtime": 1785838511.5404353,
-    "ast_hash": "f5fbd772c494e12f7d3a8093b25fd1ff",
+    "mtime": 1785843197.406147,
+    "ast_hash": "8faf7748ec6430e122c5d8008105e0df",
     "semantic_hash": ""
   },
   "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md": {
@@ -460,13 +460,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ascendantattributes/client/AttributeModifierComponent.java": {
-    "mtime": 1785836170.4030445,
-    "ast_hash": "4665e174a4974d266d72b2b54755dc46",
+    "mtime": 1785843026.0909302,
+    "ast_hash": "496a8c51632b18235b8bec8141973a87",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java": {
-    "mtime": 1785836515.645335,
-    "ast_hash": "25695446418f9135638a0a49578c46ba",
+    "mtime": 1785843045.0164762,
+    "ast_hash": "908c472a41acf1f9eeefd788336189b0",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ascendantattributes/client/ButtonPlacement.java": {
@@ -532,6 +532,81 @@
   "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java": {
     "mtime": 1785838092.0914762,
     "ast_hash": "9a26ed8ae3a08aee3fad64fd2854f15c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/particles/ascendant_crit.json": {
+    "mtime": 1785843063.7979338,
+    "ast_hash": "cd080bcab8be7574848f58bccdb1c9a0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/sounds.json": {
+    "mtime": 1785843060.0402856,
+    "ast_hash": "a631bdfd2217efc34c5ca737db6074d8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/ascendant_attribute_component.png": {
+    "mtime": 1785843011.8976233,
+    "ast_hash": "f8f8454f10aad4468e40b4d9d841c93b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/ascendant_attributes_gui.png": {
+    "mtime": 1785843011.939711,
+    "ast_hash": "7573fe24b7a452fd49e5fb21d18775ec",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/ascendant_ghost_health.png": {
+    "mtime": 1785843011.9871728,
+    "ast_hash": "0bf281bc2bff3e782b19706d9627cc5a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/ascendant_sword.png": {
+    "mtime": 1785843012.0342834,
+    "ast_hash": "f9669e3ddb651e8226388acf84a718c1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/ascendant_sword_highlighted.png": {
+    "mtime": 1785843012.078854,
+    "ast_hash": "ca7416eb1165cfe1f109c766bcbc74a5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/bleeding.png": {
+    "mtime": 1785843012.1409335,
+    "ast_hash": "9d10af80aab1a60162dd68e711d01ad2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/detonation.png": {
+    "mtime": 1785843012.1911757,
+    "ast_hash": "183859e3304bbfa54cad32514f834dd3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/flying.png": {
+    "mtime": 1785843012.2393057,
+    "ast_hash": "848e9dda152c7759a97909443083437c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/grievous.png": {
+    "mtime": 1785843012.282427,
+    "ast_hash": "4216b843b7200b69ec09f44d93e29623",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/knowledge.png": {
+    "mtime": 1785843012.3307693,
+    "ast_hash": "a0f872e91980eedd37025453eeab4d8a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/sundering.png": {
+    "mtime": 1785843012.377302,
+    "ast_hash": "cda1a2c791a76e3ee29b7e72abb9993c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/vitality.png": {
+    "mtime": 1785843012.425418,
+    "ast_hash": "bfc4267db845356bcab16a129269b81d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/sounds/ascendant_dodge.ogg": {
+    "mtime": 1785843012.4877336,
+    "ast_hash": "0bc91d1a05a5d3eb21f4bf9efe163c98",
     "semantic_hash": ""
   }
 }
