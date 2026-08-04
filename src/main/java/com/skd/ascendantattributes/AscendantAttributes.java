@@ -9,6 +9,7 @@ import org.apache.logging.log4j.Logger;
 import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import com.skd.ascendantattributes.api.CooldownTracker;
 import com.skd.ascendantattributes.client.AscendantAttributesClientHandler;
+import com.skd.ascendantattributes.compat.CuriosCompat;
 import com.skd.ascendantattributes.data.MixProvider;
 import com.skd.ascendantattributes.impl.AttributeEvents;
 import com.skd.ascendantattributes.payload.ConfigPayload;
@@ -124,7 +125,7 @@ public class AscendantAttributes {
             }
         });
         if (ModList.get().isLoaded("curios")) {
-            // TODO(Phase 11): e.enqueueWork(CuriosCompat::init) (see original ApothicAttributes.setup).
+            e.enqueueWork(CuriosCompat::init);
         }
     }
 
