@@ -2,10 +2,12 @@ package com.skd.ascendantattributes.impl;
 
 import java.util.Random;
 
+import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.skd.ascendantattributes.AscendantAttributes;
 import com.skd.ascendantattributes.AttributesConfig;
 import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import com.skd.ascendantattributes.api.AttributeHelper;
+import com.skd.ascendantattributes.commands.BonusModifierCommand;
 import com.skd.ascendantattributes.event.AttributesCommandEvent;
 import com.skd.ascendantattributes.modifiers.EquipmentSlotCompat;
 import com.skd.ascendantattributes.modifiers.StackAttributeModifiers;
@@ -17,6 +19,8 @@ import com.skd.ascendantattributes.util.AuxDmgTracker;
 import com.skd.ascendantattributes.util.LEInvoker;
 
 import it.unimi.dsi.fastutil.ints.IntOpenHashSet;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.Commands;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
@@ -382,12 +386,14 @@ public class AttributeEvents {
 
     @SubscribeEvent
     public void cmds(RegisterCommandsEvent e) {
-        // TODO(Phase 7): Register the "apoth" command root on e.getDispatcher() and fire AttributesCommandEvent on NeoForge.EVENT_BUS so other mods can extend it (see original AttributeEvents.cmds(RegisterCommandsEvent)).
+        LiteralArgumentBuilder<CommandSourceStack> builder = Commands.literal("ascattr");
+        NeoForge.EVENT_BUS.post(new AttributesCommandEvent(builder, e.getBuildContext()));
+        e.getDispatcher().register(builder);
     }
 
     @SubscribeEvent
     public void cmds(AttributesCommandEvent e) {
-        // TODO(Phase 7): Register BonusModifierCommand under the command root via e.getRoot() (see original AttributeEvents.cmds(ApotheosisCommandEvent)).
+        BonusModifierCommand.register(e.getRoot());
     }
 
     @SubscribeEvent
