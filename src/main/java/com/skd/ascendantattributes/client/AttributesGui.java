@@ -56,8 +56,8 @@ import net.neoforged.neoforge.common.extensions.IAttributeExtension;
 import org.joml.Matrix3x2fStack;
 
 public class AttributesGui implements Renderable, GuiEventListener {
-    public static final Identifier TEXTURES = AscendantAttributes.loc("textures/gui/attributes_gui.png");
-    public static final WidgetSprites SWORD_BUTTON_SPRITES = new WidgetSprites(AscendantAttributes.loc("sword"), AscendantAttributes.loc("sword_highlighted"));
+    public static final Identifier TEXTURES = AscendantAttributes.loc("textures/gui/ascendant_attributes_gui.png");
+    public static final WidgetSprites SWORD_BUTTON_SPRITES = new WidgetSprites(AscendantAttributes.loc("ascendant_sword"), AscendantAttributes.loc("ascendant_sword_highlighted"));
     public static final int ENTRY_HEIGHT = 22;
     public static final int MAX_ENTRIES = 6;
     public static final int WIDTH = 131;

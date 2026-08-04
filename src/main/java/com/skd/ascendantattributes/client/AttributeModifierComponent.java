@@ -15,7 +15,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.util.FormattedCharSequence;
 
 public class AttributeModifierComponent implements ClientTooltipComponent {
-    public static final Identifier TEXTURE = AscendantAttributes.loc("textures/gui/attribute_component.png");
+    public static final Identifier TEXTURE = AscendantAttributes.loc("textures/gui/ascendant_attribute_component.png");
     @Nullable
     private final ModifierSource<?> source;
     private final List<FormattedCharSequence> text;
