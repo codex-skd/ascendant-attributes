@@ -155,8 +155,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785836666.8093884,
-    "ast_hash": "f56c277ca9f7e49e43423999a74284b6",
+    "mtime": 1785837392.880978,
+    "ast_hash": "b055e4fe200b1114ff90f0ef1e20196f",
     "semantic_hash": ""
   },
   "README.md": {
@@ -170,8 +170,8 @@
     "semantic_hash": ""
   },
   "docs/ROADMAP_ASCENDANT_ATTRIBUTES.md": {
-    "mtime": 1785836685.2014856,
-    "ast_hash": "a7d4ed05e5fa857b18a4d6df7e8e0cac",
+    "mtime": 1785837412.0422287,
+    "ast_hash": "4c86c920c7b6f819cdbe20b815d1a180",
     "semantic_hash": ""
   },
   "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md": {
@@ -482,6 +482,46 @@
   "src/main/java/com/skd/ascendantattributes/client/ModifierSourceType.java": {
     "mtime": 1785836187.2849774,
     "ast_hash": "399038e5898cc75c9e9b5f431d5aadde",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java": {
+    "mtime": 1785837010.6809602,
+    "ast_hash": "a2a6571f5c75b2266f54b0d115546c55",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/EntityMixin.java": {
+    "mtime": 1785837131.5422208,
+    "ast_hash": "02e3db8cad37f6809c2e05b081c4ea99",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java": {
+    "mtime": 1785837132.571543,
+    "ast_hash": "c33c01a435130aa192fee2d104526bc0",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java": {
+    "mtime": 1785837028.1753628,
+    "ast_hash": "6be67941e79b15d8593731522bd1630f",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java": {
+    "mtime": 1785837031.1098557,
+    "ast_hash": "df2021e955d264d652b306ec88cda987",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java": {
+    "mtime": 1785837032.4267092,
+    "ast_hash": "78d3e2c509d21616f12d54189a52a0eb",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java": {
+    "mtime": 1785837133.0599482,
+    "ast_hash": "a2a2eeb3e044234012a668fdd05b6df3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/ascendant_attributes.mixins.json": {
+    "mtime": 1785837038.4495735,
+    "ast_hash": "630e153a1af3e2b862f08929215e1ae0",
     "semantic_hash": ""
   }
 }

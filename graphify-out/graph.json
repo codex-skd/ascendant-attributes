@@ -215,7 +215,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "entitytype",
+      "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_entitytype",
       "community": 0,
       "norm_label": "entitytype"
     },
@@ -296,7 +296,7 @@
       "source_location": "L136",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_getconfigfile",
-      "community": 13,
+      "community": 0,
       "norm_label": ".getconfigfile()"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "entity",
+      "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_entity",
       "community": 0,
       "norm_label": "entity"
     },
@@ -1285,7 +1285,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "operation",
+      "id": "src_main_java_com_skd_ascendantattributes_api_attributehelper_java_operation",
       "community": 15,
       "norm_label": "operation"
     },
@@ -1606,7 +1606,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler",
-      "community": 12,
+      "community": 34,
       "norm_label": "ascendantattributesclienthandler.java"
     },
     {
@@ -1616,7 +1616,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantattributesclienthandler",
-      "community": 12,
+      "community": 34,
       "norm_label": "ascendantattributesclienthandler"
     },
     {
@@ -1636,7 +1636,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_java_post",
-      "community": 12,
+      "community": 34,
       "norm_label": "post"
     },
     {
@@ -1646,7 +1646,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_java_subscribeevent",
-      "community": 12,
+      "community": 34,
       "norm_label": "subscribeevent"
     },
     {
@@ -1656,7 +1656,7 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantattributesclienthandler_forwardscroll",
-      "community": 12,
+      "community": 34,
       "norm_label": ".forwardscroll()"
     },
     {
@@ -1666,7 +1666,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_java_pre",
-      "community": 12,
+      "community": 34,
       "norm_label": "pre"
     },
     {
@@ -1676,7 +1676,7 @@
       "source_location": "L94",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantattributesclienthandler_effectguitooltips",
-      "community": 12,
+      "community": 34,
       "norm_label": ".effectguitooltips()"
     },
     {
@@ -1686,7 +1686,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "gathereffectscreentooltipsevent",
-      "community": 12,
+      "community": 34,
       "norm_label": "gathereffectscreentooltipsevent"
     },
     {
@@ -1696,7 +1696,7 @@
       "source_location": "L136",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantattributesclienthandler_potiontooltips",
-      "community": 12,
+      "community": 34,
       "norm_label": ".potiontooltips()"
     },
     {
@@ -1706,7 +1706,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "itemtooltipevent",
-      "community": 12,
+      "community": 34,
       "norm_label": "itemtooltipevent"
     },
     {
@@ -1716,7 +1716,7 @@
       "source_location": "L157",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantattributesclienthandler_commands",
-      "community": 12,
+      "community": 34,
       "norm_label": ".commands()"
     },
     {
@@ -1726,7 +1726,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "registerclientcommandsevent",
-      "community": 12,
+      "community": 34,
       "norm_label": "registerclientcommandsevent"
     },
     {
@@ -1736,7 +1736,7 @@
       "source_location": "L192",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantattributesclienthandler_updatehudpos",
-      "community": 12,
+      "community": 34,
       "norm_label": ".updatehudpos()"
     },
     {
@@ -1746,7 +1746,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "anchorpoint",
-      "community": 13,
+      "community": 34,
       "norm_label": "anchorpoint"
     },
     {
@@ -1756,7 +1756,7 @@
       "source_location": "L198",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantattributesclienthandler_spawncritparticle",
-      "community": 20,
+      "community": 34,
       "norm_label": ".spawncritparticle()"
     },
     {
@@ -1766,7 +1766,7 @@
       "source_location": "L205",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantcritparticle",
-      "community": 12,
+      "community": 34,
       "norm_label": "ascendantcritparticle"
     },
     {
@@ -1776,7 +1776,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "critparticle",
-      "community": 12,
+      "community": 34,
       "norm_label": "critparticle"
     },
     {
@@ -1786,7 +1786,7 @@
       "source_location": "L206",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantcritparticle_ascendantcritparticle",
-      "community": 12,
+      "community": 34,
       "norm_label": ".ascendantcritparticle()"
     },
     {
@@ -1796,7 +1796,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "clientlevel",
-      "community": 12,
+      "community": 34,
       "norm_label": "clientlevel"
     },
     {
@@ -1806,7 +1806,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "textureatlassprite",
-      "community": 12,
+      "community": 34,
       "norm_label": "textureatlassprite"
     },
     {
@@ -1816,7 +1816,7 @@
       "source_location": "L214",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantcritprovider",
-      "community": 12,
+      "community": 34,
       "norm_label": "ascendantcritprovider"
     },
     {
@@ -1826,7 +1826,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "particleprovider",
-      "community": 12,
+      "community": 34,
       "norm_label": "particleprovider"
     },
     {
@@ -1836,7 +1836,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_java_simpleparticletype",
-      "community": 12,
+      "community": 34,
       "norm_label": "simpleparticletype"
     },
     {
@@ -1846,7 +1846,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "spriteset",
-      "community": 12,
+      "community": 34,
       "norm_label": "spriteset"
     },
     {
@@ -1856,7 +1856,7 @@
       "source_location": "L217",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantcritprovider_ascendantcritprovider",
-      "community": 12,
+      "community": 34,
       "norm_label": ".ascendantcritprovider()"
     },
     {
@@ -1866,7 +1866,7 @@
       "source_location": "L221",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantcritprovider_createparticle",
-      "community": 12,
+      "community": 34,
       "norm_label": ".createparticle()"
     },
     {
@@ -1876,7 +1876,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "randomsource",
-      "community": 12,
+      "community": 34,
       "norm_label": "randomsource"
     },
     {
@@ -1886,7 +1886,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "particle",
-      "community": 12,
+      "community": 34,
       "norm_label": "particle"
     },
     {
@@ -1896,7 +1896,7 @@
       "source_location": "L228",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_modbussub",
-      "community": 12,
+      "community": 34,
       "norm_label": "modbussub"
     },
     {
@@ -1906,7 +1906,7 @@
       "source_location": "L229",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_modbussub_clientreload",
-      "community": 12,
+      "community": 34,
       "norm_label": ".clientreload()"
     },
     {
@@ -1916,7 +1916,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "addclientreloadlistenersevent",
-      "community": 12,
+      "community": 34,
       "norm_label": "addclientreloadlistenersevent"
     },
     {
@@ -1926,7 +1926,7 @@
       "source_location": "L234",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_modbussub_clientsetup",
-      "community": 12,
+      "community": 34,
       "norm_label": ".clientsetup()"
     },
     {
@@ -1936,7 +1936,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "fmlclientsetupevent",
-      "community": 12,
+      "community": 34,
       "norm_label": "fmlclientsetupevent"
     },
     {
@@ -1946,7 +1946,7 @@
       "source_location": "L240",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_modbussub_particlefactories",
-      "community": 12,
+      "community": 34,
       "norm_label": ".particlefactories()"
     },
     {
@@ -1956,7 +1956,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "registerparticleprovidersevent",
-      "community": 12,
+      "community": 34,
       "norm_label": "registerparticleprovidersevent"
     },
     {
@@ -2165,7 +2165,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "player",
+      "id": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_player",
       "community": 12,
       "norm_label": "player"
     },
@@ -2305,7 +2305,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "component",
+      "id": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_component",
       "community": 12,
       "norm_label": "component"
     },
@@ -2345,7 +2345,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "mousebuttonevent",
+      "id": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_mousebuttonevent",
       "community": 12,
       "norm_label": "mousebuttonevent"
     },
@@ -2606,7 +2606,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_buttonplacement",
-      "community": 34,
+      "community": 12,
       "norm_label": "buttonplacement.java"
     },
     {
@@ -2616,7 +2616,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_buttonplacement_buttonplacement",
-      "community": 34,
+      "community": 12,
       "norm_label": "buttonplacement"
     },
     {
@@ -2626,7 +2626,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "box",
-      "community": 34,
+      "community": 12,
       "norm_label": "box"
     },
     {
@@ -2636,7 +2636,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_buttonplacement_buttonplacement_positionguibutton",
-      "community": 34,
+      "community": 12,
       "norm_label": ".positionguibutton()"
     },
     {
@@ -2646,7 +2646,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_buttonplacement_java_imagebutton",
-      "community": 34,
+      "community": 12,
       "norm_label": "imagebutton"
     },
     {
@@ -2656,7 +2656,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_buttonplacement_java_offset",
-      "community": 34,
+      "community": 12,
       "norm_label": "offset"
     },
     {
@@ -2966,7 +2966,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand",
-      "community": 28,
+      "community": 0,
       "norm_label": "bonusmodifiercommand.java"
     },
     {
@@ -2976,7 +2976,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand_bonusmodifiercommand",
-      "community": 28,
+      "community": 0,
       "norm_label": "bonusmodifiercommand"
     },
     {
@@ -2986,7 +2986,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "suggestionprovider",
-      "community": 28,
+      "community": 0,
       "norm_label": "suggestionprovider"
     },
     {
@@ -2996,7 +2996,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand_java_commandsourcestack",
-      "community": 28,
+      "community": 0,
       "norm_label": "commandsourcestack"
     },
     {
@@ -3006,7 +3006,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand_bonusmodifiercommand_register",
-      "community": 28,
+      "community": 0,
       "norm_label": ".register()"
     },
     {
@@ -3016,7 +3016,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand_java_literalargumentbuilder",
-      "community": 28,
+      "community": 0,
       "norm_label": "literalargumentbuilder"
     },
     {
@@ -3156,7 +3156,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_event_attributescommandevent",
-      "community": 28,
+      "community": 25,
       "norm_label": "attributescommandevent.java"
     },
     {
@@ -3166,7 +3166,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_event_attributescommandevent_attributescommandevent",
-      "community": 28,
+      "community": 25,
       "norm_label": "attributescommandevent"
     },
     {
@@ -3176,7 +3176,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "event",
-      "community": 28,
+      "community": 25,
       "norm_label": "event"
     },
     {
@@ -3186,7 +3186,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_event_attributescommandevent_java_literalargumentbuilder",
-      "community": 28,
+      "community": 25,
       "norm_label": "literalargumentbuilder"
     },
     {
@@ -3196,7 +3196,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_event_attributescommandevent_java_commandsourcestack",
-      "community": 28,
+      "community": 25,
       "norm_label": "commandsourcestack"
     },
     {
@@ -3206,7 +3206,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "commandbuildcontext",
-      "community": 28,
+      "community": 25,
       "norm_label": "commandbuildcontext"
     },
     {
@@ -3216,7 +3216,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_event_attributescommandevent_attributescommandevent_attributescommandevent",
-      "community": 28,
+      "community": 25,
       "norm_label": ".attributescommandevent()"
     },
     {
@@ -3226,7 +3226,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_event_attributescommandevent_attributescommandevent_getroot",
-      "community": 28,
+      "community": 25,
       "norm_label": ".getroot()"
     },
     {
@@ -3236,7 +3236,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_event_attributescommandevent_attributescommandevent_getcontext",
-      "community": 28,
+      "community": 25,
       "norm_label": ".getcontext()"
     },
     {
@@ -3646,7 +3646,7 @@
       "source_location": "L387",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_impl_attributeevents_attributeevents_cmds",
-      "community": 28,
+      "community": 25,
       "norm_label": ".cmds()"
     },
     {
@@ -3656,7 +3656,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "registercommandsevent",
-      "community": 28,
+      "community": 25,
       "norm_label": "registercommandsevent"
     },
     {
@@ -3708,6 +3708,876 @@
       "id": "src_main_java_com_skd_ascendantattributes_impl_attributeevents_attributeevents_isdodging",
       "community": 25,
       "norm_label": ".isdodging()"
+    },
+    {
+      "label": "CombatRulesMixin.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin",
+      "community": 13,
+      "norm_label": "combatrulesmixin.java"
+    },
+    {
+      "label": "CombatRulesMixin",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin",
+      "community": 13,
+      "norm_label": "combatrulesmixin"
+    },
+    {
+      "label": "Mixin",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_java_mixin",
+      "community": 13,
+      "norm_label": "mixin"
+    },
+    {
+      "label": ".getDamageAfterMagicAbsorb()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin_getdamageaftermagicabsorb",
+      "community": 13,
+      "norm_label": ".getdamageaftermagicabsorb()"
+    },
+    {
+      "label": "Overwrite",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "overwrite",
+      "community": 13,
+      "norm_label": "overwrite"
+    },
+    {
+      "label": ".getDamageAfterAbsorb()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin_getdamageafterabsorb",
+      "community": 13,
+      "norm_label": ".getdamageafterabsorb()"
+    },
+    {
+      "label": "LivingEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_java_livingentity",
+      "community": 13,
+      "norm_label": "livingentity"
+    },
+    {
+      "label": "DamageSource",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_java_damagesource",
+      "community": 13,
+      "norm_label": "damagesource"
+    },
+    {
+      "label": "EntityMixin.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/EntityMixin.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin",
+      "community": 28,
+      "norm_label": "entitymixin.java"
+    },
+    {
+      "label": "EntityMixin",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/EntityMixin.java",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin_entitymixin",
+      "community": 28,
+      "norm_label": "entitymixin"
+    },
+    {
+      "label": "Mixin",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin_java_mixin",
+      "community": 28,
+      "norm_label": "mixin"
+    },
+    {
+      "label": ".ascendant_checkFallDamageWithGravity()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/EntityMixin.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin_entitymixin_ascendant_checkfalldamagewithgravity",
+      "community": 28,
+      "norm_label": ".ascendant_checkfalldamagewithgravity()"
+    },
+    {
+      "label": "ModifyVariable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "modifyvariable",
+      "community": 28,
+      "norm_label": "modifyvariable"
+    },
+    {
+      "label": "LivingEntityMixin.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "community": 28,
+      "norm_label": "livingentitymixin.java"
+    },
+    {
+      "label": "LivingEntityMixin",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "community": 28,
+      "norm_label": "livingentitymixin"
+    },
+    {
+      "label": "Entity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "entity",
+      "community": 28,
+      "norm_label": "entity"
+    },
+    {
+      "label": "Mixin",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_mixin",
+      "community": 28,
+      "norm_label": "mixin"
+    },
+    {
+      "label": "DamageContainer",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "damagecontainer",
+      "community": 28,
+      "norm_label": "damagecontainer"
+    },
+    {
+      "label": ".LivingEntityMixin()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_livingentitymixin",
+      "community": 28,
+      "norm_label": ".livingentitymixin()"
+    },
+    {
+      "label": "EntityType",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_entitytype",
+      "community": 28,
+      "norm_label": "entitytype"
+    },
+    {
+      "label": "Level",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_level",
+      "community": 28,
+      "norm_label": "level"
+    },
+    {
+      "label": ".ascendant_sunderingApplyEffect()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderingapplyeffect",
+      "community": 28,
+      "norm_label": ".ascendant_sunderingapplyeffect()"
+    },
+    {
+      "label": "DamageSource",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_damagesource",
+      "community": 28,
+      "norm_label": "damagesource"
+    },
+    {
+      "label": "Redirect",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "redirect",
+      "community": 28,
+      "norm_label": "redirect"
+    },
+    {
+      "label": ".ascendant_sunderingHasEffect()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderinghaseffect",
+      "community": 28,
+      "norm_label": ".ascendant_sunderinghaseffect()"
+    },
+    {
+      "label": "LivingEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_livingentity",
+      "community": 28,
+      "norm_label": "livingentity"
+    },
+    {
+      "label": "Holder",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_holder",
+      "community": 28,
+      "norm_label": "holder"
+    },
+    {
+      "label": "MobEffect",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_mobeffect",
+      "community": 28,
+      "norm_label": "mobeffect"
+    },
+    {
+      "label": ".ascendant_sunderingGetAmplifier()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderinggetamplifier",
+      "community": 28,
+      "norm_label": ".ascendant_sunderinggetamplifier()"
+    },
+    {
+      "label": "MobEffectInstance",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_mobeffectinstance",
+      "community": 28,
+      "norm_label": "mobeffectinstance"
+    },
+    {
+      "label": ".hasEffect()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_haseffect",
+      "community": 28,
+      "norm_label": ".haseffect()"
+    },
+    {
+      "label": "Shadow",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "shadow",
+      "community": 28,
+      "norm_label": "shadow"
+    },
+    {
+      "label": ".getEffect()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_geteffect",
+      "community": 28,
+      "norm_label": ".geteffect()"
+    },
+    {
+      "label": ".ascendant_applyProtPen()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L87",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_applyprotpen",
+      "community": 28,
+      "norm_label": ".ascendant_applyprotpen()"
+    },
+    {
+      "label": ".internalSetAbsorptionAmount()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_internalsetabsorptionamount",
+      "community": 28,
+      "norm_label": ".internalsetabsorptionamount()"
+    },
+    {
+      "label": ".ascendant_setInternalAbsorption()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_setinternalabsorption",
+      "community": 28,
+      "norm_label": ".ascendant_setinternalabsorption()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_override",
+      "community": 28,
+      "norm_label": "override"
+    },
+    {
+      "label": ".ascendant_canGlideFromAttribute()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_canglidefromattribute",
+      "community": 28,
+      "norm_label": ".ascendant_canglidefromattribute()"
+    },
+    {
+      "label": "CallbackInfoReturnable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_callbackinforeturnable",
+      "community": 28,
+      "norm_label": "callbackinforeturnable"
+    },
+    {
+      "label": "Inject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_inject",
+      "community": 28,
+      "norm_label": "inject"
+    },
+    {
+      "label": ".ascendant_canGlideUsingFromAttribute()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L112",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_canglideusingfromattribute",
+      "community": 28,
+      "norm_label": ".ascendant_canglideusingfromattribute()"
+    },
+    {
+      "label": "ItemStack",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_itemstack",
+      "community": 28,
+      "norm_label": "itemstack"
+    },
+    {
+      "label": "EquipmentSlot",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_equipmentslot",
+      "community": 28,
+      "norm_label": "equipmentslot"
+    },
+    {
+      "label": ".ascendant_skipEmptyGliderDamage()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L130",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_skipemptygliderdamage",
+      "community": 28,
+      "norm_label": ".ascendant_skipemptygliderdamage()"
+    },
+    {
+      "label": "CallbackInfo",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_callbackinfo",
+      "community": 28,
+      "norm_label": "callbackinfo"
+    },
+    {
+      "label": "NearestAttackableTargetGoalMixin.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin",
+      "community": 36,
+      "norm_label": "nearestattackabletargetgoalmixin.java"
+    },
+    {
+      "label": "NearestAttackableTargetGoalMixin",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin",
+      "community": 36,
+      "norm_label": "nearestattackabletargetgoalmixin"
+    },
+    {
+      "label": "TargetGoal",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "targetgoal",
+      "community": 36,
+      "norm_label": "targetgoal"
+    },
+    {
+      "label": "Mixin",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_java_mixin",
+      "community": 36,
+      "norm_label": "mixin"
+    },
+    {
+      "label": "TargetingConditions",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "targetingconditions",
+      "community": 36,
+      "norm_label": "targetingconditions"
+    },
+    {
+      "label": ".NearestAttackableTargetGoalMixin()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin",
+      "community": 36,
+      "norm_label": ".nearestattackabletargetgoalmixin()"
+    },
+    {
+      "label": "Mob",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "mob",
+      "community": 36,
+      "norm_label": "mob"
+    },
+    {
+      "label": ".ascendant_updateFollowRange()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin_ascendant_updatefollowrange",
+      "community": 36,
+      "norm_label": ".ascendant_updatefollowrange()"
+    },
+    {
+      "label": "CallbackInfo",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_java_callbackinfo",
+      "community": 36,
+      "norm_label": "callbackinfo"
+    },
+    {
+      "label": "Inject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_java_inject",
+      "community": 36,
+      "norm_label": "inject"
+    },
+    {
+      "label": "PlayerMixin.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_playermixin",
+      "community": 35,
+      "norm_label": "playermixin.java"
+    },
+    {
+      "label": "PlayerMixin",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin",
+      "community": 35,
+      "norm_label": "playermixin"
+    },
+    {
+      "label": "Mixin",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_mixin",
+      "community": 35,
+      "norm_label": "mixin"
+    },
+    {
+      "label": ".ascendant_handleKilledByAuxDmg()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_handlekilledbyauxdmg",
+      "community": 35,
+      "norm_label": ".ascendant_handlekilledbyauxdmg()"
+    },
+    {
+      "label": "Entity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_entity",
+      "community": 35,
+      "norm_label": "entity"
+    },
+    {
+      "label": "DamageSource",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_damagesource",
+      "community": 35,
+      "norm_label": "damagesource"
+    },
+    {
+      "label": "Operation",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_operation",
+      "community": 35,
+      "norm_label": "operation"
+    },
+    {
+      "label": "WrapOperation",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "wrapoperation",
+      "community": 35,
+      "norm_label": "wrapoperation"
+    },
+    {
+      "label": ".ascendant_markSweepAttacks()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_marksweepattacks",
+      "community": 35,
+      "norm_label": ".ascendant_marksweepattacks()"
+    },
+    {
+      "label": "LivingEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_livingentity",
+      "community": 35,
+      "norm_label": "livingentity"
+    },
+    {
+      "label": "ServerLevel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_serverlevel",
+      "community": 35,
+      "norm_label": "serverlevel"
+    },
+    {
+      "label": ".ascendant_dontFallOffACliff()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_dontfalloffacliff",
+      "community": 35,
+      "norm_label": ".ascendant_dontfalloffacliff()"
+    },
+    {
+      "label": "Player",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_player",
+      "community": 35,
+      "norm_label": "player"
+    },
+    {
+      "label": "ThrownTridentMixin.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin",
+      "community": 38,
+      "norm_label": "throwntridentmixin.java"
+    },
+    {
+      "label": "ThrownTridentMixin",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin",
+      "community": 38,
+      "norm_label": "throwntridentmixin"
+    },
+    {
+      "label": "AbstractArrow",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "abstractarrow",
+      "community": 38,
+      "norm_label": "abstractarrow"
+    },
+    {
+      "label": "Mixin",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_java_mixin",
+      "community": 38,
+      "norm_label": "mixin"
+    },
+    {
+      "label": ".ThrownTridentMixin()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin_throwntridentmixin",
+      "community": 38,
+      "norm_label": ".throwntridentmixin()"
+    },
+    {
+      "label": "EntityType",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_java_entitytype",
+      "community": 38,
+      "norm_label": "entitytype"
+    },
+    {
+      "label": "Level",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_java_level",
+      "community": 38,
+      "norm_label": "level"
+    },
+    {
+      "label": ".ascendant_getTridentDamage()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin_ascendant_gettridentdamage",
+      "community": 38,
+      "norm_label": ".ascendant_gettridentdamage()"
+    },
+    {
+      "label": "ModifyConstant",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "modifyconstant",
+      "community": 38,
+      "norm_label": "modifyconstant"
+    },
+    {
+      "label": "AbstractContainerScreenMixin.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin",
+      "community": 37,
+      "norm_label": "abstractcontainerscreenmixin.java"
+    },
+    {
+      "label": "AbstractContainerScreenMixin",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin",
+      "community": 37,
+      "norm_label": "abstractcontainerscreenmixin"
+    },
+    {
+      "label": "Screen",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "screen",
+      "community": 37,
+      "norm_label": "screen"
+    },
+    {
+      "label": "Mixin",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_mixin",
+      "community": 37,
+      "norm_label": "mixin"
+    },
+    {
+      "label": ".AbstractContainerScreenMixin()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin_abstractcontainerscreenmixin",
+      "community": 37,
+      "norm_label": ".abstractcontainerscreenmixin()"
+    },
+    {
+      "label": "Component",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_component",
+      "community": 37,
+      "norm_label": "component"
+    },
+    {
+      "label": ".ascendant_superMouseDragged()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin_ascendant_supermousedragged",
+      "community": 37,
+      "norm_label": ".ascendant_supermousedragged()"
+    },
+    {
+      "label": "MouseButtonEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_mousebuttonevent",
+      "community": 37,
+      "norm_label": "mousebuttonevent"
+    },
+    {
+      "label": "CallbackInfoReturnable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_callbackinforeturnable",
+      "community": 37,
+      "norm_label": "callbackinforeturnable"
+    },
+    {
+      "label": "Inject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_inject",
+      "community": 37,
+      "norm_label": "inject"
     },
     {
       "label": "BleedingEffect.java",
@@ -3806,7 +4676,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_detonationeffect",
-      "community": 0,
+      "community": 39,
       "norm_label": "detonationeffect.java"
     },
     {
@@ -3816,7 +4686,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_detonationeffect_detonationeffect",
-      "community": 0,
+      "community": 39,
       "norm_label": "detonationeffect"
     },
     {
@@ -3826,7 +4696,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_detonationeffect_detonationeffect_detonationeffect",
-      "community": 0,
+      "community": 39,
       "norm_label": ".detonationeffect()"
     },
     {
@@ -3836,7 +4706,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_detonationeffect_detonationeffect_applyeffecttick",
-      "community": 0,
+      "community": 39,
       "norm_label": ".applyeffecttick()"
     },
     {
@@ -3846,7 +4716,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_detonationeffect_java_serverlevel",
-      "community": 0,
+      "community": 39,
       "norm_label": "serverlevel"
     },
     {
@@ -3856,7 +4726,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_detonationeffect_java_livingentity",
-      "community": 0,
+      "community": 39,
       "norm_label": "livingentity"
     },
     {
@@ -3866,7 +4736,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_detonationeffect_java_override",
-      "community": 0,
+      "community": 39,
       "norm_label": "override"
     },
     {
@@ -3876,7 +4746,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_detonationeffect_detonationeffect_shouldapplyeffecttickthistick",
-      "community": 0,
+      "community": 39,
       "norm_label": ".shouldapplyeffecttickthistick()"
     },
     {
@@ -4716,7 +5586,7 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_stackattributemodifiersevent_stackattributemodifiersevent_haschanges",
-      "community": 8,
+      "community": 25,
       "norm_label": ".haschanges()"
     },
     {
@@ -5526,7 +6396,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_util_auxdmgtracker_auxdmgtracker_tick",
-      "community": 7,
+      "community": 25,
       "norm_label": ".tick()"
     },
     {
@@ -5706,7 +6576,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_util_leinvoker",
-      "community": 25,
+      "community": 28,
       "norm_label": "leinvoker.java"
     },
     {
@@ -5716,7 +6586,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_util_leinvoker_leinvoker",
-      "community": 25,
+      "community": 28,
       "norm_label": "leinvoker"
     },
     {
@@ -5726,7 +6596,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_util_leinvoker_leinvoker_ascendant_setinternalabsorption",
-      "community": 25,
+      "community": 28,
       "norm_label": ".ascendant_setinternalabsorption()"
     },
     {
@@ -6451,17 +7321,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
-      "target": "component",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
       "source_location": "L14",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
@@ -6495,32 +7354,10 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L28",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
-      "target": "entity",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
       "source_location": "L49",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "entityattributemodificationevent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
-      "target": "entitytype",
       "confidence_score": 1.0
     },
     {
@@ -6565,28 +7402,6 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "mobeffect",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
-      "target": "operation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
-      "target": "player",
       "confidence_score": 1.0
     },
     {
@@ -6640,6 +7455,28 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_attribute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
+      "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_entity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
+      "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_entitytype",
       "confidence_score": 1.0
     },
     {
@@ -6760,6 +7597,17 @@
       "source_location": "L10",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand",
+      "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "confidence_score": 1.0
     },
@@ -7153,7 +8001,7 @@
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_addall",
-      "target": "entitytype",
+      "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_attribute",
       "confidence_score": 1.0
     },
     {
@@ -7164,7 +8012,7 @@
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_addall",
-      "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_attribute",
+      "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_entitytype",
       "confidence_score": 1.0
     },
     {
@@ -7230,7 +8078,7 @@
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_getlocalatkstrength",
-      "target": "entity",
+      "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_entity",
       "confidence_score": 1.0
     },
     {
@@ -7243,28 +8091,6 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_util_auxdmgtracker_auxdmgtracker_attackwith",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_getlocalatkstrength"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/client/AscendantAttributesClientHandler.java",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler",
-      "target": "entity",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/impl/AttributeEvents.java",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
-      "target": "entity",
-      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8813,6 +9639,17 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/modifiers/EntityEquipmentSlot.java",
       "source_location": "L4",
       "weight": 1.0,
@@ -9476,28 +10313,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/api/AttributeHelper.java",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_api_attributehelper",
-      "target": "component",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/api/AttributeHelper.java",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_api_attributehelper",
-      "target": "operation",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/api/AttributeHelper.java",
@@ -9582,6 +10397,17 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_api_attributehelper",
       "target": "src_main_java_com_skd_ascendantattributes_api_attributehelper_java_mutablecomponent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/api/AttributeHelper.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_api_attributehelper",
+      "target": "src_main_java_com_skd_ascendantattributes_api_attributehelper_java_operation",
       "confidence_score": 1.0
     },
     {
@@ -9683,17 +10509,6 @@
       "source_file": "src/main/java/com/skd/ascendantattributes/api/AttributeHelper.java",
       "source_location": "L20",
       "weight": 1.0,
-      "context": "parameter_type",
-      "source": "src_main_java_com_skd_ascendantattributes_api_attributehelper_attributehelper_modify",
-      "target": "operation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/api/AttributeHelper.java",
-      "source_location": "L20",
-      "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_ascendantattributes_api_attributehelper_attributehelper_modify",
       "target": "src_main_java_com_skd_ascendantattributes_api_attributehelper_java_attribute",
@@ -9730,6 +10545,17 @@
       "context": "parameter_type",
       "source": "src_main_java_com_skd_ascendantattributes_api_attributehelper_attributehelper_modify",
       "target": "src_main_java_com_skd_ascendantattributes_api_attributehelper_java_livingentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/api/AttributeHelper.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_api_attributehelper_attributehelper_modify",
+      "target": "src_main_java_com_skd_ascendantattributes_api_attributehelper_java_operation",
       "confidence_score": 1.0
     },
     {
@@ -9898,83 +10724,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui",
-      "target": "operation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/commands/BonusModifierCommand.java",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand",
-      "target": "operation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/impl/AttributeEvents.java",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
-      "target": "operation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/mob_effect/FlyingEffect.java",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_mob_effect_flyingeffect",
-      "target": "operation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/mob_effect/GrievousEffect.java",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_mob_effect_grievouseffect",
-      "target": "operation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/mob_effect/KnowledgeEffect.java",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_mob_effect_knowledgeeffect",
-      "target": "operation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/mob_effect/VitalityEffect.java",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_mob_effect_vitalityeffect",
-      "target": "operation",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/api/AttributeHelper.java",
@@ -10048,6 +10797,28 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_api_combatrules",
       "target": "src_main_java_com_skd_ascendantattributes_api_combatrules_java_livingentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_api_combatrules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_api_combatrules",
       "confidence_score": 1.0
     },
     {
@@ -10144,6 +10915,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_applyprotpen",
+      "target": "src_main_java_com_skd_ascendantattributes_api_combatrules_combatrules_getdamageafterprotection"
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/api/CombatRules.java",
@@ -10169,6 +10951,17 @@
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin_getdamageaftermagicabsorb",
+      "target": "src_main_java_com_skd_ascendantattributes_api_combatrules_combatrules_getprotdamagereduction"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/api/CombatRules.java",
       "source_location": "L56",
       "weight": 1.0,
@@ -10186,6 +10979,17 @@
       "source": "src_main_java_com_skd_ascendantattributes_api_combatrules_combatrules_getdamageafterarmor",
       "target": "src_main_java_com_skd_ascendantattributes_api_combatrules_combatrules_getbypassresistance",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin_getdamageafterabsorb",
+      "target": "src_main_java_com_skd_ascendantattributes_api_combatrules_combatrules_getdamageafterarmor"
     },
     {
       "relation": "calls",
@@ -10482,10 +11286,10 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/client/AscendantAttributesClientHandler.java",
-      "source_location": "L35",
+      "source_location": "L22",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler",
-      "target": "component",
+      "target": "critparticle",
       "confidence_score": 1.0
     },
     {
@@ -10493,10 +11297,10 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/client/AscendantAttributesClientHandler.java",
-      "source_location": "L22",
+      "source_location": "L42",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler",
-      "target": "critparticle",
+      "target": "entity",
       "confidence_score": 1.0
     },
     {
@@ -11600,17 +12404,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui",
-      "target": "component",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
       "source_location": "L3",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui",
@@ -11655,32 +12448,10 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui",
-      "target": "mousebuttonevent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
       "source_location": "L27",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui",
       "target": "narrationelementoutput",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
-      "source_location": "L52",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui",
-      "target": "player",
       "confidence_score": 1.0
     },
     {
@@ -11741,6 +12512,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui",
+      "target": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
       "source_location": "L20",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui",
@@ -11785,10 +12567,32 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui",
+      "target": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_mousebuttonevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
       "source_location": "L11",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui",
       "target": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_nullable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui",
+      "target": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_player",
       "confidence_score": 1.0
     },
     {
@@ -11843,17 +12647,6 @@
       "context": "field",
       "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui_attributesgui",
       "target": "inventoryscreen",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
-      "source_location": "L71",
-      "weight": 1.0,
-      "context": "field",
-      "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui_attributesgui",
-      "target": "player",
       "confidence_score": 1.0
     },
     {
@@ -12154,6 +12947,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
+      "source_location": "L71",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui_attributesgui",
+      "target": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
       "source_location": "L60",
       "weight": 1.0,
       "context": "field",
@@ -12176,22 +12980,11 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/commands/BonusModifierCommand.java",
-      "source_location": "L26",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L5",
       "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand",
-      "target": "player",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/impl/AttributeEvents.java",
-      "source_location": "L41",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
-      "target": "player",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin",
+      "target": "inventoryscreen",
       "confidence_score": 1.0
     },
     {
@@ -12486,9 +13279,9 @@
       "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
       "source_location": "L310",
       "weight": 1.0,
-      "context": "parameter_type",
+      "context": "generic_arg",
       "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui_attributesgui_addcomp",
-      "target": "component",
+      "target": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_clienttooltipcomponent",
       "confidence_score": 1.0
     },
     {
@@ -12497,9 +13290,9 @@
       "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
       "source_location": "L310",
       "weight": 1.0,
-      "context": "generic_arg",
+      "context": "parameter_type",
       "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui_attributesgui_addcomp",
-      "target": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_clienttooltipcomponent",
+      "target": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_component",
       "confidence_score": 1.0
     },
     {
@@ -12510,7 +13303,7 @@
       "weight": 1.0,
       "context": "return_type",
       "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui_attributesgui_buildformula",
-      "target": "component",
+      "target": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_component",
       "confidence_score": 1.0
     },
     {
@@ -12533,17 +13326,6 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui_attributesgui_renderentry",
       "target": "src_main_java_com_skd_ascendantattributes_client_attributesgui_attributesgui_getvaluecolor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
-      "source_location": "L367",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui_attributesgui_mouseclicked",
-      "target": "mousebuttonevent",
       "confidence_score": 1.0
     },
     {
@@ -12572,11 +13354,22 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
+      "source_location": "L367",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui_attributesgui_mouseclicked",
+      "target": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_mousebuttonevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java",
       "source_location": "L392",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_ascendantattributes_client_attributesgui_attributesgui_mousedragged",
-      "target": "mousebuttonevent",
+      "target": "src_main_java_com_skd_ascendantattributes_client_attributesgui_java_mousebuttonevent",
       "confidence_score": 1.0
     },
     {
@@ -14162,6 +14955,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/impl/AttributeEvents.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
+      "target": "abstractarrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/impl/AttributeEvents.java",
       "source_location": "L53",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
@@ -14239,6 +15043,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/impl/AttributeEvents.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
+      "target": "entity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/impl/AttributeEvents.java",
       "source_location": "L57",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
@@ -14283,17 +15098,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/impl/AttributeEvents.java",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
-      "target": "src_main_java_com_skd_ascendantattributes_util_leinvoker",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/ascendantattributes/impl/AttributeEvents.java",
       "source_location": "L62",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
@@ -14320,6 +15124,17 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
       "target": "livingincomingdamageevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/impl/AttributeEvents.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
+      "target": "mob",
       "confidence_score": 1.0
     },
     {
@@ -14451,6 +15266,17 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
       "target": "src_main_java_com_skd_ascendantattributes_util_auxdmgtracker_auxdmgtracker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/impl/AttributeEvents.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
+      "target": "src_main_java_com_skd_ascendantattributes_util_leinvoker_leinvoker",
       "confidence_score": 1.0
     },
     {
@@ -15480,6 +16306,1697 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents_attributeevents_isdodging",
       "target": "src_main_java_com_skd_ascendantattributes_impl_attributeevents_attributeevents_computedodgeseed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin",
+      "target": "overwrite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_java_damagesource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_java_livingentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin_getdamageafterabsorb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin_getdamageaftermagicabsorb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin_getdamageaftermagicabsorb",
+      "target": "overwrite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin_getdamageafterabsorb",
+      "target": "overwrite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin_getdamageafterabsorb",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_java_damagesource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_combatrulesmixin_getdamageafterabsorb",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_combatrulesmixin_java_livingentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/EntityMixin.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin",
+      "target": "entity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/EntityMixin.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin",
+      "target": "modifyvariable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/EntityMixin.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin_entitymixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/EntityMixin.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/EntityMixin.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin_entitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin_entitymixin_ascendant_checkfalldamagewithgravity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/EntityMixin.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin_entitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/EntityMixin.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_entitymixin_entitymixin_ascendant_checkfalldamagewithgravity",
+      "target": "modifyvariable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "damagecontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "entity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "redirect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "shadow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_callbackinfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_callbackinforeturnable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_damagesource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_entitytype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_equipmentslot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_holder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_inject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_livingentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_mobeffect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_mobeffectinstance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_util_leinvoker_leinvoker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "damagecontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "entity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_applyprotpen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_canglidefromattribute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_canglideusingfromattribute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_setinternalabsorption",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_skipemptygliderdamage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderingapplyeffect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderinggetamplifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderinghaseffect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_geteffect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_haseffect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_internalsetabsorptionamount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_livingentitymixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_util_leinvoker_leinvoker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_entitytype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_livingentitymixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderingapplyeffect",
+      "target": "redirect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderingapplyeffect",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_damagesource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderingapplyeffect",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_geteffect"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderingapplyeffect",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_haseffect"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_applyprotpen",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_damagesource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_applyprotpen",
+      "target": "redirect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderinggetamplifier",
+      "target": "redirect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderinghaseffect",
+      "target": "redirect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderinghaseffect",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_holder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderinghaseffect",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_livingentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderinghaseffect",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_mobeffect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_geteffect",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_holder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L81",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_haseffect",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_holder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_geteffect",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_mobeffect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L81",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_haseffect",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_mobeffect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_sunderinggetamplifier",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_mobeffectinstance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_geteffect",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_mobeffectinstance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L81",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_haseffect",
+      "target": "shadow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_geteffect",
+      "target": "shadow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L96",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_internalsetabsorptionamount",
+      "target": "shadow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin",
+      "target": "shadow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_setinternalabsorption",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_internalsetabsorptionamount"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L99",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_setinternalabsorption",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L104",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_canglidefromattribute",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_callbackinforeturnable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L104",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_canglidefromattribute",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_inject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L112",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_canglideusingfromattribute",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_callbackinforeturnable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L112",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_canglideusingfromattribute",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_inject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L130",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_skipemptygliderdamage",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_inject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L112",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_canglideusingfromattribute",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_equipmentslot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L112",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_canglideusingfromattribute",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L130",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_skipemptygliderdamage",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_equipmentslot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java",
+      "source_location": "L130",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_livingentitymixin_ascendant_skipemptygliderdamage",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_livingentitymixin_java_callbackinfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin",
+      "target": "mob",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_java_callbackinfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_java_inject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin",
+      "target": "targetgoal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin",
+      "target": "targetingconditions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin_ascendant_updatefollowrange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin",
+      "target": "targetgoal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin",
+      "target": "targetingconditions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin",
+      "target": "mob",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin_ascendant_updatefollowrange",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_java_callbackinfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_nearestattackabletargetgoalmixin_ascendant_updatefollowrange",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_nearestattackabletargetgoalmixin_java_inject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_damagesource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_entity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_livingentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_serverlevel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin",
+      "target": "wrapoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_dontfalloffacliff",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_handlekilledbyauxdmg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_marksweepattacks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_handlekilledbyauxdmg",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_damagesource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_handlekilledbyauxdmg",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_entity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_handlekilledbyauxdmg",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_handlekilledbyauxdmg",
+      "target": "wrapoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_marksweepattacks",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_damagesource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_dontfalloffacliff",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_marksweepattacks",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_dontfalloffacliff",
+      "target": "wrapoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_marksweepattacks",
+      "target": "wrapoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_marksweepattacks",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_livingentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_marksweepattacks",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_serverlevel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_playermixin_ascendant_dontfalloffacliff",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_playermixin_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin",
+      "target": "abstractarrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin",
+      "target": "modifyconstant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_java_entitytype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_java_level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin",
+      "target": "abstractarrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin_ascendant_gettridentdamage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin_throwntridentmixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin_throwntridentmixin",
+      "target": "abstractarrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin_throwntridentmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_java_entitytype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin_throwntridentmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_java_level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_throwntridentmixin_throwntridentmixin_ascendant_gettridentdamage",
+      "target": "modifyconstant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin",
+      "target": "screen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_callbackinforeturnable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_inject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_mousebuttonevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin",
+      "target": "screen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin_abstractcontainerscreenmixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin_ascendant_supermousedragged",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_mixin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin_abstractcontainerscreenmixin",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin_ascendant_supermousedragged",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_callbackinforeturnable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin_ascendant_supermousedragged",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_inject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_abstractcontainerscreenmixin_ascendant_supermousedragged",
+      "target": "src_main_java_com_skd_ascendantattributes_mixin_client_abstractcontainerscreenmixin_java_mousebuttonevent",
       "confidence_score": 1.0
     },
     {
@@ -20632,5 +23149,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2ad2bdf5f39ab66af0ef971aa19859f9e906930c"
+  "built_at_commit": "dd49994ffa106c3cf01051ea16a94e62d7e5c3e5"
 }

@@ -33,5 +33,10 @@
   "31": "EquipmentSlots",
   "32": "EquipmentSlotCompat",
   "33": "EntityEquipmentSlot",
-  "34": ".positionGuiButton"
+  "34": ".positionGuiButton",
+  "35": "PlayerMixin.java",
+  "36": "NearestAttackableTargetGoalMixin.java",
+  "37": "AbstractContainerScreenMixin.java",
+  "38": "ThrownTridentMixin.java",
+  "39": "DetonationEffect.java"
 }

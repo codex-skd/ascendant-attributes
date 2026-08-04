@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-04)
 
 ## Corpus Check
-- 95 files · ~23,921 words
+- 103 files · ~25,038 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 631 nodes · 1333 edges · 35 communities (32 shown, 3 thin omitted)
+- 718 nodes · 1486 edges · 40 communities (37 shown, 3 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 29 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2ad2bdf5`
+- Built from commit: `dd49994f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -46,6 +46,11 @@
 - EquipmentSlotCompat
 - EntityEquipmentSlot
 - .positionGuiButton
+- PlayerMixin.java
+- NearestAttackableTargetGoalMixin.java
+- AbstractContainerScreenMixin.java
+- ThrownTridentMixin.java
+- DetonationEffect.java
 
 ## God Nodes (most connected - your core abstractions)
 1. `AttributesGui` - 38 edges
@@ -56,8 +61,8 @@
 6. `StackAttributeModifiers` - 19 edges
 7. `Entry` - 19 edges
 8. `AscendantAttributes` - 18 edges
-9. `CooldownTracker` - 14 edges
-10. `EntityEquipmentSlot` - 14 edges
+9. `LivingEntityMixin` - 17 edges
+10. `CooldownTracker` - 14 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Mod Icon` ----> `Project Variables`  [EXTRACTED]
@@ -74,11 +79,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (35 total, 3 thin omitted)
+## Communities (40 total, 3 thin omitted)
 
 ### Community 0 - "Item Management"
 Cohesion: 0.05
-Nodes (34): AttackEntityEvent, AttributeMap, Client, DeferredHelper, Entity, EntityAttributeModificationEvent, EntityType, FMLCommonSetupEvent (+26 more)
+Nodes (34): AttackEntityEvent, AttributeMap, Client, DeferredHelper, EntityAttributeModificationEvent, FMLCommonSetupEvent, Logger, MobEffect (+26 more)
 
 ### Community 1 - "Configuration Management"
 Cohesion: 0.10
@@ -101,7 +106,7 @@ Cohesion: 0.27
 Nodes (8): DynamicRegistryProvider, Item, JsonMix, PackOutput, Provider, Holder, Potion, MixProvider
 
 ### Community 7 - "Creative Mode Content"
-Cohesion: 0.19
+Cohesion: 0.20
 Nodes (12): IdentityHashMap, Marker, AuxDmgTracker, Entry, Attribute, Codec, DamageSource, DamageType (+4 more)
 
 ### Community 8 - "Common Setup"
@@ -109,12 +114,12 @@ Cohesion: 0.10
 Nodes (22): Builder, Entry, Attribute, AttributeModifier, Codec, Holder, Identifier, ItemAttributeModifiers (+14 more)
 
 ### Community 12 - "Entry"
-Cohesion: 0.05
-Nodes (43): AbstractButton, AddClientReloadListenersEvent, AttributeInstance, ChatFormatting, ClientLevel, Component, CritParticle, DecimalFormat (+35 more)
+Cohesion: 0.07
+Nodes (26): AbstractButton, AttributeInstance, Box, ChatFormatting, DecimalFormat, GuiEventListener, InputWithModifiers, InventoryScreen (+18 more)
 
 ### Community 13 - "AttributesConfig"
-Cohesion: 0.15
-Nodes (10): AnchorPoint, Configuration, Expression, ResourceManagerReloadListener, CombatRules, DamageSource, LivingEntity, AttributesConfig (+2 more)
+Cohesion: 0.13
+Nodes (14): Configuration, Expression, Overwrite, ResourceManagerReloadListener, CombatRules, DamageSource, LivingEntity, AttributesConfig (+6 more)
 
 ### Community 14 - "CooldownTracker"
 Cohesion: 0.19
@@ -122,7 +127,7 @@ Nodes (9): MapCodec, Object2LongMap, AbilityCooldowns, Identifier, LivingEntity,
 
 ### Community 15 - "AttributeHelper.java"
 Cohesion: 0.33
-Nodes (9): Operation, AttributeHelper, Attribute, Entry, Holder, Identifier, ItemAttributeModifiers, LivingEntity (+1 more)
+Nodes (9): AttributeHelper, Attribute, Entry, Holder, Identifier, ItemAttributeModifiers, LivingEntity, MutableComponent (+1 more)
 
 ### Community 16 - "Flujo de trabajo — Ascendant Attributes (NeoForge)"
 Cohesion: 0.15
@@ -157,12 +162,12 @@ Cohesion: 0.50
 Nodes (3): CLAUDE.md — ascendant_attributes (26.2), Prioridad de instrucciones, Workflow del mod
 
 ### Community 25 - "LEInvoker"
-Cohesion: 0.08
-Nodes (21): AddServerReloadListenersEvent, BlockDropsEvent, CriticalHitEvent, EntityJoinLevelEvent, ItemAttributeModifierEvent, LivingExperienceDropEvent, LivingHealEvent, LivingIncomingDamageEvent (+13 more)
+Cohesion: 0.07
+Nodes (26): AddServerReloadListenersEvent, BlockDropsEvent, CommandBuildContext, CriticalHitEvent, EntityJoinLevelEvent, Event, ItemAttributeModifierEvent, LivingExperienceDropEvent (+18 more)
 
 ### Community 28 - "AttributesCommandEvent"
-Cohesion: 0.23
-Nodes (10): CommandBuildContext, Event, RegisterCommandsEvent, BonusModifierCommand, CommandSourceStack, LiteralArgumentBuilder, AttributesCommandEvent, CommandSourceStack (+2 more)
+Cohesion: 0.10
+Nodes (23): DamageContainer, Entity, ModifyVariable, Redirect, Shadow, EntityMixin, Mixin, CallbackInfo (+15 more)
 
 ### Community 29 - "DetonationEffect.java"
 Cohesion: 0.23
@@ -185,8 +190,28 @@ Cohesion: 0.32
 Nodes (5): BuiltInRegs, Registry, EntityEquipmentSlot, ItemStack, LivingEntity
 
 ### Community 34 - ".positionGuiButton"
-Cohesion: 0.53
-Nodes (4): Box, ButtonPlacement, ImageButton, Offset
+Cohesion: 0.10
+Nodes (22): AddClientReloadListenersEvent, AnchorPoint, ClientLevel, CritParticle, FMLClientSetupEvent, GatherEffectScreenTooltipsEvent, ItemTooltipEvent, Particle (+14 more)
+
+### Community 35 - "PlayerMixin.java"
+Cohesion: 0.32
+Nodes (9): DamageSource, Entity, LivingEntity, Mixin, Operation, Player, ServerLevel, PlayerMixin (+1 more)
+
+### Community 36 - "NearestAttackableTargetGoalMixin.java"
+Cohesion: 0.33
+Nodes (7): Mob, CallbackInfo, Inject, Mixin, NearestAttackableTargetGoalMixin, TargetGoal, TargetingConditions
+
+### Community 37 - "AbstractContainerScreenMixin.java"
+Cohesion: 0.33
+Nodes (7): Screen, AbstractContainerScreenMixin, CallbackInfoReturnable, Component, Inject, Mixin, MouseButtonEvent
+
+### Community 38 - "ThrownTridentMixin.java"
+Cohesion: 0.39
+Nodes (6): AbstractArrow, ModifyConstant, EntityType, Level, Mixin, ThrownTridentMixin
+
+### Community 39 - "DetonationEffect.java"
+Cohesion: 0.36
+Nodes (4): DetonationEffect, LivingEntity, Override, ServerLevel
 
 ## Knowledge Gaps
 - **42 isolated node(s):** `Workflow del mod`, `Prioridad de instrucciones`, `0.0.0-beta.1`, `Status`, `Requirements` (+37 more)
@@ -197,16 +222,16 @@ Nodes (4): Box, ButtonPlacement, ImageButton, Offset
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `CooldownTracker` connect `CooldownTracker` to `Item Management`, `Configuration Management`?**
-  _High betweenness centrality (0.056) - this node is a cross-community bridge._
-- **Why does `StackAttributeModifiersEvent` connect `Common Setup` to `LEInvoker`, `AttributesCommandEvent`?**
+  _High betweenness centrality (0.049) - this node is a cross-community bridge._
+- **Why does `AttributesGui` connect `Entry` to `.positionGuiButton`?**
   _High betweenness centrality (0.048) - this node is a cross-community bridge._
+- **Why does `StackAttributeModifiersEvent` connect `Common Setup` to `LEInvoker`?**
+  _High betweenness centrality (0.042) - this node is a cross-community bridge._
 - **What connects `Workflow del mod`, `Prioridad de instrucciones`, `0.0.0-beta.1` to the rest of the system?**
   _42 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Item Management` be split into smaller, more focused modules?**
-  _Cohesion score 0.05081585081585081 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.052403846153846155 - nodes in this community are weakly interconnected._
 - **Should `Configuration Management` be split into smaller, more focused modules?**
   _Cohesion score 0.09885057471264368 - nodes in this community are weakly interconnected._
 - **Should `Common Setup` be split into smaller, more focused modules?**
-  _Cohesion score 0.09831649831649832 - nodes in this community are weakly interconnected._
-- **Should `Entry` be split into smaller, more focused modules?**
-  _Cohesion score 0.05070028011204482 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1013277428371768 - nodes in this community are weakly interconnected._
