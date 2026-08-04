@@ -15,8 +15,8 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java": {
-    "mtime": 1785836276.8380492,
-    "ast_hash": "a3bb23920e4dfb92dca050d54c8065ba",
+    "mtime": 1785838098.6205914,
+    "ast_hash": "d52c7a2447b2c4bfd9fdb944c0260c51",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ascendantattributes/AscendantAttributesClient.java": {
@@ -155,8 +155,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785837392.880978,
-    "ast_hash": "b055e4fe200b1114ff90f0ef1e20196f",
+    "mtime": 1785838490.0539086,
+    "ast_hash": "9b55eb1e3a71358203d424c7822b47c4",
     "semantic_hash": ""
   },
   "README.md": {
@@ -170,8 +170,8 @@
     "semantic_hash": ""
   },
   "docs/ROADMAP_ASCENDANT_ATTRIBUTES.md": {
-    "mtime": 1785837412.0422287,
-    "ast_hash": "4c86c920c7b6f819cdbe20b815d1a180",
+    "mtime": 1785838511.5404353,
+    "ast_hash": "f5fbd772c494e12f7d3a8093b25fd1ff",
     "semantic_hash": ""
   },
   "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md": {
@@ -522,6 +522,16 @@
   "src/main/resources/ascendant_attributes.mixins.json": {
     "mtime": 1785837038.4495735,
     "ast_hash": "630e153a1af3e2b862f08929215e1ae0",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java": {
+    "mtime": 1785838083.1462505,
+    "ast_hash": "136155d7567375655f72207acf2a53b1",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java": {
+    "mtime": 1785838092.0914762,
+    "ast_hash": "9a26ed8ae3a08aee3fad64fd2854f15c",
     "semantic_hash": ""
   }
 }

@@ -93,7 +93,7 @@
       "label": "AscendantAttributes",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L53",
+      "source_location": "L54",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "community": 0,
@@ -133,7 +133,7 @@
       "label": ".AscendantAttributes()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L62",
+      "source_location": "L63",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_ascendantattributes",
       "community": 0,
@@ -153,10 +153,10 @@
       "label": ".init()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L76",
+      "source_location": "L77",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_init",
-      "community": 0,
+      "community": 32,
       "norm_label": ".init()"
     },
     {
@@ -166,7 +166,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "fmlcommonsetupevent",
-      "community": 0,
+      "community": 32,
       "norm_label": "fmlcommonsetupevent"
     },
     {
@@ -176,14 +176,14 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_subscribeevent",
-      "community": 0,
+      "community": 32,
       "norm_label": "subscribeevent"
     },
     {
       "label": ".applyAttribs()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L85",
+      "source_location": "L86",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_applyattribs",
       "community": 0,
@@ -203,7 +203,7 @@
       "label": ".addAll()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L111",
+      "source_location": "L112",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_addall",
       "community": 0,
@@ -263,20 +263,20 @@
       "label": ".setup()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L118",
+      "source_location": "L119",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_setup",
-      "community": 0,
+      "community": 32,
       "norm_label": ".setup()"
     },
     {
       "label": ".data()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L131",
+      "source_location": "L132",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_data",
-      "community": 0,
+      "community": 32,
       "norm_label": ".data()"
     },
     {
@@ -286,24 +286,24 @@
       "source_location": "",
       "_origin": "ast",
       "id": "client",
-      "community": 0,
+      "community": 32,
       "norm_label": "client"
     },
     {
       "label": ".getConfigFile()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L136",
+      "source_location": "L137",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_getconfigfile",
-      "community": 0,
+      "community": 13,
       "norm_label": ".getconfigfile()"
     },
     {
       "label": ".getLocalAtkStrength()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L140",
+      "source_location": "L141",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_getlocalatkstrength",
       "community": 0,
@@ -323,10 +323,10 @@
       "label": ".getTooltipFlag()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L144",
+      "source_location": "L145",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_gettooltipflag",
-      "community": 0,
+      "community": 40,
       "norm_label": ".gettooltipflag()"
     },
     {
@@ -336,17 +336,17 @@
       "source_location": "",
       "_origin": "ast",
       "id": "tooltipflag",
-      "community": 0,
+      "community": 40,
       "norm_label": "tooltipflag"
     },
     {
       "label": ".loc()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L148",
+      "source_location": "L149",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_loc",
-      "community": 0,
+      "community": 29,
       "norm_label": ".loc()"
     },
     {
@@ -356,14 +356,14 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_identifier",
-      "community": 0,
+      "community": 29,
       "norm_label": "identifier"
     },
     {
       "label": ".lang()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L152",
+      "source_location": "L153",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_lang",
       "community": 0,
@@ -383,7 +383,7 @@
       "label": ".langKey()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L156",
+      "source_location": "L157",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_langkey",
       "community": 0,
@@ -393,7 +393,7 @@
       "label": ".trackAttackStrength()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L160",
+      "source_location": "L161",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_trackattackstrength",
       "community": 0,
@@ -413,7 +413,7 @@
       "label": ".pruneCooldowns()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L165",
+      "source_location": "L166",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_prunecooldowns",
       "community": 0,
@@ -433,20 +433,20 @@
       "label": "ClientAccess",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L173",
+      "source_location": "L174",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_clientaccess",
-      "community": 0,
+      "community": 40,
       "norm_label": "clientaccess"
     },
     {
       "label": ".getTooltipFlag()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L174",
+      "source_location": "L175",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_clientaccess_gettooltipflag",
-      "community": 0,
+      "community": 40,
       "norm_label": ".gettooltipflag()"
     },
     {
@@ -826,7 +826,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_java_holder",
-      "community": 31,
+      "community": 1,
       "norm_label": "holder"
     },
     {
@@ -856,7 +856,7 @@
       "source_location": "L126",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_builtinregs",
-      "community": 33,
+      "community": 1,
       "norm_label": "builtinregs"
     },
     {
@@ -866,7 +866,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_java_registry",
-      "community": 33,
+      "community": 1,
       "norm_label": "registry"
     },
     {
@@ -876,7 +876,7 @@
       "source_location": "L130",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_builtinregs_bootstrap",
-      "community": 33,
+      "community": 1,
       "norm_label": ".bootstrap()"
     },
     {
@@ -966,7 +966,7 @@
       "source_location": "L160",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslotgroups",
-      "community": 29,
+      "community": 1,
       "norm_label": "equipmentslotgroups"
     },
     {
@@ -976,7 +976,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "experimental",
-      "community": 31,
+      "community": 1,
       "norm_label": "experimental"
     },
     {
@@ -986,7 +986,7 @@
       "source_location": "L193",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslotgroups_id",
-      "community": 0,
+      "community": 1,
       "norm_label": ".id()"
     },
     {
@@ -996,7 +996,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_java_identifier",
-      "community": 0,
+      "community": 1,
       "norm_label": "identifier"
     },
     {
@@ -1006,7 +1006,7 @@
       "source_location": "L197",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslotgroups_group",
-      "community": 29,
+      "community": 1,
       "norm_label": ".group()"
     },
     {
@@ -1016,7 +1016,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_java_holderset",
-      "community": 29,
+      "community": 1,
       "norm_label": "holderset"
     },
     {
@@ -1026,7 +1026,7 @@
       "source_location": "L201",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslotgroups_bootstrap",
-      "community": 29,
+      "community": 1,
       "norm_label": ".bootstrap()"
     },
     {
@@ -1036,7 +1036,7 @@
       "source_location": "L205",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslots",
-      "community": 31,
+      "community": 1,
       "norm_label": "equipmentslots"
     },
     {
@@ -1046,7 +1046,7 @@
       "source_location": "L216",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslots_slot",
-      "community": 31,
+      "community": 1,
       "norm_label": ".slot()"
     },
     {
@@ -1056,7 +1056,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_java_equipmentslot",
-      "community": 31,
+      "community": 1,
       "norm_label": "equipmentslot"
     },
     {
@@ -1066,7 +1066,7 @@
       "source_location": "L221",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslots_bootstrap",
-      "community": 31,
+      "community": 1,
       "norm_label": ".bootstrap()"
     },
     {
@@ -1076,7 +1076,7 @@
       "source_location": "L225",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_mobeffects",
-      "community": 31,
+      "community": 1,
       "norm_label": "mobeffects"
     },
     {
@@ -1086,7 +1086,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_java_mobeffect",
-      "community": 31,
+      "community": 1,
       "norm_label": "mobeffect"
     },
     {
@@ -1096,7 +1096,7 @@
       "source_location": "L234",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_mobeffects_bootstrap",
-      "community": 31,
+      "community": 1,
       "norm_label": ".bootstrap()"
     },
     {
@@ -1746,7 +1746,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "anchorpoint",
-      "community": 34,
+      "community": 13,
       "norm_label": "anchorpoint"
     },
     {
@@ -2966,7 +2966,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand",
-      "community": 0,
+      "community": 33,
       "norm_label": "bonusmodifiercommand.java"
     },
     {
@@ -2976,7 +2976,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand_bonusmodifiercommand",
-      "community": 0,
+      "community": 33,
       "norm_label": "bonusmodifiercommand"
     },
     {
@@ -2986,7 +2986,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "suggestionprovider",
-      "community": 0,
+      "community": 33,
       "norm_label": "suggestionprovider"
     },
     {
@@ -2996,7 +2996,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand_java_commandsourcestack",
-      "community": 0,
+      "community": 33,
       "norm_label": "commandsourcestack"
     },
     {
@@ -3006,7 +3006,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand_bonusmodifiercommand_register",
-      "community": 0,
+      "community": 33,
       "norm_label": ".register()"
     },
     {
@@ -3016,8 +3016,178 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand_java_literalargumentbuilder",
-      "community": 0,
+      "community": 33,
       "norm_label": "literalargumentbuilder"
+    },
+    {
+      "label": "CurioEquipmentSlot.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot",
+      "community": 30,
+      "norm_label": "curioequipmentslot.java"
+    },
+    {
+      "label": "CurioEquipmentSlot",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curioequipmentslot",
+      "community": 30,
+      "norm_label": "curioequipmentslot"
+    },
+    {
+      "label": ".getStacks()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curioequipmentslot_getstacks",
+      "community": 30,
+      "norm_label": ".getstacks()"
+    },
+    {
+      "label": "LivingEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_livingentity",
+      "community": 30,
+      "norm_label": "livingentity"
+    },
+    {
+      "label": "ItemStack",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_itemstack",
+      "community": 30,
+      "norm_label": "itemstack"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_override",
+      "community": 30,
+      "norm_label": "override"
+    },
+    {
+      "label": "CurioStackIterator",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curiostackiterator",
+      "community": 30,
+      "norm_label": "curiostackiterator"
+    },
+    {
+      "label": "IDynamicStackHandler",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "idynamicstackhandler",
+      "community": 30,
+      "norm_label": "idynamicstackhandler"
+    },
+    {
+      "label": ".iterator()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curiostackiterator_iterator",
+      "community": 30,
+      "norm_label": ".iterator()"
+    },
+    {
+      "label": "CuriosCompat.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
+      "community": 8,
+      "norm_label": "curioscompat.java"
+    },
+    {
+      "label": "CuriosCompat",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat",
+      "community": 8,
+      "norm_label": "curioscompat"
+    },
+    {
+      "label": "Holder",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_java_holder",
+      "community": 8,
+      "norm_label": "holder"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_init",
+      "community": 22,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".getSlotForCurio()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_getslotforcurio",
+      "community": 8,
+      "norm_label": ".getslotforcurio()"
+    },
+    {
+      "label": "Nullable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_java_nullable",
+      "community": 8,
+      "norm_label": "nullable"
+    },
+    {
+      "label": ".stackAttrModifierCompat()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_stackattrmodifiercompat",
+      "community": 8,
+      "norm_label": ".stackattrmodifiercompat()"
+    },
+    {
+      "label": "CurioAttributeModifierEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "curioattributemodifierevent",
+      "community": 8,
+      "norm_label": "curioattributemodifierevent"
     },
     {
       "label": "MixProvider.java",
@@ -3596,7 +3766,7 @@
       "source_location": "L328",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_impl_attributeevents_attributeevents_stackattrmodifiercompat",
-      "community": 25,
+      "community": 8,
       "norm_label": ".stackattrmodifiercompat()"
     },
     {
@@ -4606,7 +4776,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "mobeffect",
-      "community": 0,
+      "community": 29,
       "norm_label": "mobeffect"
     },
     {
@@ -4756,7 +4926,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_flyingeffect",
-      "community": 0,
+      "community": 31,
       "norm_label": "flyingeffect.java"
     },
     {
@@ -4766,7 +4936,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_flyingeffect_flyingeffect",
-      "community": 0,
+      "community": 31,
       "norm_label": "flyingeffect"
     },
     {
@@ -4776,7 +4946,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_flyingeffect_flyingeffect_flyingeffect",
-      "community": 0,
+      "community": 31,
       "norm_label": ".flyingeffect()"
     },
     {
@@ -4786,7 +4956,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_flyingeffect_flyingeffect_addattributemodifiers",
-      "community": 0,
+      "community": 31,
       "norm_label": ".addattributemodifiers()"
     },
     {
@@ -4796,7 +4966,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "attributemap",
-      "community": 0,
+      "community": 31,
       "norm_label": "attributemap"
     },
     {
@@ -4806,7 +4976,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_flyingeffect_java_override",
-      "community": 0,
+      "community": 31,
       "norm_label": "override"
     },
     {
@@ -4816,7 +4986,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_grievouseffect",
-      "community": 0,
+      "community": 29,
       "norm_label": "grievouseffect.java"
     },
     {
@@ -4826,7 +4996,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_grievouseffect_grievouseffect",
-      "community": 0,
+      "community": 29,
       "norm_label": "grievouseffect"
     },
     {
@@ -4836,7 +5006,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_grievouseffect_grievouseffect_grievouseffect",
-      "community": 0,
+      "community": 29,
       "norm_label": ".grievouseffect()"
     },
     {
@@ -4846,7 +5016,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_knowledgeeffect",
-      "community": 0,
+      "community": 29,
       "norm_label": "knowledgeeffect.java"
     },
     {
@@ -4856,7 +5026,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_knowledgeeffect_knowledgeeffect",
-      "community": 0,
+      "community": 29,
       "norm_label": "knowledgeeffect"
     },
     {
@@ -4866,7 +5036,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_knowledgeeffect_knowledgeeffect_knowledgeeffect",
-      "community": 0,
+      "community": 29,
       "norm_label": ".knowledgeeffect()"
     },
     {
@@ -4876,7 +5046,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_sunderingeffect",
-      "community": 0,
+      "community": 29,
       "norm_label": "sunderingeffect.java"
     },
     {
@@ -4886,7 +5056,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_sunderingeffect_sunderingeffect",
-      "community": 0,
+      "community": 29,
       "norm_label": "sunderingeffect"
     },
     {
@@ -4896,7 +5066,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_sunderingeffect_sunderingeffect_sunderingeffect",
-      "community": 0,
+      "community": 29,
       "norm_label": ".sunderingeffect()"
     },
     {
@@ -4906,7 +5076,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_vitalityeffect",
-      "community": 0,
+      "community": 29,
       "norm_label": "vitalityeffect.java"
     },
     {
@@ -4916,7 +5086,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_vitalityeffect_vitalityeffect",
-      "community": 0,
+      "community": 29,
       "norm_label": "vitalityeffect"
     },
     {
@@ -4926,7 +5096,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_mob_effect_vitalityeffect_vitalityeffect_vitalityeffect",
-      "community": 0,
+      "community": 29,
       "norm_label": ".vitalityeffect()"
     },
     {
@@ -4936,7 +5106,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityequipmentslot",
-      "community": 33,
+      "community": 1,
       "norm_label": "entityequipmentslot.java"
     },
     {
@@ -4946,7 +5116,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityequipmentslot_entityequipmentslot",
-      "community": 33,
+      "community": 8,
       "norm_label": "entityequipmentslot"
     },
     {
@@ -4956,7 +5126,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityequipmentslot_entityequipmentslot_getstacks",
-      "community": 33,
+      "community": 1,
       "norm_label": ".getstacks()"
     },
     {
@@ -4966,7 +5136,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityequipmentslot_java_livingentity",
-      "community": 33,
+      "community": 1,
       "norm_label": "livingentity"
     },
     {
@@ -4976,7 +5146,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityequipmentslot_java_itemstack",
-      "community": 33,
+      "community": 1,
       "norm_label": "itemstack"
     },
     {
@@ -4986,7 +5156,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup",
-      "community": 29,
+      "community": 8,
       "norm_label": "entityslotgroup.java"
     },
     {
@@ -4996,7 +5166,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_entityslotgroup",
-      "community": 29,
+      "community": 8,
       "norm_label": "entityslotgroup"
     },
     {
@@ -5006,7 +5176,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_holder",
-      "community": 29,
+      "community": 8,
       "norm_label": "holder"
     },
     {
@@ -5016,7 +5186,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_identifier",
-      "community": 29,
+      "community": 8,
       "norm_label": "identifier"
     },
     {
@@ -5026,7 +5196,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_holderset",
-      "community": 29,
+      "community": 8,
       "norm_label": "holderset"
     },
     {
@@ -5036,7 +5206,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_codec",
-      "community": 29,
+      "community": 8,
       "norm_label": "codec"
     },
     {
@@ -5046,7 +5216,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_streamcodec",
-      "community": 29,
+      "community": 8,
       "norm_label": "streamcodec"
     },
     {
@@ -5056,7 +5226,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_registryfriendlybytebuf",
-      "community": 29,
+      "community": 8,
       "norm_label": "registryfriendlybytebuf"
     },
     {
@@ -5066,7 +5236,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_entityslotgroup_test",
-      "community": 29,
+      "community": 8,
       "norm_label": ".test()"
     },
     {
@@ -5076,7 +5246,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_override",
-      "community": 29,
+      "community": 8,
       "norm_label": "override"
     },
     {
@@ -5086,7 +5256,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat",
-      "community": 32,
+      "community": 8,
       "norm_label": "equipmentslotcompat.java"
     },
     {
@@ -5096,7 +5266,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat_equipmentslotcompat",
-      "community": 32,
+      "community": 8,
       "norm_label": "equipmentslotcompat"
     },
     {
@@ -5106,7 +5276,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "bimap",
-      "community": 32,
+      "community": 8,
       "norm_label": "bimap"
     },
     {
@@ -5116,7 +5286,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat_java_equipmentslot",
-      "community": 32,
+      "community": 8,
       "norm_label": "equipmentslot"
     },
     {
@@ -5126,7 +5296,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat_java_holder",
-      "community": 32,
+      "community": 8,
       "norm_label": "holder"
     },
     {
@@ -5136,7 +5306,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "equipmentslotgroup",
-      "community": 32,
+      "community": 8,
       "norm_label": "equipmentslotgroup"
     },
     {
@@ -5146,7 +5316,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat_equipmentslotcompat_tovanilla",
-      "community": 32,
+      "community": 8,
       "norm_label": ".tovanilla()"
     },
     {
@@ -5156,7 +5326,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat_java_nullable",
-      "community": 32,
+      "community": 8,
       "norm_label": "nullable"
     },
     {
@@ -5166,7 +5336,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat_equipmentslotcompat_fromvanilla",
-      "community": 32,
+      "community": 8,
       "norm_label": ".fromvanilla()"
     },
     {
@@ -5586,7 +5756,7 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_stackattributemodifiersevent_stackattributemodifiersevent_haschanges",
-      "community": 25,
+      "community": 8,
       "norm_label": ".haschanges()"
     },
     {
@@ -5716,7 +5886,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot",
-      "community": 30,
+      "community": 1,
       "norm_label": "vanillaequipmentslot.java"
     },
     {
@@ -5726,7 +5896,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot_vanillaequipmentslot",
-      "community": 30,
+      "community": 1,
       "norm_label": "vanillaequipmentslot"
     },
     {
@@ -5736,7 +5906,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot_java_equipmentslot",
-      "community": 30,
+      "community": 1,
       "norm_label": "equipmentslot"
     },
     {
@@ -5746,7 +5916,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot_vanillaequipmentslot_getstacks",
-      "community": 30,
+      "community": 1,
       "norm_label": ".getstacks()"
     },
     {
@@ -5756,7 +5926,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot_java_livingentity",
-      "community": 30,
+      "community": 1,
       "norm_label": "livingentity"
     },
     {
@@ -5766,7 +5936,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot_java_itemstack",
-      "community": 30,
+      "community": 1,
       "norm_label": "itemstack"
     },
     {
@@ -5776,7 +5946,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot_java_override",
-      "community": 30,
+      "community": 1,
       "norm_label": "override"
     },
     {
@@ -5786,7 +5956,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_package_info",
-      "community": 31,
+      "community": 1,
       "norm_label": "package-info.java"
     },
     {
@@ -7288,7 +7458,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L50",
+      "source_location": "L51",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "attackentityevent",
@@ -7299,7 +7469,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_impl_attributeevents",
@@ -7310,7 +7480,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L48",
+      "source_location": "L49",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "client",
@@ -7321,7 +7491,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L14",
+      "source_location": "L15",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_payload_configpayload",
@@ -7332,7 +7502,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L15",
+      "source_location": "L16",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_payload_critparticlepayload",
@@ -7343,7 +7513,18 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L18",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
+      "source_location": "L19",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "deferredhelper",
@@ -7354,7 +7535,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L49",
+      "source_location": "L50",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "entityattributemodificationevent",
@@ -7365,7 +7546,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L43",
+      "source_location": "L44",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "fmlcommonsetupevent",
@@ -7387,7 +7568,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_data_mixprovider",
@@ -7398,7 +7579,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L26",
+      "source_location": "L27",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "mobeffect",
@@ -7409,7 +7590,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L51",
+      "source_location": "L52",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "playerloggedinevent",
@@ -7430,7 +7611,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L53",
+      "source_location": "L54",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
@@ -7440,7 +7621,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L173",
+      "source_location": "L174",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_clientaccess",
@@ -7451,7 +7632,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L32",
+      "source_location": "L33",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_attribute",
@@ -7462,7 +7643,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L28",
+      "source_location": "L29",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_entity",
@@ -7473,7 +7654,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L29",
+      "source_location": "L30",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_entitytype",
@@ -7484,7 +7665,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L21",
+      "source_location": "L22",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_holder",
@@ -7495,7 +7676,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_identifier",
@@ -7506,7 +7687,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L39",
+      "source_location": "L40",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_ieventbus",
@@ -7517,7 +7698,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L31",
+      "source_location": "L32",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_livingentity",
@@ -7528,7 +7709,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L42",
+      "source_location": "L43",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_mod",
@@ -7539,7 +7720,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L24",
+      "source_location": "L25",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_mutablecomponent",
@@ -7550,7 +7731,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L40",
+      "source_location": "L41",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_java_subscribeevent",
@@ -7561,7 +7742,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L38",
+      "source_location": "L39",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes",
       "target": "tooltipflag",
@@ -7670,7 +7851,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L57",
+      "source_location": "L58",
       "weight": 1.0,
       "context": "field",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
@@ -7681,7 +7862,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L56",
+      "source_location": "L57",
       "weight": 1.0,
       "context": "field",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
@@ -7692,7 +7873,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L111",
+      "source_location": "L112",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_addall",
@@ -7702,7 +7883,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L85",
+      "source_location": "L86",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_applyattribs",
@@ -7712,7 +7893,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L62",
+      "source_location": "L63",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_ascendantattributes",
@@ -7722,7 +7903,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L131",
+      "source_location": "L132",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_data",
@@ -7732,7 +7913,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L136",
+      "source_location": "L137",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_getconfigfile",
@@ -7742,7 +7923,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L140",
+      "source_location": "L141",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_getlocalatkstrength",
@@ -7752,7 +7933,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L144",
+      "source_location": "L145",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_gettooltipflag",
@@ -7762,7 +7943,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L76",
+      "source_location": "L77",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_init",
@@ -7772,7 +7953,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L152",
+      "source_location": "L153",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_lang",
@@ -7782,7 +7963,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L156",
+      "source_location": "L157",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_langkey",
@@ -7792,7 +7973,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L148",
+      "source_location": "L149",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_loc",
@@ -7802,7 +7983,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L165",
+      "source_location": "L166",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_prunecooldowns",
@@ -7812,7 +7993,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L118",
+      "source_location": "L119",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_setup",
@@ -7822,7 +8003,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L160",
+      "source_location": "L161",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_trackattackstrength",
@@ -7832,7 +8013,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L53",
+      "source_location": "L54",
       "weight": 1.0,
       "context": "attribute",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes",
@@ -7845,7 +8026,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L72",
+      "source_location": "L73",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_ascendantattributesobjects_bootstrap"
@@ -7854,7 +8035,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L62",
+      "source_location": "L63",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_ascendantattributes",
@@ -7867,7 +8048,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L68",
+      "source_location": "L69",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantattributesclienthandler"
@@ -7878,7 +8059,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L64",
+      "source_location": "L65",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_ascendantattributes",
       "target": "src_main_java_com_skd_ascendantattributes_impl_attributeevents_attributeevents"
@@ -7887,7 +8068,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L76",
+      "source_location": "L77",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_init",
@@ -7899,7 +8080,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L80",
+      "source_location": "L81",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_init",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_loc",
@@ -7909,7 +8090,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L76",
+      "source_location": "L77",
       "weight": 1.0,
       "context": "attribute",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_init",
@@ -7922,7 +8103,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L79",
+      "source_location": "L80",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_init",
       "target": "src_main_java_com_skd_ascendantattributes_attributesconfig_attributesconfig_load"
@@ -7931,7 +8112,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L118",
+      "source_location": "L119",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_setup",
@@ -7942,7 +8123,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L85",
+      "source_location": "L86",
       "weight": 1.0,
       "context": "attribute",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_applyattribs",
@@ -7953,7 +8134,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L131",
+      "source_location": "L132",
       "weight": 1.0,
       "context": "attribute",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_data",
@@ -7964,7 +8145,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L118",
+      "source_location": "L119",
       "weight": 1.0,
       "context": "attribute",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_setup",
@@ -7975,7 +8156,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L85",
+      "source_location": "L86",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_applyattribs",
@@ -7987,7 +8168,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L87",
+      "source_location": "L88",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_applyattribs",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_addall",
@@ -7997,7 +8178,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L111",
+      "source_location": "L112",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_addall",
@@ -8008,7 +8189,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L111",
+      "source_location": "L112",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_addall",
@@ -8019,7 +8200,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L111",
+      "source_location": "L112",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_addall",
@@ -8030,7 +8211,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L111",
+      "source_location": "L112",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_addall",
@@ -8041,7 +8222,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L111",
+      "source_location": "L112",
       "weight": 1.0,
       "context": "attribute",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_addall",
@@ -8052,7 +8233,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L131",
+      "source_location": "L132",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_data",
@@ -8074,7 +8255,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L140",
+      "source_location": "L141",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_getlocalatkstrength",
@@ -8096,7 +8277,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L144",
+      "source_location": "L145",
       "weight": 1.0,
       "context": "return_type",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_gettooltipflag",
@@ -8129,7 +8310,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L174",
+      "source_location": "L175",
       "weight": 1.0,
       "context": "return_type",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_clientaccess_gettooltipflag",
@@ -8151,7 +8332,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L148",
+      "source_location": "L149",
       "weight": 1.0,
       "context": "return_type",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_loc",
@@ -8262,7 +8443,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L153",
+      "source_location": "L154",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_lang",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_langkey",
@@ -8272,7 +8453,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L152",
+      "source_location": "L153",
       "weight": 1.0,
       "context": "return_type",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_lang",
@@ -8305,7 +8486,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L160",
+      "source_location": "L161",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_trackattackstrength",
@@ -8316,7 +8497,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L165",
+      "source_location": "L166",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_prunecooldowns",
@@ -8329,7 +8510,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L168",
+      "source_location": "L169",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_prunecooldowns",
       "target": "src_main_java_com_skd_ascendantattributes_api_cooldowntracker_cooldowntracker_prune"
@@ -8338,7 +8519,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java",
-      "source_location": "L174",
+      "source_location": "L175",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_ascendantattributes_clientaccess",
       "target": "src_main_java_com_skd_ascendantattributes_ascendantattributes_clientaccess_gettooltipflag",
@@ -9610,6 +9791,17 @@
       "source_location": "L11",
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand",
+      "target": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
       "target": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects",
       "confidence_score": 1.0
     },
@@ -13792,6 +13984,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_client_modifiersource",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/client/ModifierSource.java",
@@ -14272,6 +14475,39 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_client_modifiersourcetype_modifiersourcetype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_init",
+      "target": "src_main_java_com_skd_ascendantattributes_client_modifiersourcetype_modifiersourcetype"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_init",
+      "target": "src_main_java_com_skd_ascendantattributes_client_modifiersourcetype_modifiersourcetype_register"
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/ascendantattributes/client/ModifierSourceType.java",
@@ -14477,6 +14713,459 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_ascendantattributes_impl_attributeevents_attributeevents_cmds",
       "target": "src_main_java_com_skd_ascendantattributes_commands_bonusmodifiercommand_bonusmodifiercommand_register"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot",
+      "target": "idynamicstackhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curioequipmentslot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curiostackiterator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_livingentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_entityequipmentslot_entityequipmentslot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curioequipmentslot",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curioequipmentslot_getstacks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curioequipmentslot",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_entityequipmentslot_entityequipmentslot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curioequipmentslot_getstacks",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curiostackiterator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curioequipmentslot_getstacks",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curioequipmentslot_getstacks",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_livingentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curioequipmentslot_getstacks",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curiostackiterator",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curiostackiterator_iterator",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curiostackiterator_iterator",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curiostackiterator",
+      "target": "idynamicstackhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curiostackiterator",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curiostackiterator_iterator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
+      "target": "idynamicstackhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
+      "target": "curioattributemodifierevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_java_holder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_java_nullable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_entityequipmentslot_entityequipmentslot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_stackattributemodifiersevent_stackattributemodifiersevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_stackattributemodifiers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_getslotforcurio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_stackattrmodifiercompat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_java_holder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_entityequipmentslot_entityequipmentslot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L77",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_getslotforcurio",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_java_holder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L77",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_getslotforcurio",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_java_nullable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L77",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_getslotforcurio",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_entityequipmentslot_entityequipmentslot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_stackattrmodifiercompat",
+      "target": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_getslotforcurio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L90",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_stackattrmodifiercompat",
+      "target": "curioattributemodifierevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_stackattrmodifiercompat",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_stackattributemodifiers_builder_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_stackattrmodifiercompat",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_stackattributemodifiers_builder_build"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_stackattrmodifiercompat",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_stackattributemodifiers_stackattributemodifiers_builder"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_stackattrmodifiercompat",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_stackattributemodifiersevent_stackattributemodifiersevent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_stackattrmodifiercompat",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_stackattributemodifiersevent_stackattributemodifiersevent_build"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_stackattrmodifiercompat",
+      "target": "src_main_java_com_skd_ascendantattributes_modifiers_stackattributemodifiersevent_stackattributemodifiersevent_haschanges"
     },
     {
       "relation": "imports",
@@ -23149,5 +23838,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "dd49994ffa106c3cf01051ea16a94e62d7e5c3e5"
+  "built_at_commit": "b9c01f6eec1188a66109156607dcf6cb84115e10"
 }
