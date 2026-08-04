@@ -15,8 +15,8 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java": {
-    "mtime": 1785833684.3978703,
-    "ast_hash": "c4d36279cafe8815b9322af8957cd77e",
+    "mtime": 1785834682.5587597,
+    "ast_hash": "b496fbf82bef245f17e18825c42b0d5d",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ascendantattributes/AscendantAttributesClient.java": {
@@ -155,8 +155,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785834287.4322875,
-    "ast_hash": "f4063f6f7a5b86922148454698551064",
+    "mtime": 1785835074.8987083,
+    "ast_hash": "ae469e1411901383683acf29778fce7e",
     "semantic_hash": ""
   },
   "README.md": {
@@ -170,8 +170,8 @@
     "semantic_hash": ""
   },
   "docs/ROADMAP_ASCENDANT_ATTRIBUTES.md": {
-    "mtime": 1785834268.8481076,
-    "ast_hash": "b8a9e12503baffce9ccf118ad156b155",
+    "mtime": 1785835095.9929338,
+    "ast_hash": "eca1e7361873a3ec3839e4a5dafd0585",
     "semantic_hash": ""
   },
   "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md": {
@@ -227,6 +227,231 @@
   "src/main/java/com/skd/ascendantattributes/commands/BonusModifierCommand.java": {
     "mtime": 1785834161.9474409,
     "ast_hash": "9c7e0ae17007fa3e8719a2fd89202823",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/absorption_from_awkward.json": {
+    "mtime": 1785834766.2582138,
+    "ast_hash": "4a91edda21ad563c69ab8bf677792f17",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/extra_long_flying_from_long_flying.json": {
+    "mtime": 1785834766.2631967,
+    "ast_hash": "fd2a3613b1226ce2e4b2e238a4d36b8c",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/fatigue_from_haste.json": {
+    "mtime": 1785834766.2592106,
+    "ast_hash": "011fbc6883963a61461dd8dd828d5563",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/flying_from_levitation.json": {
+    "mtime": 1785834766.2631967,
+    "ast_hash": "4325dd00755c18a6442394641af6ef0e",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/grievous_from_vitality.json": {
+    "mtime": 1785834766.2621999,
+    "ast_hash": "6776f22b92754b259160991475104668",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/haste_from_awkward.json": {
+    "mtime": 1785834766.2592106,
+    "ast_hash": "e335315af68a743b6cedaa37ccb3bf84",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/knowledge_from_awkward.json": {
+    "mtime": 1785834766.2602067,
+    "ast_hash": "792db3220a9875615ae206a7fe46899d",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/levitation_from_slow_falling.json": {
+    "mtime": 1785834766.2621999,
+    "ast_hash": "a4e59fae05baaa3bd21d5efbe2fcece9",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/long_absorption_from_absorption.json": {
+    "mtime": 1785834766.2582138,
+    "ast_hash": "51cffcd3798caf3a4d33003dd7091166",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/long_fatigue_from_fatigue.json": {
+    "mtime": 1785834766.2602067,
+    "ast_hash": "30b965825a6a9e194cda3def892590ac",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/long_fatigue_from_long_haste.json": {
+    "mtime": 1785834766.2592106,
+    "ast_hash": "655e27bba8ec40269166124e294e989a",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/long_flying_from_flying.json": {
+    "mtime": 1785834766.2631967,
+    "ast_hash": "a59e86f0020805fcdfd867d6145bfd4d",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/long_grievous_from_grievous.json": {
+    "mtime": 1785834766.2621999,
+    "ast_hash": "b06948952df240f504a1f1c9a48046f5",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/long_grievous_from_long_vitality.json": {
+    "mtime": 1785834766.2621999,
+    "ast_hash": "3e45c703841fb2e2bd02c1930e6e3098",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/long_haste_from_haste.json": {
+    "mtime": 1785834766.2592106,
+    "ast_hash": "5f22e7d6fec7fa482329d895adcc2ed3",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/long_knowledge_from_knowledge.json": {
+    "mtime": 1785834766.2612033,
+    "ast_hash": "8db132fe36a90f25427dcfbfa2b7f6f8",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/long_resistance_from_resistance.json": {
+    "mtime": 1785834766.2582138,
+    "ast_hash": "64957634f0e085c1d0217d6d1e645bc8",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/long_sundering_from_long_resistance.json": {
+    "mtime": 1785834766.2582138,
+    "ast_hash": "de83609acab23533d8cce4489529495d",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/long_sundering_from_sundering.json": {
+    "mtime": 1785834766.2572165,
+    "ast_hash": "b4dab2833b910f9764e23160938511ed",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/long_vitality_from_vitality.json": {
+    "mtime": 1785834766.2612033,
+    "ast_hash": "3d1b6994a5e593e9144762bdec1f2e54",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/long_wither_from_wither.json": {
+    "mtime": 1785834766.2612033,
+    "ast_hash": "eb48f51d05327a361707eaab8cfdf559",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/resistance_from_awkward.json": {
+    "mtime": 1785834766.2582138,
+    "ast_hash": "7964e38759d51d4801b91aed36270b6f",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/strong_absorption_from_absorption.json": {
+    "mtime": 1785834766.2572165,
+    "ast_hash": "1b027aa881a1db8a222f36a098ff91e4",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/strong_fatigue_from_fatigue.json": {
+    "mtime": 1785834766.2602067,
+    "ast_hash": "2447bdd020c17d4403d0ea3ae2566c25",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/strong_fatigue_from_strong_haste.json": {
+    "mtime": 1785834766.2602067,
+    "ast_hash": "db6125cf73a14a7933f60098a8e08817",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/strong_grievous_from_grievous.json": {
+    "mtime": 1785834766.2631967,
+    "ast_hash": "939bf87508c217614996a096d47ac726",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/strong_grievous_from_strong_vitality.json": {
+    "mtime": 1785834766.2621999,
+    "ast_hash": "c9a2547d8b82a6bf6c71acba0c0c098c",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/strong_haste_from_haste.json": {
+    "mtime": 1785834766.2592106,
+    "ast_hash": "18dcb152dbbefe83e699f04229864f5b",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/strong_knowledge_from_knowledge.json": {
+    "mtime": 1785834766.2602067,
+    "ast_hash": "61f1d94dac91e8aed97dc68ee332fc82",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/strong_resistance_from_resistance.json": {
+    "mtime": 1785834766.2572165,
+    "ast_hash": "fae9f438048e85c00b689e7476b710d8",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/strong_sundering_from_strong_resistance.json": {
+    "mtime": 1785834766.2582138,
+    "ast_hash": "d2b71bb1048d2b60e5bd9bfc47c66528",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/strong_sundering_from_sundering.json": {
+    "mtime": 1785834766.2592106,
+    "ast_hash": "22954437fb79d344804f9714a7176ad6",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/strong_vitality_from_vitality.json": {
+    "mtime": 1785834766.2621999,
+    "ast_hash": "37d2c9ee240c476d9a322f1c6061e003",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/strong_wither_from_wither.json": {
+    "mtime": 1785834766.2602067,
+    "ast_hash": "03d196af6e6b01db577a622e31ab0b04",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/sundering_from_resistance.json": {
+    "mtime": 1785834766.2592106,
+    "ast_hash": "3aabab24b4123365aff536195fa1063b",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/vitality_from_awkward.json": {
+    "mtime": 1785834766.2612033,
+    "ast_hash": "7d0cfbbd3336e09f1465521919ead205",
+    "semantic_hash": ""
+  },
+  "src/generated/resources/data/ascendant_attributes/common_toolkit/brewing_mixes/wither_from_awkward.json": {
+    "mtime": 1785834766.2602067,
+    "ast_hash": "899cc28bbb237c1d161d2b77289a1ab2",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/data/MixProvider.java": {
+    "mtime": 1785834675.1742022,
+    "ast_hash": "38469bb2bd5b70fb40baee8a697b8525",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/damage_type/bleeding.json": {
+    "mtime": 1785834686.1818726,
+    "ast_hash": "85f35cd0fb71dc1d85f4e38b256facf2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/damage_type/cold_damage.json": {
+    "mtime": 1785834686.7414503,
+    "ast_hash": "899e8af5baed3f93eaac0a36e3a0a7c5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/damage_type/current_hp_damage.json": {
+    "mtime": 1785834687.2893512,
+    "ast_hash": "5064272e65a0fc730f8b8155a6cf0eac",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/damage_type/detonation.json": {
+    "mtime": 1785834687.7891273,
+    "ast_hash": "9f500cffd14e8fd52dd9de9081eae10f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/damage_type/fire_damage.json": {
+    "mtime": 1785834688.3254495,
+    "ast_hash": "e464f12d2a23ada7bc2206a64da4620b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/tags/damage_type/cannot_critically_strike.json": {
+    "mtime": 1785834689.6456666,
+    "ast_hash": "579e5cb396a925427acb83b57a2c86f9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/tags/damage_type/is_non_physical.json": {
+    "mtime": 1785834689.0606606,
+    "ast_hash": "6cdb40c9bbc25b4c5b6ad777b4322d90",
     "semantic_hash": ""
   }
 }

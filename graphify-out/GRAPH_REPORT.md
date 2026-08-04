@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-04)
 
 ## Corpus Check
-- 44 files · ~19,464 words
+- 89 files · ~20,294 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 482 nodes · 996 edges · 30 communities (27 shown, 3 thin omitted)
+- 495 nodes · 1020 edges · 31 communities (28 shown, 3 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 24 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `68514ef6`
+- Built from commit: `ac1f6f7f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -41,6 +41,7 @@
 - LEInvoker
 - AttributesCommandEvent
 - DetonationEffect.java
+- VanillaEquipmentSlot.java
 
 ## God Nodes (most connected - your core abstractions)
 1. `AttributeEvents` - 29 edges
@@ -63,21 +64,21 @@
   src/main/java/com/skd/ascendantattributes/api/AscendantAttributesObjects.java → src/main/java/com/skd/ascendantattributes/util/AuxDmgTracker.java
 - `Components` --references--> `StackAttributeModifiers`  [EXTRACTED]
   src/main/java/com/skd/ascendantattributes/api/AscendantAttributesObjects.java → src/main/java/com/skd/ascendantattributes/modifiers/StackAttributeModifiers.java
-- `EquipmentSlots` --references--> `EntityEquipmentSlot`  [EXTRACTED]
-  src/main/java/com/skd/ascendantattributes/api/AscendantAttributesObjects.java → src/main/java/com/skd/ascendantattributes/modifiers/EntityEquipmentSlot.java
+- `VanillaEquipmentSlot` --implements--> `EntityEquipmentSlot`  [EXTRACTED]
+  src/main/java/com/skd/ascendantattributes/modifiers/VanillaEquipmentSlot.java → src/main/java/com/skd/ascendantattributes/modifiers/EntityEquipmentSlot.java
 
 ## Import Cycles
 - None detected.
 
-## Communities (30 total, 3 thin omitted)
+## Communities (31 total, 3 thin omitted)
 
 ### Community 0 - "Item Management"
 Cohesion: 0.06
 Nodes (30): AttackEntityEvent, AttributeMap, Client, DeferredHelper, Entity, EntityAttributeModificationEvent, EntityType, FMLCommonSetupEvent (+22 more)
 
 ### Community 1 - "Configuration Management"
-Cohesion: 0.07
-Nodes (32): AttachmentType, DataComponentType, Experimental, Potion, SimpleParticleType, SoundEvent, AscendantAttributesObjects, Attachments (+24 more)
+Cohesion: 0.05
+Nodes (48): AttachmentType, BiMap, DataComponentType, EquipmentSlotGroup, Experimental, SimpleParticleType, SoundEvent, AscendantAttributesObjects (+40 more)
 
 ### Community 2 - "Client Initialization"
 Cohesion: 0.83
@@ -92,8 +93,8 @@ Cohesion: 0.36
 Nodes (4): BleedingEffect, LivingEntity, Override, ServerLevel
 
 ### Community 5 - "Server Startup"
-Cohesion: 0.13
-Nodes (21): BiMap, EquipmentSlotGroup, BuiltInRegs, EquipmentSlotGroups, HolderSet, Registry, EntityEquipmentSlot, ItemStack (+13 more)
+Cohesion: 0.27
+Nodes (8): DynamicRegistryProvider, Item, JsonMix, PackOutput, Provider, Holder, Potion, MixProvider
 
 ### Community 7 - "Creative Mode Content"
 Cohesion: 0.19
@@ -163,6 +164,10 @@ Nodes (10): CommandBuildContext, Event, RegisterCommandsEvent, BonusModifierComm
 Cohesion: 0.36
 Nodes (4): DetonationEffect, LivingEntity, Override, ServerLevel
 
+### Community 30 - "VanillaEquipmentSlot.java"
+Cohesion: 0.43
+Nodes (5): EquipmentSlot, ItemStack, LivingEntity, Override, VanillaEquipmentSlot
+
 ## Knowledge Gaps
 - **42 isolated node(s):** `Workflow del mod`, `Prioridad de instrucciones`, `0.0.0-beta.1`, `Status`, `Requirements` (+37 more)
   These have ≤1 connection - possible missing edges or undocumented components.
@@ -172,16 +177,16 @@ Nodes (4): DetonationEffect, LivingEntity, Override, ServerLevel
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `CooldownTracker` connect `CooldownTracker` to `Item Management`, `Configuration Management`?**
-  _High betweenness centrality (0.068) - this node is a cross-community bridge._
+  _High betweenness centrality (0.067) - this node is a cross-community bridge._
 - **Why does `StackAttributeModifiersEvent` connect `Common Setup` to `LEInvoker`, `AttributesCommandEvent`, `Entry`?**
-  _High betweenness centrality (0.062) - this node is a cross-community bridge._
+  _High betweenness centrality (0.060) - this node is a cross-community bridge._
 - **Why does `AuxDmgTracker` connect `Creative Mode Content` to `Configuration Management`, `LEInvoker`?**
-  _High betweenness centrality (0.061) - this node is a cross-community bridge._
+  _High betweenness centrality (0.059) - this node is a cross-community bridge._
 - **What connects `Workflow del mod`, `Prioridad de instrucciones`, `0.0.0-beta.1` to the rest of the system?**
   _42 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Item Management` be split into smaller, more focused modules?**
   _Cohesion score 0.05868118572292801 - nodes in this community are weakly interconnected._
 - **Should `Configuration Management` be split into smaller, more focused modules?**
-  _Cohesion score 0.06753006475485661 - nodes in this community are weakly interconnected._
-- **Should `Server Startup` be split into smaller, more focused modules?**
-  _Cohesion score 0.12903225806451613 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.053923541247484906 - nodes in this community are weakly interconnected._
+- **Should `VanillaEquipmentSlot.java` be split into smaller, more focused modules?**
+  _Cohesion score 0.11201079622132254 - nodes in this community are weakly interconnected._
