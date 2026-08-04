@@ -10,3 +10,4 @@
 - Icono propio integrado (`assets/ascendant_attributes/icon.png`, `logoFile` activo en `neoforge.mods.toml`).
 - Proyecto CurseForge creado: ID `1638518`.
 - JAR: `ascendant_attributes-26.2-neoforge-0.0.0-beta.1.jar` (naming alineado con el resto de mods del workspace, `archivesName` incluye versión de Minecraft y framework).
+- Subido a CurseForge vía `curseforge-upload.ps1` (file ID `8572977`). `relations` (Common Toolkit required, Curios API Updated optional) no se pudieron declarar en esta subida — CurseForge rechazó los slugs (`errorCode 1018`), probablemente por proyectos aún no públicos. Pendiente añadirlas manualmente o reintentar por API — ver `docs/curseforge/project_vars.md`.
