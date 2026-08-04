@@ -39,5 +39,12 @@
   "37": "AbstractContainerScreenMixin.java",
   "38": "ThrownTridentMixin.java",
   "39": "DetonationEffect.java",
-  "40": ".getTooltipFlag"
+  "40": ".getTooltipFlag",
+  "41": "EquipmentSlots",
+  "42": "EntitySlotGroup",
+  "43": "EntityEquipmentSlot",
+  "44": "EquipmentSlotCompat",
+  "45": "EquipmentSlotGroups",
+  "46": "VanillaEquipmentSlot.java",
+  "47": "0.0.0-beta.2.md"
 }

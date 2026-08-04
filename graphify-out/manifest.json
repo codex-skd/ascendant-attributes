@@ -155,8 +155,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785845618.5019002,
-    "ast_hash": "17fb70a26fa60af540c191fbf8fd42c5",
+    "mtime": 1785846258.773157,
+    "ast_hash": "f2ccce47c92c9833c142b1d3f88a5b24",
     "semantic_hash": ""
   },
   "README.md": {
@@ -607,6 +607,11 @@
   "src/main/resources/assets/ascendant_attributes/sounds/ascendant_dodge.ogg": {
     "mtime": 1785843012.4877336,
     "ast_hash": "0bc91d1a05a5d3eb21f4bf9efe163c98",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.2.md": {
+    "mtime": 1785846195.2379966,
+    "ast_hash": "6f64c5eef74f43f4f577d1a2bbafb6fe",
     "semantic_hash": ""
   }
 }
