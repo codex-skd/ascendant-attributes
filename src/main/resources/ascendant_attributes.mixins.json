@@ -1,0 +1,17 @@
+{
+    "required": true,
+    "package": "com.skd.ascendantattributes.mixin",
+    "compatibilityLevel": "JAVA_25",
+    "mixins": [
+        "CombatRulesMixin",
+        "EntityMixin",
+        "LivingEntityMixin",
+        "NearestAttackableTargetGoalMixin",
+        "PlayerMixin",
+        "ThrownTridentMixin"
+    ],
+    "client": [
+        "client.AbstractContainerScreenMixin"
+    ],
+    "minVersion": "0.8"
+}
