@@ -8,6 +8,10 @@ import org.apache.logging.log4j.Logger;
 
 import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import com.skd.ascendantattributes.api.CooldownTracker;
+import com.skd.ascendantattributes.impl.AttributeEvents;
+import com.skd.ascendantattributes.payload.ConfigPayload;
+import com.skd.ascendantattributes.payload.CritParticlePayload;
+import com.skd.commontoolkit.network.PayloadHelper;
 import com.skd.commontoolkit.registry.DeferredHelper;
 
 import net.minecraft.client.Minecraft;
@@ -54,13 +58,13 @@ public class AscendantAttributes {
 
     public AscendantAttributes(IEventBus bus) {
         bus.register(this);
-        // TODO(Phase 5): Register AttributeEvents on NeoForge.EVENT_BUS (see original ApothicAttributes constructor).
+        NeoForge.EVENT_BUS.register(new AttributeEvents());
         NeoForge.EVENT_BUS.addListener(AscendantAttributes::trackAttackStrength);
         NeoForge.EVENT_BUS.addListener(AscendantAttributes::pruneCooldowns);
         if (FMLEnvironment.getDist().isClient()) {
             // TODO(Phase 9): Register AttributesLibClient on NeoForge.EVENT_BUS and its ModBusSub on the mod bus (see original ApothicAttributes constructor).
         }
-        // TODO(Phase 6): PayloadHelper.registerPayload(new CritParticlePayload.Provider()) (see original ApothicAttributes constructor).
+        PayloadHelper.registerPayload(new CritParticlePayload.Provider());
         AscendantAttributesObjects.bootstrap(bus);
         NeoForgeMod.enableMergedAttributeTooltips();
     }
@@ -71,7 +75,7 @@ public class AscendantAttributes {
             AttributesConfig.load();
             ((MobEffect) MobEffects.BLINDNESS.value()).addAttributeModifier(Attributes.FOLLOW_RANGE, loc("blindness"), -0.75, Operation.ADD_MULTIPLIED_TOTAL);
         });
-        // TODO(Phase 6): PayloadHelper.registerPayload(new ConfigPayload.Provider()) (see original ApothicAttributes.init).
+        PayloadHelper.registerPayload(new ConfigPayload.Provider());
     }
 
     @SubscribeEvent
