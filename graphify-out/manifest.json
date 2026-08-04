@@ -155,8 +155,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785833901.8781579,
-    "ast_hash": "c02f1bb2146e3738c6db2fd57d6aa080",
+    "mtime": 1785834287.4322875,
+    "ast_hash": "f4063f6f7a5b86922148454698551064",
     "semantic_hash": ""
   },
   "README.md": {
@@ -170,8 +170,8 @@
     "semantic_hash": ""
   },
   "docs/ROADMAP_ASCENDANT_ATTRIBUTES.md": {
-    "mtime": 1785833876.645782,
-    "ast_hash": "ac8d1618169bbdb782e0b58b36730d7a",
+    "mtime": 1785834268.8481076,
+    "ast_hash": "b8a9e12503baffce9ccf118ad156b155",
     "semantic_hash": ""
   },
   "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md": {
@@ -210,8 +210,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ascendantattributes/impl/AttributeEvents.java": {
-    "mtime": 1785833660.9420476,
-    "ast_hash": "7cdc19959692894727d5bed11a06afdd",
+    "mtime": 1785834227.2575307,
+    "ast_hash": "66b99303c759241818df2f1c7b249605",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ascendantattributes/payload/ConfigPayload.java": {
@@ -222,6 +222,11 @@
   "src/main/java/com/skd/ascendantattributes/payload/CritParticlePayload.java": {
     "mtime": 1785833637.8574617,
     "ast_hash": "f788da07ed79a6629e00f955b9961790",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/commands/BonusModifierCommand.java": {
+    "mtime": 1785834161.9474409,
+    "ast_hash": "9c7e0ae17007fa3e8719a2fd89202823",
     "semantic_hash": ""
   }
 }

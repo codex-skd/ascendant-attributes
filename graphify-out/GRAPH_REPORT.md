@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-04)
 
 ## Corpus Check
-- 43 files · ~19,169 words
+- 44 files · ~19,464 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 476 nodes · 977 edges · 30 communities (27 shown, 3 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 22 edges (avg confidence: 0.8)
+- 482 nodes · 996 edges · 30 communities (27 shown, 3 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 24 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d9263fc5`
+- Built from commit: `68514ef6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -96,11 +96,11 @@ Cohesion: 0.13
 Nodes (21): BiMap, EquipmentSlotGroup, BuiltInRegs, EquipmentSlotGroups, HolderSet, Registry, EntityEquipmentSlot, ItemStack (+13 more)
 
 ### Community 7 - "Creative Mode Content"
-Cohesion: 0.20
+Cohesion: 0.19
 Nodes (12): IdentityHashMap, Marker, AuxDmgTracker, Entry, Attribute, Codec, DamageSource, DamageType (+4 more)
 
 ### Community 8 - "Common Setup"
-Cohesion: 0.20
+Cohesion: 0.19
 Nodes (11): Attribute, AttributeModifier, Entry, Holder, Identifier, Internal, ItemStack, Nullable (+3 more)
 
 ### Community 12 - "Entry"
@@ -152,12 +152,12 @@ Cohesion: 0.50
 Nodes (3): CLAUDE.md — ascendant_attributes (26.2), Prioridad de instrucciones, Workflow del mod
 
 ### Community 25 - "LEInvoker"
-Cohesion: 0.07
-Nodes (22): AddServerReloadListenersEvent, BlockDropsEvent, CriticalHitEvent, EntityJoinLevelEvent, ItemAttributeModifierEvent, LivingExperienceDropEvent, LivingHealEvent, LivingIncomingDamageEvent (+14 more)
+Cohesion: 0.08
+Nodes (21): AddServerReloadListenersEvent, BlockDropsEvent, CriticalHitEvent, EntityJoinLevelEvent, ItemAttributeModifierEvent, LivingExperienceDropEvent, LivingHealEvent, LivingIncomingDamageEvent (+13 more)
 
 ### Community 28 - "AttributesCommandEvent"
-Cohesion: 0.50
-Nodes (5): CommandBuildContext, CommandSourceStack, Event, LiteralArgumentBuilder, AttributesCommandEvent
+Cohesion: 0.23
+Nodes (10): CommandBuildContext, Event, RegisterCommandsEvent, BonusModifierCommand, CommandSourceStack, LiteralArgumentBuilder, AttributesCommandEvent, CommandSourceStack (+2 more)
 
 ### Community 29 - "DetonationEffect.java"
 Cohesion: 0.36
@@ -172,15 +172,15 @@ Nodes (4): DetonationEffect, LivingEntity, Override, ServerLevel
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `CooldownTracker` connect `CooldownTracker` to `Item Management`, `Configuration Management`?**
-  _High betweenness centrality (0.069) - this node is a cross-community bridge._
+  _High betweenness centrality (0.068) - this node is a cross-community bridge._
 - **Why does `StackAttributeModifiersEvent` connect `Common Setup` to `LEInvoker`, `AttributesCommandEvent`, `Entry`?**
-  _High betweenness centrality (0.063) - this node is a cross-community bridge._
-- **Why does `AuxDmgTracker` connect `Creative Mode Content` to `Configuration Management`, `LEInvoker`?**
   _High betweenness centrality (0.062) - this node is a cross-community bridge._
+- **Why does `AuxDmgTracker` connect `Creative Mode Content` to `Configuration Management`, `LEInvoker`?**
+  _High betweenness centrality (0.061) - this node is a cross-community bridge._
 - **What connects `Workflow del mod`, `Prioridad de instrucciones`, `0.0.0-beta.1` to the rest of the system?**
   _42 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Item Management` be split into smaller, more focused modules?**
-  _Cohesion score 0.05727644652250146 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05868118572292801 - nodes in this community are weakly interconnected._
 - **Should `Configuration Management` be split into smaller, more focused modules?**
   _Cohesion score 0.06753006475485661 - nodes in this community are weakly interconnected._
 - **Should `Server Startup` be split into smaller, more focused modules?**
