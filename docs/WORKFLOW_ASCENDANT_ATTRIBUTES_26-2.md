@@ -111,3 +111,4 @@ Leer siempre `GRAPH_REPORT.md`, nunca `graph.json`/`graph.html` (pesan >1MB). Si
 | README.md | en-US |
 | docs internas (docs/, CHANGELOG, este archivo) | es-ES |
 | CurseForge | en-US |
+

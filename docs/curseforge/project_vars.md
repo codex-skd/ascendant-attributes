@@ -30,7 +30,7 @@ relations =
 
 El script lee `project_id`, `api_token` y `game_versions` de este archivo, y `mod_id`, `mod_name`, `minecraft_version`, `mod_version` de `gradle.properties`. Sube automáticamente el JAR desde `build/libs/` con el changelog de `docs/curseforge/versions/<version>.md`.
 
-**Relations pendientes**: el intento de declarar `common-toolkit:requiredDependency,curios-api-updated:optionalDependency` en la subida de `0.0.0-beta.1` falló con `errorCode 1018` ("Invalid slug... does not exist, is not accessible, or belongs to an unrelated root category") — probablemente porque el proyecto `common-toolkit` (o `curios-api-updated`) no está aprobado/público en CurseForge todavía, o el slug real difiere. Se subió sin `relations`. Añadir manualmente desde la web (Relations → Required/Optional Dependency) en cuanto se confirme el slug correcto, o reintentar por API una vez el proyecto dependiente esté público.
+**Relations**: el intento de declarar `common-toolkit:requiredDependency,curios-api-updated:optionalDependency` en la subida de `0.0.0-beta.1` falló con `errorCode 1018` ("Invalid slug... does not exist, is not accessible, or belongs to an unrelated root category") — probablemente porque el proyecto `common-toolkit` (o `curios-api-updated`) no estaba aprobado/público en CurseForge en ese momento. Se subió sin `relations` por API. **Añadidas manualmente desde la web** (Relations → Required/Optional Dependency) por el usuario — ya no está pendiente.
 
 ## Nota
 
