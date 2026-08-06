@@ -78,7 +78,7 @@ public class AscendantAttributes {
     public void init(FMLCommonSetupEvent e) {
         e.enqueueWork(() -> {
             AttributesConfig.load();
-            ((MobEffect) MobEffects.BLINDNESS.value()).addAttributeModifier(Attributes.FOLLOW_RANGE, loc("blindness"), -0.75, Operation.ADD_MULTIPLIED_TOTAL);
+            MobEffects.BLINDNESS.value().addAttributeModifier(Attributes.FOLLOW_RANGE, loc("blindness"), -0.75, Operation.ADD_MULTIPLIED_TOTAL);
         });
         PayloadHelper.registerPayload(new ConfigPayload.Provider());
     }
@@ -121,7 +121,7 @@ public class AscendantAttributes {
         AttributeSupplier playerAttribs = DefaultAttributes.getSupplier(EntityTypes.PLAYER);
         BuiltInRegistries.ATTRIBUTE.listElements().forEach(attr -> {
             if (playerAttribs.hasAttribute(attr)) {
-                ((Attribute) attr.value()).setSyncable(true);
+                attr.value().setSyncable(true);
             }
         });
         if (ModList.get().isLoaded("curios")) {
