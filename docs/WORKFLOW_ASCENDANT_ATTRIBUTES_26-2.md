@@ -13,20 +13,30 @@
 | Clase principal | `AscendantAttributes` |
 | Display name (Title Case) | `Ascendant Attributes` |
 | Versiones de Minecraft | `26.2` |
-| Rama | `minecraft/26.2/neoforge-26.2.0.32-beta/production` |
+| Rama | `minecraft/26.2/neoforge-26.2.0.37-beta/production` |
+| Última versión publicada | `0.0.0-beta.4` (CurseForge file ID 8591098) |
+| Estado | ✅ Ready for production (roadmap completo) |
 
 ### Notas específicas de este mod
 
-- **Fork de**: [Apothic Attributes](https://www.curseforge.com/minecraft/mc-mods/apothic-attributes) por Shadows_of_Fire. Referencia original: `ApothicAttributes-26.1.2-3.0.1.jar` (mod id `apothic_attributes`, package `dev.shadowsoffire.apothic_attributes`, versión 3.0.1 para MC 26.1.2/NeoForge). Jar de referencia en `~/Downloads/ApothicAttributes-26.1.2-3.0.1.jar`, no se versiona.
+- **Fork de**: [Apothic Attributes](https://www.curseforge.com/minecraft/mc-mods/apothic-attributes) por Shadows_of_Fire (v3.0.1 para MC 26.1.2/NeoForge 26.1.2.70-beta). Completamente portado a Ascendant Attributes (v0.0.0-beta.4+ para MC 26.2/NeoForge 26.2.0.37-beta). Roadmap de 13 fases completado. ✅
 - **package**: `com.skd.ascendantattributes`
-- **Minecraft / NeoForge**: `26.2` / `26.2.0.32-beta` (heredado del esqueleto `codex-docs/mod_template/26.2-26.2.0.32-beta`, no actualizar sin pedirlo explícitamente)
+- **Minecraft / NeoForge**: `26.2` / `26.2.0.37-beta` (actualizado desde `26.2.0.32-beta` en beta.3)
 - **Conceptualmente módulo de [Ascendant Equipment](https://gitlab.com/stalking-dragons/minecraft/ascendant-equipment)** (fork de Apotheosis), pero sin dependencia técnica real: verificado en Fase 0 (decompilando el jar original) que Apothic Attributes es **completamente autocontenido** — no embebe ni depende de código de Apotheosis, solo de Placebo (→ Common Toolkit) y opcionalmente Curios. Ver `docs/ASCENDANT_ATTRIBUTES_RENAME_MAP.md` para el detalle. No hay ninguna dependencia con Ascendant Equipment que resolver.
 - **Dependencias reemplazadas** (a petición del usuario, no son las originales del mod):
   - `placebo` (requerida en el original) → **`common_toolkit`** (fork de Placebo de este workspace). Cableada en `build.gradle` (`compileOnly`/`localRuntime` desde `lib_ext/common_toolkit-26.2-neoforge-0.0.0-beta.1.jar`) y declarada `required` en `neoforge.mods.toml`.
   - `curios` (309927, integración opcional/compat en el original, no dependencia dura) → **Curios API Updated** (fork, [CurseForge 1579340](https://www.curseforge.com/minecraft/mc-mods/curios-api-updated)). Cableada igual (`lib_ext/curios-neoforge-15.0.0-beta.2+26.2.jar`) y declarada `optional` en `neoforge.mods.toml`, igual que en el original.
 - **Sin residuos del original**: el mod original usa el package `dev.shadowsoffire.apothic_attributes` (y comparte clases bajo `dev.shadowsoffire.apotheosis`) y namespace de recursos `apothic_attributes:`/`apotheosis:` — todo el código, assets y datos portados deben quedar bajo `com.skd.ascendantattributes` / `ascendant_attributes:`, sin nombres de clases, métodos ni variables calcados del original.
 - **Icono pendiente**: `assets/ascendant_attributes/icon.png` aún no existe (línea `logoFile` comentada en `neoforge.mods.toml`) — diseñar uno propio antes de la primera subida a CurseForge, no reutilizar el logo de Apothic Attributes ni el de Ascendant Equipment.
-- **Alcance de esta primera versión**: `0.0.0-beta.1` es scaffold puro (misma situación que tuvo `ascendant_equipment` en su propio beta.1) — build.gradle/gradle.properties/mods.toml/docs listos y compilables, sin el sistema de afijos/atributos portado todavía. Ver `docs/ROADMAP_ASCENDANT_ATTRIBUTES.md` para el desglose de fases pendientes.
+- **Estado de desarrollo**: `0.0.0-beta.4` completa el roadmap entero (13 fases). Todos los sistemas portados y verificados:
+  - ✅ Núcleo: 20 atributos personalizados, 7 efectos de estado
+  - ✅ Eventos: 20+ handlers de eventos de combate/atributos
+  - ✅ Cliente: GUI de atributos en inventario, overlays, tooltips
+  - ✅ Mixins: 7 mixins verificados en runtime (`runServer`)
+  - ✅ Compat: integración Curios API, opcional
+  - ✅ Assets: arte propio completo (iconos, texturas, sonidos)
+  - ✅ QA: `clean build` + `runServer` sin errores propios del mod
+  - Próximo paso: RELEASE 1.0.0 (cuando se haya jugado en partida real)
 
 ## Convenciones de nomenclatura
 
