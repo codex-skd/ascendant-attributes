@@ -1,5 +1,15 @@
 # Changelog — Ascendant Attributes
 
+## [0.0.0-beta.4] - 2026-08-07
+
+### Change
+
+- **Code quality improvements**: Removed unnecessary type casts in the main class (`AscendantAttributes.java`):
+  - Removed cast to `MobEffect` when adding attribute modifiers (NeoForge 26.2 returns effect directly from `.value()`)
+  - Removed cast to `Attribute` when calling `setSyncable()` (NeoForge 26.2 returns attribute directly from holders)
+- Improves code clarity without changing functionality
+- Build verified green, all mixins and registrations confirmed working
+
 ## 0.0.0-beta.2
 
 - **Primera subida real a CurseForge con contenido funcional.** Todo el trabajo listado bajo `0.0.0-beta.1` más abajo (Fases 1-13 del roadmap) se hizo sin subir el `mod_version` correspondiente — el único archivo publicado hasta ahora seguía siendo el scaffold vacío original (file ID `8572977`, verificado vía API de CurseForge). Este bump corrige eso: empaqueta el port completo (atributos, efectos, GUI, mixins, compat Curios, arte propio) como la versión que realmente se sube.
