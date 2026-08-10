@@ -14,8 +14,8 @@
 | Display name (Title Case) | `Ascendant Attributes` |
 | Versiones de Minecraft | `26.2` |
 | Rama | `minecraft/26.2/neoforge-26.2.0.37-beta/production` |
-| Última versión publicada | `0.0.0-beta.4` (CurseForge file ID 8591098) |
-| Estado | ✅ Ready for production (roadmap completo) |
+| Última versión publicada | `1.0.0` (CurseForge file ID 8617339) |
+| Estado | ✅ Release estable 1.0.0 |
 
 ### Notas específicas de este mod
 
