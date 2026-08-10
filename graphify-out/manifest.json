@@ -15,8 +15,8 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java": {
-    "mtime": 1785838098.6205914,
-    "ast_hash": "d52c7a2447b2c4bfd9fdb944c0260c51",
+    "mtime": 1786053756.3933892,
+    "ast_hash": "7e6884295eac12662603d521250c0357",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ascendantattributes/AscendantAttributesClient.java": {
@@ -155,8 +155,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785972327.4856257,
-    "ast_hash": "862e9f133287ec73c12ad71eb5d54677",
+    "mtime": 1786374787.245493,
+    "ast_hash": "1f68f636cb49fbf9f5201a29bcc526bd",
     "semantic_hash": ""
   },
   "README.md": {
@@ -175,8 +175,8 @@
     "semantic_hash": ""
   },
   "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md": {
-    "mtime": 1785976384.1464262,
-    "ast_hash": "9417d5a45b0267b1ed5bd580ee97179f",
+    "mtime": 1786054634.6550026,
+    "ast_hash": "c2f8e223f874253062655dca4df7d0b0",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
@@ -617,6 +617,16 @@
   "docs/curseforge/versions/0.0.0-beta.3.md": {
     "mtime": 1785972327.4863386,
     "ast_hash": "e07d442d7a66f156a821ee4f89c17c0e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/lang/es_es.json": {
+    "mtime": 1786374624.7814505,
+    "ast_hash": "52408e68c4747b98f36971e2a40bd229",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.4.md": {
+    "mtime": 1786054507.3774874,
+    "ast_hash": "8fb05eac9e0df3972b575fad7f927b75",
     "semantic_hash": ""
   }
 }

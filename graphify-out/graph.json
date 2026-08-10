@@ -296,7 +296,7 @@
       "source_location": "L137",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_getconfigfile",
-      "community": 13,
+      "community": 0,
       "norm_label": ".getconfigfile()"
     },
     {
@@ -326,7 +326,7 @@
       "source_location": "L145",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_gettooltipflag",
-      "community": 34,
+      "community": 40,
       "norm_label": ".gettooltipflag()"
     },
     {
@@ -416,7 +416,7 @@
       "source_location": "L166",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_ascendantattributes_ascendantattributes_prunecooldowns",
-      "community": 0,
+      "community": 54,
       "norm_label": ".prunecooldowns()"
     },
     {
@@ -426,7 +426,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "playerloggedinevent",
-      "community": 0,
+      "community": 54,
       "norm_label": "playerloggedinevent"
     },
     {
@@ -826,7 +826,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_java_holder",
-      "community": 1,
+      "community": 44,
       "norm_label": "holder"
     },
     {
@@ -966,7 +966,7 @@
       "source_location": "L160",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslotgroups",
-      "community": 1,
+      "community": 52,
       "norm_label": "equipmentslotgroups"
     },
     {
@@ -976,7 +976,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "experimental",
-      "community": 1,
+      "community": 52,
       "norm_label": "experimental"
     },
     {
@@ -986,7 +986,7 @@
       "source_location": "L193",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslotgroups_id",
-      "community": 1,
+      "community": 52,
       "norm_label": ".id()"
     },
     {
@@ -996,7 +996,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_java_identifier",
-      "community": 1,
+      "community": 52,
       "norm_label": "identifier"
     },
     {
@@ -1006,7 +1006,7 @@
       "source_location": "L197",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslotgroups_group",
-      "community": 1,
+      "community": 52,
       "norm_label": ".group()"
     },
     {
@@ -1016,7 +1016,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_java_holderset",
-      "community": 1,
+      "community": 52,
       "norm_label": "holderset"
     },
     {
@@ -1026,7 +1026,7 @@
       "source_location": "L201",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslotgroups_bootstrap",
-      "community": 1,
+      "community": 52,
       "norm_label": ".bootstrap()"
     },
     {
@@ -1036,7 +1036,7 @@
       "source_location": "L205",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslots",
-      "community": 1,
+      "community": 44,
       "norm_label": "equipmentslots"
     },
     {
@@ -1046,7 +1046,7 @@
       "source_location": "L216",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslots_slot",
-      "community": 1,
+      "community": 44,
       "norm_label": ".slot()"
     },
     {
@@ -1056,7 +1056,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_java_equipmentslot",
-      "community": 1,
+      "community": 44,
       "norm_label": "equipmentslot"
     },
     {
@@ -1066,7 +1066,7 @@
       "source_location": "L221",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_equipmentslots_bootstrap",
-      "community": 1,
+      "community": 44,
       "norm_label": ".bootstrap()"
     },
     {
@@ -1076,7 +1076,7 @@
       "source_location": "L225",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_mobeffects",
-      "community": 1,
+      "community": 44,
       "norm_label": "mobeffects"
     },
     {
@@ -1086,7 +1086,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_java_mobeffect",
-      "community": 1,
+      "community": 44,
       "norm_label": "mobeffect"
     },
     {
@@ -1096,7 +1096,7 @@
       "source_location": "L234",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_mobeffects_bootstrap",
-      "community": 1,
+      "community": 44,
       "norm_label": ".bootstrap()"
     },
     {
@@ -1136,7 +1136,7 @@
       "source_location": "L245",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_potions",
-      "community": 1,
+      "community": 44,
       "norm_label": "potions"
     },
     {
@@ -1146,7 +1146,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_java_potion",
-      "community": 1,
+      "community": 44,
       "norm_label": "potion"
     },
     {
@@ -1156,7 +1156,7 @@
       "source_location": "L306",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_ascendantattributesobjects_potions_bootstrap",
-      "community": 1,
+      "community": 44,
       "norm_label": ".bootstrap()"
     },
     {
@@ -1596,7 +1596,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_api_cooldowntracker_cooldowntracker_prune",
-      "community": 0,
+      "community": 54,
       "norm_label": ".prune()"
     },
     {
@@ -1746,7 +1746,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "anchorpoint",
-      "community": 13,
+      "community": 34,
       "norm_label": "anchorpoint"
     },
     {
@@ -1756,7 +1756,7 @@
       "source_location": "L198",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_ascendantattributesclienthandler_spawncritparticle",
-      "community": 20,
+      "community": 34,
       "norm_label": ".spawncritparticle()"
     },
     {
@@ -1896,7 +1896,7 @@
       "source_location": "L228",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_modbussub",
-      "community": 34,
+      "community": 30,
       "norm_label": "modbussub"
     },
     {
@@ -1906,7 +1906,7 @@
       "source_location": "L229",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_modbussub_clientreload",
-      "community": 34,
+      "community": 30,
       "norm_label": ".clientreload()"
     },
     {
@@ -1916,7 +1916,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "addclientreloadlistenersevent",
-      "community": 34,
+      "community": 30,
       "norm_label": "addclientreloadlistenersevent"
     },
     {
@@ -1926,7 +1926,7 @@
       "source_location": "L234",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_modbussub_clientsetup",
-      "community": 34,
+      "community": 30,
       "norm_label": ".clientsetup()"
     },
     {
@@ -1936,7 +1936,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "fmlclientsetupevent",
-      "community": 34,
+      "community": 30,
       "norm_label": "fmlclientsetupevent"
     },
     {
@@ -1946,7 +1946,7 @@
       "source_location": "L240",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_ascendantattributesclienthandler_modbussub_particlefactories",
-      "community": 34,
+      "community": 30,
       "norm_label": ".particlefactories()"
     },
     {
@@ -1956,7 +1956,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "registerparticleprovidersevent",
-      "community": 34,
+      "community": 30,
       "norm_label": "registerparticleprovidersevent"
     },
     {
@@ -2226,7 +2226,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_attributesgui_attributesgui_refreshdata",
-      "community": 12,
+      "community": 41,
       "norm_label": ".refreshdata()"
     },
     {
@@ -2526,7 +2526,7 @@
       "source_location": "L546",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_attributesgui_hideunchangedbutton",
-      "community": 44,
+      "community": 12,
       "norm_label": "hideunchangedbutton"
     },
     {
@@ -2536,7 +2536,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "abstractbutton",
-      "community": 44,
+      "community": 12,
       "norm_label": "abstractbutton"
     },
     {
@@ -2546,7 +2546,7 @@
       "source_location": "L547",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_attributesgui_hideunchangedbutton_hideunchangedbutton",
-      "community": 44,
+      "community": 12,
       "norm_label": ".hideunchangedbutton()"
     },
     {
@@ -2556,7 +2556,7 @@
       "source_location": "L552",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_attributesgui_hideunchangedbutton_onpress",
-      "community": 44,
+      "community": 12,
       "norm_label": ".onpress()"
     },
     {
@@ -2566,7 +2566,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "inputwithmodifiers",
-      "community": 44,
+      "community": 12,
       "norm_label": "inputwithmodifiers"
     },
     {
@@ -2576,7 +2576,7 @@
       "source_location": "L556",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_attributesgui_hideunchangedbutton_extractcontents",
-      "community": 44,
+      "community": 12,
       "norm_label": ".extractcontents()"
     },
     {
@@ -2586,7 +2586,7 @@
       "source_location": "L567",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_client_attributesgui_hideunchangedbutton_updatewidgetnarration",
-      "community": 44,
+      "community": 12,
       "norm_label": ".updatewidgetnarration()"
     },
     {
@@ -2596,7 +2596,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "narrationelementoutput",
-      "community": 44,
+      "community": 12,
       "norm_label": "narrationelementoutput"
     },
     {
@@ -3026,7 +3026,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot",
-      "community": 43,
+      "community": 51,
       "norm_label": "curioequipmentslot.java"
     },
     {
@@ -3036,7 +3036,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curioequipmentslot",
-      "community": 43,
+      "community": 51,
       "norm_label": "curioequipmentslot"
     },
     {
@@ -3046,7 +3046,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curioequipmentslot_getstacks",
-      "community": 43,
+      "community": 51,
       "norm_label": ".getstacks()"
     },
     {
@@ -3056,7 +3056,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_livingentity",
-      "community": 43,
+      "community": 51,
       "norm_label": "livingentity"
     },
     {
@@ -3066,7 +3066,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_itemstack",
-      "community": 43,
+      "community": 51,
       "norm_label": "itemstack"
     },
     {
@@ -3076,7 +3076,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_java_override",
-      "community": 43,
+      "community": 51,
       "norm_label": "override"
     },
     {
@@ -3086,7 +3086,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curiostackiterator",
-      "community": 43,
+      "community": 51,
       "norm_label": "curiostackiterator"
     },
     {
@@ -3096,7 +3096,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "idynamicstackhandler",
-      "community": 43,
+      "community": 51,
       "norm_label": "idynamicstackhandler"
     },
     {
@@ -3106,7 +3106,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_compat_curioequipmentslot_curiostackiterator_iterator",
-      "community": 43,
+      "community": 51,
       "norm_label": ".iterator()"
     },
     {
@@ -3176,7 +3176,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_compat_curioscompat_curioscompat_stackattrmodifiercompat",
-      "community": 43,
+      "community": 8,
       "norm_label": ".stackattrmodifiercompat()"
     },
     {
@@ -5156,7 +5156,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup",
-      "community": 43,
+      "community": 49,
       "norm_label": "entityslotgroup.java"
     },
     {
@@ -5166,7 +5166,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_entityslotgroup",
-      "community": 43,
+      "community": 49,
       "norm_label": "entityslotgroup"
     },
     {
@@ -5176,7 +5176,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_holder",
-      "community": 43,
+      "community": 49,
       "norm_label": "holder"
     },
     {
@@ -5186,7 +5186,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_identifier",
-      "community": 43,
+      "community": 49,
       "norm_label": "identifier"
     },
     {
@@ -5196,7 +5196,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_holderset",
-      "community": 43,
+      "community": 49,
       "norm_label": "holderset"
     },
     {
@@ -5206,7 +5206,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_codec",
-      "community": 43,
+      "community": 49,
       "norm_label": "codec"
     },
     {
@@ -5216,7 +5216,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_streamcodec",
-      "community": 43,
+      "community": 49,
       "norm_label": "streamcodec"
     },
     {
@@ -5226,7 +5226,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_registryfriendlybytebuf",
-      "community": 43,
+      "community": 49,
       "norm_label": "registryfriendlybytebuf"
     },
     {
@@ -5236,7 +5236,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_entityslotgroup_test",
-      "community": 43,
+      "community": 49,
       "norm_label": ".test()"
     },
     {
@@ -5246,7 +5246,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_entityslotgroup_java_override",
-      "community": 43,
+      "community": 49,
       "norm_label": "override"
     },
     {
@@ -5256,7 +5256,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat",
-      "community": 43,
+      "community": 50,
       "norm_label": "equipmentslotcompat.java"
     },
     {
@@ -5266,7 +5266,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat_equipmentslotcompat",
-      "community": 43,
+      "community": 50,
       "norm_label": "equipmentslotcompat"
     },
     {
@@ -5276,7 +5276,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "bimap",
-      "community": 43,
+      "community": 50,
       "norm_label": "bimap"
     },
     {
@@ -5286,7 +5286,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat_java_equipmentslot",
-      "community": 43,
+      "community": 50,
       "norm_label": "equipmentslot"
     },
     {
@@ -5296,7 +5296,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat_java_holder",
-      "community": 43,
+      "community": 50,
       "norm_label": "holder"
     },
     {
@@ -5306,7 +5306,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "equipmentslotgroup",
-      "community": 43,
+      "community": 50,
       "norm_label": "equipmentslotgroup"
     },
     {
@@ -5316,7 +5316,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat_equipmentslotcompat_tovanilla",
-      "community": 43,
+      "community": 50,
       "norm_label": ".tovanilla()"
     },
     {
@@ -5326,7 +5326,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat_java_nullable",
-      "community": 43,
+      "community": 50,
       "norm_label": "nullable"
     },
     {
@@ -5336,7 +5336,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_equipmentslotcompat_equipmentslotcompat_fromvanilla",
-      "community": 43,
+      "community": 50,
       "norm_label": ".fromvanilla()"
     },
     {
@@ -5886,7 +5886,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot",
-      "community": 1,
+      "community": 53,
       "norm_label": "vanillaequipmentslot.java"
     },
     {
@@ -5896,7 +5896,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot_vanillaequipmentslot",
-      "community": 1,
+      "community": 53,
       "norm_label": "vanillaequipmentslot"
     },
     {
@@ -5906,7 +5906,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot_java_equipmentslot",
-      "community": 1,
+      "community": 53,
       "norm_label": "equipmentslot"
     },
     {
@@ -5916,7 +5916,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot_vanillaequipmentslot_getstacks",
-      "community": 1,
+      "community": 53,
       "norm_label": ".getstacks()"
     },
     {
@@ -5926,7 +5926,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot_java_livingentity",
-      "community": 1,
+      "community": 53,
       "norm_label": "livingentity"
     },
     {
@@ -5936,7 +5936,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot_java_itemstack",
-      "community": 1,
+      "community": 53,
       "norm_label": "itemstack"
     },
     {
@@ -5946,7 +5946,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_vanillaequipmentslot_java_override",
-      "community": 1,
+      "community": 53,
       "norm_label": "override"
     },
     {
@@ -5956,7 +5956,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_modifiers_package_info",
-      "community": 1,
+      "community": 52,
       "norm_label": "package-info.java"
     },
     {
@@ -6566,7 +6566,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ascendantattributes_util_auxdmgtracker_auxdmgtracker_tick",
-      "community": 25,
+      "community": 7,
       "norm_label": ".tick()"
     },
     {
@@ -6830,10 +6830,50 @@
       "norm_label": "changelog \u2014 ascendant attributes"
     },
     {
-      "label": "0.0.0-beta.2",
+      "label": "[0.0.0-beta.5] - 2026-08-10",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
       "source_location": "L3",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_5_2026_08_10",
+      "community": 24,
+      "norm_label": "[0.0.0-beta.5] - 2026-08-10"
+    },
+    {
+      "label": "Fix",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "changelog_fix",
+      "community": 24,
+      "norm_label": "fix"
+    },
+    {
+      "label": "[0.0.0-beta.4] - 2026-08-07",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_4_2026_08_07",
+      "community": 24,
+      "norm_label": "[0.0.0-beta.4] - 2026-08-07"
+    },
+    {
+      "label": "Change",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "changelog_change",
+      "community": 24,
+      "norm_label": "change"
+    },
+    {
+      "label": "0.0.0-beta.2",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_2",
       "community": 24,
@@ -6843,7 +6883,7 @@
       "label": "0.0.0-beta.1",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_1",
       "community": 24,
@@ -6853,7 +6893,7 @@
       "label": "[0.0.0-beta.3] - 2026-08-05",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L31",
+      "source_location": "L48",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_3_2026_08_05",
       "community": 24,
@@ -6863,9 +6903,9 @@
       "label": "Change",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L33",
+      "source_location": "L50",
       "_origin": "ast",
-      "id": "changelog_change",
+      "id": "changelog_change_50",
       "community": 24,
       "norm_label": "change"
     },
@@ -6873,7 +6913,7 @@
       "label": "[angelog \u2014 Ascendant Attributes",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L37",
+      "source_location": "L54",
       "_origin": "ast",
       "id": "changelog_angelog_ascendant_attributes",
       "community": 24,
@@ -6883,9 +6923,9 @@
       "label": "0.0.0-beta.2",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L39",
+      "source_location": "L56",
       "_origin": "ast",
-      "id": "changelog_0_0_0_beta_2_39",
+      "id": "changelog_0_0_0_beta_2_56",
       "community": 24,
       "norm_label": "0.0.0-beta.2"
     },
@@ -6893,9 +6933,9 @@
       "label": "0.0.0-beta.1",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L45",
+      "source_location": "L62",
       "_origin": "ast",
-      "id": "changelog_0_0_0_beta_1_45",
+      "id": "changelog_0_0_0_beta_1_62",
       "community": 24,
       "norm_label": "0.0.0-beta.1"
     },
@@ -7173,7 +7213,7 @@
       "label": "Notas espec\u00edficas de este mod",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L18",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "docs_workflow_ascendant_attributes_26_2_notas_espec\u00edficas_de_este_mod",
       "community": 16,
@@ -7183,7 +7223,7 @@
       "label": "Convenciones de nomenclatura",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L31",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "docs_workflow_ascendant_attributes_26_2_convenciones_de_nomenclatura",
       "community": 16,
@@ -7193,7 +7233,7 @@
       "label": "Organizaci\u00f3n y ramas",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L40",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "docs_workflow_ascendant_attributes_26_2_organizaci\u00f3n_y_ramas",
       "community": 16,
@@ -7203,7 +7243,7 @@
       "label": "Estructura del proyecto",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L47",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "docs_workflow_ascendant_attributes_26_2_estructura_del_proyecto",
       "community": 16,
@@ -7213,7 +7253,7 @@
       "label": "Versionado",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L51",
+      "source_location": "L61",
       "_origin": "ast",
       "id": "docs_workflow_ascendant_attributes_26_2_versionado",
       "community": 16,
@@ -7223,7 +7263,7 @@
       "label": "Commits (Conventional Commits)",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L56",
+      "source_location": "L66",
       "_origin": "ast",
       "id": "docs_workflow_ascendant_attributes_26_2_commits_conventional_commits",
       "community": 16,
@@ -7233,7 +7273,7 @@
       "label": "Tags",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L60",
+      "source_location": "L70",
       "_origin": "ast",
       "id": "docs_workflow_ascendant_attributes_26_2_tags",
       "community": 16,
@@ -7243,7 +7283,7 @@
       "label": "Flujo por tarea",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L64",
+      "source_location": "L74",
       "_origin": "ast",
       "id": "docs_workflow_ascendant_attributes_26_2_flujo_por_tarea",
       "community": 16,
@@ -7253,7 +7293,7 @@
       "label": "Buenas pr\u00e1cticas",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L99",
+      "source_location": "L109",
       "_origin": "ast",
       "id": "docs_workflow_ascendant_attributes_26_2_buenas_pr\u00e1cticas",
       "community": 16,
@@ -7263,7 +7303,7 @@
       "label": "Idioma",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L106",
+      "source_location": "L116",
       "_origin": "ast",
       "id": "docs_workflow_ascendant_attributes_26_2_idioma",
       "community": 16,
@@ -7418,6 +7458,16 @@
       "id": "docs_curseforge_versions_0_0_0_beta_3",
       "community": 48,
       "norm_label": "0.0.0-beta.3.md"
+    },
+    {
+      "label": "0.0.0-beta.4.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.4.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_4",
+      "community": 55,
+      "norm_label": "0.0.0-beta.4.md"
     },
     {
       "type": "image",
@@ -23472,7 +23522,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L26",
       "weight": 1.0,
       "source": "changelog_changelog_ascendant_attributes",
       "target": "changelog_0_0_0_beta_1",
@@ -23482,17 +23532,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L45",
+      "source_location": "L62",
       "weight": 1.0,
       "source": "changelog_changelog_ascendant_attributes",
-      "target": "changelog_0_0_0_beta_1_45",
+      "target": "changelog_0_0_0_beta_1_62",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L3",
+      "source_location": "L20",
       "weight": 1.0,
       "source": "changelog_changelog_ascendant_attributes",
       "target": "changelog_0_0_0_beta_2",
@@ -23502,17 +23552,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L39",
+      "source_location": "L56",
       "weight": 1.0,
       "source": "changelog_changelog_ascendant_attributes",
-      "target": "changelog_0_0_0_beta_2_39",
+      "target": "changelog_0_0_0_beta_2_56",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L31",
+      "source_location": "L48",
       "weight": 1.0,
       "source": "changelog_changelog_ascendant_attributes",
       "target": "changelog_0_0_0_beta_3_2026_08_05",
@@ -23522,7 +23572,27 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L37",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "changelog_changelog_ascendant_attributes",
+      "target": "changelog_0_0_0_beta_4_2026_08_07",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "changelog_changelog_ascendant_attributes",
+      "target": "changelog_0_0_0_beta_5_2026_08_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L54",
       "weight": 1.0,
       "source": "changelog_changelog_ascendant_attributes",
       "target": "changelog_angelog_ascendant_attributes",
@@ -23532,10 +23602,30 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L33",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_5_2026_08_10",
+      "target": "changelog_fix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_4_2026_08_07",
+      "target": "changelog_change",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L50",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_3_2026_08_05",
-      "target": "changelog_change",
+      "target": "changelog_change_50",
       "confidence_score": 1.0
     },
     {
@@ -23762,7 +23852,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L99",
+      "source_location": "L109",
       "weight": 1.0,
       "source": "docs_workflow_ascendant_attributes_26_2_flujo_de_trabajo_ascendant_attributes_neoforge",
       "target": "docs_workflow_ascendant_attributes_26_2_buenas_pr\u00e1cticas",
@@ -23772,7 +23862,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L56",
+      "source_location": "L66",
       "weight": 1.0,
       "source": "docs_workflow_ascendant_attributes_26_2_flujo_de_trabajo_ascendant_attributes_neoforge",
       "target": "docs_workflow_ascendant_attributes_26_2_commits_conventional_commits",
@@ -23782,7 +23872,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L31",
+      "source_location": "L41",
       "weight": 1.0,
       "source": "docs_workflow_ascendant_attributes_26_2_flujo_de_trabajo_ascendant_attributes_neoforge",
       "target": "docs_workflow_ascendant_attributes_26_2_convenciones_de_nomenclatura",
@@ -23802,7 +23892,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L47",
+      "source_location": "L57",
       "weight": 1.0,
       "source": "docs_workflow_ascendant_attributes_26_2_flujo_de_trabajo_ascendant_attributes_neoforge",
       "target": "docs_workflow_ascendant_attributes_26_2_estructura_del_proyecto",
@@ -23812,7 +23902,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L64",
+      "source_location": "L74",
       "weight": 1.0,
       "source": "docs_workflow_ascendant_attributes_26_2_flujo_de_trabajo_ascendant_attributes_neoforge",
       "target": "docs_workflow_ascendant_attributes_26_2_flujo_por_tarea",
@@ -23822,7 +23912,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L106",
+      "source_location": "L116",
       "weight": 1.0,
       "source": "docs_workflow_ascendant_attributes_26_2_flujo_de_trabajo_ascendant_attributes_neoforge",
       "target": "docs_workflow_ascendant_attributes_26_2_idioma",
@@ -23832,7 +23922,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L40",
+      "source_location": "L50",
       "weight": 1.0,
       "source": "docs_workflow_ascendant_attributes_26_2_flujo_de_trabajo_ascendant_attributes_neoforge",
       "target": "docs_workflow_ascendant_attributes_26_2_organizaci\u00f3n_y_ramas",
@@ -23842,7 +23932,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L60",
+      "source_location": "L70",
       "weight": 1.0,
       "source": "docs_workflow_ascendant_attributes_26_2_flujo_de_trabajo_ascendant_attributes_neoforge",
       "target": "docs_workflow_ascendant_attributes_26_2_tags",
@@ -23852,7 +23942,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L51",
+      "source_location": "L61",
       "weight": 1.0,
       "source": "docs_workflow_ascendant_attributes_26_2_flujo_de_trabajo_ascendant_attributes_neoforge",
       "target": "docs_workflow_ascendant_attributes_26_2_versionado",
@@ -23862,7 +23952,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md",
-      "source_location": "L18",
+      "source_location": "L20",
       "weight": 1.0,
       "source": "docs_workflow_ascendant_attributes_26_2_espec\u00edfico_del_mod",
       "target": "docs_workflow_ascendant_attributes_26_2_notas_espec\u00edficas_de_este_mod",
@@ -23978,5 +24068,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "173dc0067c79c4d2f6a074a467df2d3e1f104f61"
+  "built_at_commit": "e91ce4dc46511741921b1c0310967952fc96f24c"
 }

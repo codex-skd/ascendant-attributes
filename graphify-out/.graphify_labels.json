@@ -47,5 +47,12 @@
   "45": "EquipmentSlotGroups",
   "46": "VanillaEquipmentSlot.java",
   "47": "0.0.0-beta.2.md",
-  "48": "0.0.0-beta.3.md"
+  "48": "0.0.0-beta.3.md",
+  "49": "EntitySlotGroup",
+  "50": "EquipmentSlotCompat",
+  "51": "CurioEquipmentSlot.java",
+  "52": "EquipmentSlotGroups",
+  "53": "VanillaEquipmentSlot.java",
+  "54": ".pruneCooldowns",
+  "55": "0.0.0-beta.4.md"
 }
