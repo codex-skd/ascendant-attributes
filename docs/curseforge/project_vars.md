@@ -24,7 +24,7 @@ Autenticación Core: cabecera `x-api-key`
 
 project_id = 1638518
 api_token = ee776b0a-ee95-4850-b554-06be02a8657f
-release_type = beta
+release_type = release
 game_versions = 9638, 9639, 16498, 10150
 relations =
 
@@ -60,18 +60,7 @@ CurseForge suele pedir contexto extra cuando un proyecto nuevo es un fork/port d
 
 ## Icono / imagen del proyecto
 
-Icono aún pendiente de diseñar (`assets/ascendant_attributes/icon.png`, `logoFile` comentado en `neoforge.mods.toml`). Prompt propuesto para generarlo, manteniendo la identidad visual ya usada en `ascendant_equipment`/`ascendant_spawners` (pieza flotante dorada con aura violeta radiante sobre fondo oscuro) pero con motivo de atributo/afijo en vez de equipo:
-
-```
-Fantasy RPG game item icon, a glowing rune-etched crystal shard floating and
-rotating slightly, radiant violet-purple magical aura swirling around it,
-warm golden light core at its center, dark vignette background, dramatic
-rim lighting, painterly digital art style matching World of Warcraft /
-Diablo loot icon aesthetics, square composition, centered subject, no text,
-no border, high detail, 1:1 aspect ratio
-```
-
-Generar en alta resolución (1024x1024 recomendado) y luego exportar dos tamaños: 64x64 para `assets/ascendant_attributes/icon.png` (icono in-game) y una versión cuadrada (mínimo 256x256, PNG con fondo) para el logo del proyecto en CurseForge. No reutilizar el icono de `ascendant_equipment` ni el de `ascendant_spawners` — cada mod necesita uno propio aunque compartan estilo de familia.
+Icono propio integrado desde la Fase 12 del roadmap: `assets/ascendant_attributes/icon.png` existe y `logoFile` está activo en `neoforge.mods.toml`. Logo del proyecto CurseForge en `docs/curseforge/logo_256.png`.
 
 ## Rama
 

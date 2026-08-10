@@ -1,5 +1,13 @@
 # Changelog — Ascendant Attributes
 
+## [1.0.0] - 2026-08-10
+
+### Release
+
+- **Primera versión estable.** Con el fix de traducciones al español (`0.0.0-beta.5`) y todo el roadmap de port completado en fases anteriores (Fases 0-13, ver entradas de `0.0.0-beta.1`/`.2`/`.4` más abajo), el mod pasa de línea beta a **release** `1.0.0` (SemVer): 20 atributos personalizados, 7 efectos de estado, GUI de inspección de atributos, fórmulas de combate configurables (EvalEx), 7 mixins verificados en runtime, compat opcional con Curios, arte propio completo y localización en-US/es-ES.
+- `README.md` y `docs/curseforge/project_description.md` actualizados — ambos seguían describiendo el scaffold inicial (`0.0.0-beta.1`, "sin funcionalidades implementadas") pese a que el port llevaba completado desde hace varias betas.
+- Sin cambios de código respecto a `0.0.0-beta.5` — este release marca la estabilidad del port, no introduce funcionalidad nueva.
+
 ## [0.0.0-beta.5] - 2026-08-10
 
 ### Fix
