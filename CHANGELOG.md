@@ -1,5 +1,12 @@
 # Changelog — Ascendant Attributes
 
+## [0.0.0-beta.5] - 2026-08-10
+
+### Fix
+
+- **Traducciones al español faltantes**: no existía `assets/ascendant_attributes/lang/es_es.json` — el mod solo tenía `en_us.json`. En cliente con idioma español, los nombres base de atributos vanilla se veían en español (los provee Minecraft), pero todo lo propio del mod (descripciones de atributos, GUI, efectos de estado, mensajes de muerte, nombres de pociones custom) caía al fallback en inglés.
+- Añadido `lang/es_es.json` con las 130 claves traducidas (mismos placeholders `%s`/`%1$s` que el original).
+
 ## [0.0.0-beta.4] - 2026-08-07
 
 ### Change
