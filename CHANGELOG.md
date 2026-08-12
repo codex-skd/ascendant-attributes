@@ -1,5 +1,12 @@
 # Changelog — Ascendant Attributes
 
+
+## [1.0.1] - 2026-08-12
+
+### Change
+
+- **Nombre de JAR con versión del cargador**: el artefacto ahora se compila como `ascendant_attributes-26.2-neoforge-26.2.0.37-beta-1.0.1.jar` (se añade la versión de cargador/NeoForge al nombre del archivo). Empaquetado y documentación; sin cambios de funcionalidad.
+
 ## [1.0.0] - 2026-08-10
 
 ### Release
