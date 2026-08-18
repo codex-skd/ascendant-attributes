@@ -65,7 +65,7 @@ Icono propio integrado desde la Fase 12 del roadmap: `assets/ascendant_attribute
 ## Rama
 
 ```
-minecraft/26.2/neoforge-26.2.0.32-beta/production
+minecraft/26.2/neoforge-26.2.0.45-beta/production
 ```
 
 ## Tag

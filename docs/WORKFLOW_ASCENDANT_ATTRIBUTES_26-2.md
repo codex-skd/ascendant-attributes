@@ -14,8 +14,8 @@
 | Display name (Title Case) | `Ascendant Attributes` |
 | Versiones de Minecraft | `26.2` |
 | Rama | `minecraft/26.2/neoforge-26.2.0.45-beta/production` |
-| Última versión publicada | `1.0.0` (CurseForge file ID 8617339) |
-| Estado | ✅ Release estable 1.0.0 |
+| Última versión publicada | `1.0.2` (CurseForge file ID 8676178) |
+| Estado | ✅ Release estable 1.0.2 |
 
 ### Notas específicas de este mod
 
@@ -78,7 +78,7 @@ Cada subida a CurseForge crea tag: beta `<mc>-neoforge-beta.X` · release `<mc>-
 **1. Desarrollo**
 
 ```bash
-git checkout minecraft/26.2/neoforge-26.2.0.32-beta/production
+git checkout minecraft/26.2/neoforge-26.2.0.45-beta/production
 ./gradlew.bat build
 git add -A
 git commit -m "feat: <descripción>
@@ -91,7 +91,7 @@ git push
 - Bump `mod_version` en gradle.properties → `./gradlew.bat clean build`
 - Release notes `docs/curseforge/versions/<version>.md` (HTML) + actualizar `CHANGELOG.md`
 - Commit `chore: bump version to <version>` → tag `<mc>-neoforge-<version>` → push
-- La **primera subida es manual** (proyecto de CurseForge aún no creado) — ver `docs/curseforge/project_vars.md`. A partir de la segunda: `powershell -File ../../codex-docs/scripts/curseforge-upload.ps1` (desde este repo)
+- Subir JAR: `powershell -File ../../codex-docs/scripts/curseforge-upload.ps1` (desde este repo)
 - Formato HTML de descripciones/changelog: `codex-docs/reference/CURSEFORGE.md`
 
 **3. Release estable** — bump `X.Y.Z` + tag.
