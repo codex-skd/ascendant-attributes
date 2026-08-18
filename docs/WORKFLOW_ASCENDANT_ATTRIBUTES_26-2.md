@@ -13,7 +13,7 @@
 | Clase principal | `AscendantAttributes` |
 | Display name (Title Case) | `Ascendant Attributes` |
 | Versiones de Minecraft | `26.2` |
-| Rama | `minecraft/26.2/neoforge-26.2.0.37-beta/production` |
+| Rama | `minecraft/26.2/neoforge-26.2.0.45-beta/production` |
 | Última versión publicada | `1.0.0` (CurseForge file ID 8617339) |
 | Estado | ✅ Release estable 1.0.0 |
 
