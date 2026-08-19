@@ -2,6 +2,14 @@
 
 
 
+## [1.1.0] - 2026-08-20
+
+### Change
+
+- **Actualización de NeoForge**: actualizado de 26.2.0.45-beta a 26.2.0.57.
+- **Configuración unificada**: el archivo de configuración ahora se guarda en `config/ascendant/attributes/ascendant_attributes.cfg` en vez de `config/ascendant_attributes/ascendant_attributes.cfg`.
+- **Curios → Regalia Slots API**: la integración opcional de slots de accesorios pasa de Curios al fork propio `regalia_slots_api` (mismo paquete Java, sin cambios de código; solo cambia la dependencia de compilación, el bloque en `neoforge.mods.toml` y las comprobaciones `ModList.isLoaded`).
+
 ## [1.0.2] - 2026-08-18
 
 ### Change

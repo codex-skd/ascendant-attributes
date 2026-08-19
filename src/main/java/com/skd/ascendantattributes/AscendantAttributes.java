@@ -57,7 +57,7 @@ public class AscendantAttributes {
     public static final Logger LOGGER = LogManager.getLogger("ascendant_attributes");
     public static final DeferredHelper R = DeferredHelper.create("ascendant_attributes");
     public static final boolean DEBUG_AUX_DMG = "on".equalsIgnoreCase(System.getenv("ASCENDANT_DEBUG_AUX_DMG"));
-    private static final File configDir = new File(FMLPaths.CONFIGDIR.get().toFile(), "ascendant_attributes");
+    private static final File configDir = new File(new File(FMLPaths.CONFIGDIR.get().toFile(), "ascendant"), "attributes");
     private static float localAtkStrength = 1.0F;
 
     public AscendantAttributes(IEventBus bus) {
@@ -124,7 +124,7 @@ public class AscendantAttributes {
                 attr.value().setSyncable(true);
             }
         });
-        if (ModList.get().isLoaded("curios")) {
+        if (ModList.get().isLoaded("regalia_slots_api")) {
             e.enqueueWork(CuriosCompat::init);
         }
     }

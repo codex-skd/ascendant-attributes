@@ -13,19 +13,19 @@
 | Clase principal | `AscendantAttributes` |
 | Display name (Title Case) | `Ascendant Attributes` |
 | Versiones de Minecraft | `26.2` |
-| Rama | `minecraft/26.2/neoforge-26.2.0.45-beta/production` |
-| Última versión publicada | `1.0.2` (CurseForge file ID 8676178) |
-| Estado | ✅ Release estable 1.0.2 |
+| Rama | `minecraft/26.2/neoforge-26.2.0.57/production` |
+| Última versión publicada | `1.1.0` (CurseForge file ID pendiente) |
+| Estado | ✅ Release estable 1.1.0 |
 
 ### Notas específicas de este mod
 
 - **Fork de**: [Apothic Attributes](https://www.curseforge.com/minecraft/mc-mods/apothic-attributes) por Shadows_of_Fire (v3.0.1 para MC 26.1.2/NeoForge 26.1.2.70-beta). Completamente portado a Ascendant Attributes (v0.0.0-beta.4+ para MC 26.2/NeoForge 26.2.0.37-beta). Roadmap de 13 fases completado. ✅
 - **package**: `com.skd.ascendantattributes`
-- **Minecraft / NeoForge**: `26.2` / `26.2.0.37-beta` (actualizado desde `26.2.0.32-beta` en beta.3)
+- **Minecraft / NeoForge**: `26.2` / `26.2.0.57`
 - **Conceptualmente módulo de [Ascendant Equipment](https://gitlab.com/stalking-dragons/minecraft/ascendant-equipment)** (fork de Apotheosis), pero sin dependencia técnica real: verificado en Fase 0 (decompilando el jar original) que Apothic Attributes es **completamente autocontenido** — no embebe ni depende de código de Apotheosis, solo de Placebo (→ Common Toolkit) y opcionalmente Curios. Ver `docs/ASCENDANT_ATTRIBUTES_RENAME_MAP.md` para el detalle. No hay ninguna dependencia con Ascendant Equipment que resolver.
 - **Dependencias reemplazadas** (a petición del usuario, no son las originales del mod):
   - `placebo` (requerida en el original) → **`common_toolkit`** (fork de Placebo de este workspace). Cableada en `build.gradle` (`compileOnly`/`localRuntime` desde `lib_ext/common_toolkit-26.2-neoforge-0.0.0-beta.1.jar`) y declarada `required` en `neoforge.mods.toml`.
-  - `curios` (309927, integración opcional/compat en el original, no dependencia dura) → **Curios API Updated** (fork, [CurseForge 1579340](https://www.curseforge.com/minecraft/mc-mods/curios-api-updated)). Cableada igual (`lib_ext/curios-neoforge-15.0.0-beta.2+26.2.jar`) y declarada `optional` en `neoforge.mods.toml`, igual que en el original.
+  - `curios` (309927, integración opcional/compat en el original, no dependencia dura) → primero **Curios API Updated** (fork externo), y desde v1.1.0 nuestro propio **Regalia Slots API** (fork completo de Curios API, mismo paquete Java `top.theillusivec4.curios.api`, `regalia_slots_api/neoforge/26.2` en este workspace). Cableada igual (`lib_ext/regalia_slots_api-neoforge-0.0.0-beta.4+26.2.jar`) y declarada `optional` en `neoforge.mods.toml`, sin cambios de código Java (misma API).
 - **Sin residuos del original**: el mod original usa el package `dev.shadowsoffire.apothic_attributes` (y comparte clases bajo `dev.shadowsoffire.apotheosis`) y namespace de recursos `apothic_attributes:`/`apotheosis:` — todo el código, assets y datos portados deben quedar bajo `com.skd.ascendantattributes` / `ascendant_attributes:`, sin nombres de clases, métodos ni variables calcados del original.
 - **Icono pendiente**: `assets/ascendant_attributes/icon.png` aún no existe (línea `logoFile` comentada en `neoforge.mods.toml`) — diseñar uno propio antes de la primera subida a CurseForge, no reutilizar el logo de Apothic Attributes ni el de Ascendant Equipment.
 - **Estado de desarrollo**: `0.0.0-beta.4` completa el roadmap entero (13 fases). Todos los sistemas portados y verificados:

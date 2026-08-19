@@ -135,7 +135,7 @@ public class CuriosCompat {
     }
 
     static {
-        if (!ModList.get().isLoaded("curios")) {
+        if (!ModList.get().isLoaded("regalia_slots_api")) {
             throw new UnsupportedOperationException("This optional compat class requires Curios to be loaded.");
         }
     }
