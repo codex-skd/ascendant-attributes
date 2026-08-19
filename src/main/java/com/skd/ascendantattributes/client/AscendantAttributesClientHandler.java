@@ -233,7 +233,7 @@ public class AscendantAttributesClientHandler {
 
         @SubscribeEvent
         public static void clientSetup(FMLClientSetupEvent e) {
-            if (ModList.get().isLoaded("curios")) {
+            if (ModList.get().isLoaded("regalia_slots_api")) {
             }
         }
 

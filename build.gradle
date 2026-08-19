@@ -116,10 +116,11 @@ dependencies {
     compileOnly files("lib_ext/common_toolkit-26.2-neoforge-0.0.0-beta.1.jar")
     localRuntime files("lib_ext/common_toolkit-26.2-neoforge-0.0.0-beta.1.jar")
 
-    // Curios API Updated (fork of Curios API) is an optional compat dependency, same
-    // role it had in the original mod (accessory-slot integration, not required to load).
-    compileOnly files("lib_ext/curios-neoforge-15.0.0-beta.2+26.2.jar")
-    localRuntime files("lib_ext/curios-neoforge-15.0.0-beta.2+26.2.jar")
+    // Regalia Slots API (our fork of Curios API, same package) is an optional compat
+    // dependency, same role Curios had in the original mod (accessory-slot integration,
+    // not required to load).
+    compileOnly files("lib_ext/regalia_slots_api-neoforge-0.0.0-beta.4+26.2.jar")
+    localRuntime files("lib_ext/regalia_slots_api-neoforge-0.0.0-beta.4+26.2.jar")
 
     // EvalEx (com.udojava:EvalEx) is the real Maven library that replaces the original mod's
     // repackaged copy (dev.shadowsoffire.apothic_attributes.repack.evalex), used to evaluate the

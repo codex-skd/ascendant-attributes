@@ -90,11 +90,11 @@ config="${mod_id}.mixins.json"
     ordering="AFTER"
     side="BOTH"
 
-# Curios API Updated (fork of Curios API) — optional compat, same role it had in the original mod.
+# Regalia Slots API (our fork of Curios API) — optional compat, same role Curios had in the original mod.
 [[dependencies.${mod_id}]]
-    modId="curios"
+    modId="regalia_slots_api"
     type="optional"
-    versionRange="[15.0.0-beta.2,)"
+    versionRange="[0.0.0-beta.4,)"
     ordering="AFTER"
     side="BOTH"
 
