@@ -11,8 +11,8 @@ import org.jetbrains.annotations.Nullable;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 
-import com.skd.ascendantattributes.ApothicAttributes;
-import com.skd.ascendantattributes.api.ALObjects;
+import com.skd.ascendantattributes.AscendantAttributes;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -44,7 +44,7 @@ public class AuxDmgTracker {
      * If you use this, you do not need to manually call {@link #start(LivingEntity)} and {@link #end(LivingEntity)}.
      */
     public static void executeWith(LivingEntity entity, Consumer<AuxDmgTracker> consumer) {
-        AuxDmgTracker tracker = entity.getData(ALObjects.Attachments.AUX_DMG_TRACKER);
+        AuxDmgTracker tracker = entity.getData(AscendantAttributesObjects.Attachments.AUX_DMG_TRACKER);
         tracker.start(entity);
         try {
             consumer.accept(tracker);
@@ -74,7 +74,7 @@ public class AuxDmgTracker {
      * @return If the attack was successful. This will be true if the target was not already dead, and the damage was greater than 0.001.
      */
     public boolean attackWith(LivingEntity attacker, LivingEntity target, ResourceKey<DamageType> type, float damage, @Nullable PostAttackEffect callback) {
-        float atkStrength = ApothicAttributes.getLocalAtkStrength(attacker);
+        float atkStrength = AscendantAttributes.getLocalAtkStrength(attacker);
         debugLog("Attacking {} with {}: damage = {}, atkStrength = {}", target, type.location(), damage, atkStrength);
         if (damage > 0.001 && atkStrength >= 0.55F && !target.isDeadOrDying()) {
             this.setup(target, type);
@@ -166,8 +166,8 @@ public class AuxDmgTracker {
     private static final Marker MARKER = MarkerManager.getMarker(AuxDmgTracker.class.getSimpleName());
 
     private static void debugLog(String msg, Object... args) {
-        if (ApothicAttributes.DEBUG_AUX_DMG) {
-            ApothicAttributes.LOGGER.debug(MARKER, msg, args);
+        if (AscendantAttributes.DEBUG_AUX_DMG) {
+            AscendantAttributes.LOGGER.debug(MARKER, msg, args);
         }
     }
 

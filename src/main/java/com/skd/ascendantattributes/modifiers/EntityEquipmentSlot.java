@@ -2,7 +2,7 @@ package com.skd.ascendantattributes.modifiers;
 
 import com.mojang.serialization.Codec;
 
-import com.skd.ascendantattributes.api.ALObjects.BuiltInRegs;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects.BuiltInRegs;
 import net.minecraft.core.Holder;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.codec.ByteBufCodecs;

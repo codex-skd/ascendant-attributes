@@ -2,8 +2,8 @@ package com.skd.ascendantattributes.api;
 
 import java.math.BigDecimal;
 
-import com.skd.ascendantattributes.ALConfig;
-import com.skd.ascendantattributes.api.ALObjects.Attributes;
+import com.skd.ascendantattributes.AttributesConfig;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects.Attributes;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.Mth;
 import net.minecraft.world.damagesource.DamageSource;
@@ -13,7 +13,7 @@ import net.minecraft.world.item.enchantment.EnchantmentHelper;
 /**
  * Contains AL-specific combat calculations for armor and protection values.
  */
-public class ALCombatRules {
+public class CombatRules {
 
     /**
      * Gets the amount of damage the user would take after applying protection points and protection bypass.<br>
@@ -54,8 +54,8 @@ public class ALCombatRules {
      * @see #getDamageAfterProtection(LivingEntity, DamageSource, float, float)
      */
     public static float getProtDamageReduction(float protPoints) {
-        if (ALConfig.getProtExpr().isPresent()) {
-            return ALConfig.getProtExpr().get().setVariable("protPoints", new BigDecimal(protPoints)).eval().floatValue();
+        if (AttributesConfig.getProtExpr().isPresent()) {
+            return AttributesConfig.getProtExpr().get().setVariable("protPoints", new BigDecimal(protPoints)).eval().floatValue();
         }
         return 1 - Math.min(0.025F * protPoints, 0.85F);
     }
@@ -94,7 +94,7 @@ public class ALCombatRules {
         }
 
         if (armor <= 0) {
-            return amount + (ALConfig.negativeArmorFactor * -armor * amount);
+            return amount + (AttributesConfig.negativeArmorFactor * -armor * amount);
         }
 
         float reduction = getArmorDamageReduction(amount, armor, toughness);
@@ -120,8 +120,8 @@ public class ALCombatRules {
      * @return The A value, for use in {@link #getArmorDamageReduction(float, float)}
      */
     public static float getAValue(float damage) {
-        if (ALConfig.getAValueExpr().isPresent()) {
-            return ALConfig.getAValueExpr().get().setVariable("damage", new BigDecimal(damage)).eval().floatValue();
+        if (AttributesConfig.getAValueExpr().isPresent()) {
+            return AttributesConfig.getAValueExpr().get().setVariable("damage", new BigDecimal(damage)).eval().floatValue();
         }
         return damage < 20 ? 10 : 10 + (damage - 20) / 2;
     }
@@ -141,8 +141,8 @@ public class ALCombatRules {
      */
     public static float getArmorDamageReduction(float damage, float armor, float toughness) {
         float a = getAValue(damage);
-        if (ALConfig.getArmorExpr().isPresent()) {
-            return ALConfig.getArmorExpr().get()
+        if (AttributesConfig.getArmorExpr().isPresent()) {
+            return AttributesConfig.getArmorExpr().get()
                 .setVariable("a", new BigDecimal(a))
                 .setVariable("damage", new BigDecimal(damage))
                 .setVariable("armor", new BigDecimal(armor))
@@ -158,8 +158,8 @@ public class ALCombatRules {
      * A returned value of 1.0 will nullify enemy armor bypass.
      */
     public static float getBypassResistance(float damage, float armor, float toughness) {
-        if (ALConfig.getToughnessExpr().isPresent()) {
-            float bypassResist = ALConfig.getToughnessExpr().get()
+        if (AttributesConfig.getToughnessExpr().isPresent()) {
+            float bypassResist = AttributesConfig.getToughnessExpr().get()
                 .setVariable("damage", new BigDecimal(damage))
                 .setVariable("armor", new BigDecimal(armor))
                 .setVariable("toughness", new BigDecimal(toughness))

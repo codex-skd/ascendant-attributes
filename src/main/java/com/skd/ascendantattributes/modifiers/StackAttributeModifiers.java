@@ -7,7 +7,7 @@ import com.google.common.collect.ImmutableList;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 
-import com.skd.ascendantattributes.api.ALObjects;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import net.minecraft.core.Holder;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.codec.ByteBufCodecs;
@@ -107,7 +107,7 @@ public record StackAttributeModifiers(List<StackAttributeModifiers.Entry> modifi
             p_348388_ -> p_348388_.group(
                 Attribute.CODEC.fieldOf("type").forGetter(StackAttributeModifiers.Entry::attribute),
                 AttributeModifier.MAP_CODEC.forGetter(StackAttributeModifiers.Entry::modifier),
-                EntitySlotGroup.CODEC.optionalFieldOf("slot", ALObjects.EquipmentSlotGroups.ANY).forGetter(StackAttributeModifiers.Entry::slots))
+                EntitySlotGroup.CODEC.optionalFieldOf("slot", AscendantAttributesObjects.EquipmentSlotGroups.ANY).forGetter(StackAttributeModifiers.Entry::slots))
                 .apply(p_348388_, StackAttributeModifiers.Entry::new)));
 
         public static final StreamCodec<RegistryFriendlyByteBuf, StackAttributeModifiers.Entry> STREAM_CODEC = StreamCodec.composite(

@@ -5,7 +5,7 @@ import org.jetbrains.annotations.Nullable;
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 
-import com.skd.ascendantattributes.api.ALObjects;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import net.minecraft.Util;
 import net.minecraft.core.Holder;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -17,26 +17,26 @@ import net.minecraft.world.entity.EquipmentSlotGroup;
 public class EquipmentSlotCompat {
 
     private static final BiMap<EquipmentSlot, Holder<EntityEquipmentSlot>> SLOT_MAP = Util.make(HashBiMap.create(7), map -> {
-        map.put(EquipmentSlot.MAINHAND, ALObjects.EquipmentSlots.MAINHAND);
-        map.put(EquipmentSlot.OFFHAND, ALObjects.EquipmentSlots.OFFHAND);
-        map.put(EquipmentSlot.HEAD, ALObjects.EquipmentSlots.HEAD);
-        map.put(EquipmentSlot.CHEST, ALObjects.EquipmentSlots.CHEST);
-        map.put(EquipmentSlot.LEGS, ALObjects.EquipmentSlots.LEGS);
-        map.put(EquipmentSlot.FEET, ALObjects.EquipmentSlots.FEET);
-        map.put(EquipmentSlot.BODY, ALObjects.EquipmentSlots.BODY);
+        map.put(EquipmentSlot.MAINHAND, AscendantAttributesObjects.EquipmentSlots.MAINHAND);
+        map.put(EquipmentSlot.OFFHAND, AscendantAttributesObjects.EquipmentSlots.OFFHAND);
+        map.put(EquipmentSlot.HEAD, AscendantAttributesObjects.EquipmentSlots.HEAD);
+        map.put(EquipmentSlot.CHEST, AscendantAttributesObjects.EquipmentSlots.CHEST);
+        map.put(EquipmentSlot.LEGS, AscendantAttributesObjects.EquipmentSlots.LEGS);
+        map.put(EquipmentSlot.FEET, AscendantAttributesObjects.EquipmentSlots.FEET);
+        map.put(EquipmentSlot.BODY, AscendantAttributesObjects.EquipmentSlots.BODY);
     });
 
     private static final BiMap<EquipmentSlotGroup, EntitySlotGroup> GROUP_MAP = Util.make(HashBiMap.create(10), map -> {
-        map.put(EquipmentSlotGroup.ANY, ALObjects.EquipmentSlotGroups.ANY_VANILLA);
-        map.put(EquipmentSlotGroup.MAINHAND, ALObjects.EquipmentSlotGroups.MAINHAND);
-        map.put(EquipmentSlotGroup.OFFHAND, ALObjects.EquipmentSlotGroups.OFFHAND);
-        map.put(EquipmentSlotGroup.HAND, ALObjects.EquipmentSlotGroups.HAND);
-        map.put(EquipmentSlotGroup.HEAD, ALObjects.EquipmentSlotGroups.HEAD);
-        map.put(EquipmentSlotGroup.CHEST, ALObjects.EquipmentSlotGroups.CHEST);
-        map.put(EquipmentSlotGroup.LEGS, ALObjects.EquipmentSlotGroups.LEGS);
-        map.put(EquipmentSlotGroup.FEET, ALObjects.EquipmentSlotGroups.FEET);
-        map.put(EquipmentSlotGroup.ARMOR, ALObjects.EquipmentSlotGroups.ARMOR);
-        map.put(EquipmentSlotGroup.BODY, ALObjects.EquipmentSlotGroups.BODY);
+        map.put(EquipmentSlotGroup.ANY, AscendantAttributesObjects.EquipmentSlotGroups.ANY_VANILLA);
+        map.put(EquipmentSlotGroup.MAINHAND, AscendantAttributesObjects.EquipmentSlotGroups.MAINHAND);
+        map.put(EquipmentSlotGroup.OFFHAND, AscendantAttributesObjects.EquipmentSlotGroups.OFFHAND);
+        map.put(EquipmentSlotGroup.HAND, AscendantAttributesObjects.EquipmentSlotGroups.HAND);
+        map.put(EquipmentSlotGroup.HEAD, AscendantAttributesObjects.EquipmentSlotGroups.HEAD);
+        map.put(EquipmentSlotGroup.CHEST, AscendantAttributesObjects.EquipmentSlotGroups.CHEST);
+        map.put(EquipmentSlotGroup.LEGS, AscendantAttributesObjects.EquipmentSlotGroups.LEGS);
+        map.put(EquipmentSlotGroup.FEET, AscendantAttributesObjects.EquipmentSlotGroups.FEET);
+        map.put(EquipmentSlotGroup.ARMOR, AscendantAttributesObjects.EquipmentSlotGroups.ARMOR);
+        map.put(EquipmentSlotGroup.BODY, AscendantAttributesObjects.EquipmentSlotGroups.BODY);
     });
 
     /**
@@ -60,7 +60,7 @@ public class EquipmentSlotCompat {
      */
     @Nullable
     public static EquipmentSlotGroup toVanilla(EntitySlotGroup group) {
-        if (group == ALObjects.EquipmentSlotGroups.ANY) {
+        if (group == AscendantAttributesObjects.EquipmentSlotGroups.ANY) {
             return EquipmentSlotGroup.ANY;
         }
         return GROUP_MAP.inverse().get(group);

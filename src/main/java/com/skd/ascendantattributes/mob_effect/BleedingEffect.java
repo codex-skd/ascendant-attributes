@@ -1,6 +1,6 @@
 package com.skd.ascendantattributes.mob_effect;
 
-import com.skd.ascendantattributes.api.ALObjects;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.entity.LivingEntity;
@@ -13,7 +13,7 @@ public class BleedingEffect extends MobEffect {
 
     @Override
     public boolean applyEffectTick(LivingEntity entity, int amplifier) {
-        entity.hurt(entity.level().damageSources().source(ALObjects.DamageTypes.BLEEDING, entity.getLastAttacker()), 1.0F + amplifier);
+        entity.hurt(entity.level().damageSources().source(AscendantAttributesObjects.DamageTypes.BLEEDING, entity.getLastAttacker()), 1.0F + amplifier);
         return true;
     }
 

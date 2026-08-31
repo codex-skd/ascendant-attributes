@@ -4,9 +4,16 @@ Copyright (c) 2023-2025 Stormraven Studios, LLC (Apothic Attributes)
 Copyright (c) 2026 Stalking Dragons (Ascendant Attributes fork)
 
 This mod is a port of Apothic Attributes (https://www.curseforge.com/minecraft/mc-mods/apothic-attributes)
-by Shadows_of_Fire, ported from NeoForge 26.1.2 to NeoForge 26.2 with all
-identifiers renamed to this project's convention. The original Apothic Attributes
-code is MIT licensed. Not affiliated with or endorsed by the original author.
+by Shadows_of_Fire / Stormraven Studios, LLC, with all identifiers renamed to this
+project's convention. The original Apothic Attributes code is MIT licensed. This
+1.21.1 build is a re-fork from the upstream Apothic Attributes 1.21 sources. Not
+affiliated with or endorsed by the original author.
+
+Dependencies bundled or required at runtime keep their own licenses:
+  - Common Toolkit (required) - LGPL-2.1-or-later (a fork of Placebo; see that
+    project's NOTICE.md / COPYING.LESSER).
+  - Regalia Slots API (optional) - LGPL-3.0-or-later (a fork of Curios API).
+  - EvalEx (com.udojava:EvalEx, jar-in-jar) - MIT.
 
 All in-game assets (textures, models, sounds) are original to this project and
 are NOT copied from Apothic Attributes, whose assets remain All Rights Reserved

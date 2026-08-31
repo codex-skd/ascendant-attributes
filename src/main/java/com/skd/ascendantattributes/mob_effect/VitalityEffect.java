@@ -1,7 +1,7 @@
 package com.skd.ascendantattributes.mob_effect;
 
-import com.skd.ascendantattributes.ApothicAttributes;
-import com.skd.ascendantattributes.api.ALObjects;
+import com.skd.ascendantattributes.AscendantAttributes;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import net.minecraft.ChatFormatting;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
@@ -11,7 +11,7 @@ public class VitalityEffect extends MobEffect {
 
     public VitalityEffect() {
         super(MobEffectCategory.BENEFICIAL, ChatFormatting.RED.getColor());
-        this.addAttributeModifier(ALObjects.Attributes.HEALING_RECEIVED, ApothicAttributes.loc("bursting_vitality"), 0.2, Operation.ADD_VALUE);
+        this.addAttributeModifier(AscendantAttributesObjects.Attributes.HEALING_RECEIVED, AscendantAttributes.loc("bursting_vitality"), 0.2, Operation.ADD_VALUE);
     }
 
 }

@@ -10,9 +10,9 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.suggestion.SuggestionProvider;
 
-import com.skd.ascendantattributes.ApothicAttributes;
-import com.skd.ascendantattributes.api.ALObjects;
-import com.skd.ascendantattributes.api.ALObjects.BuiltInRegs;
+import com.skd.ascendantattributes.AscendantAttributes;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects.BuiltInRegs;
 import com.skd.ascendantattributes.modifiers.EntitySlotGroup;
 import com.skd.ascendantattributes.modifiers.StackAttributeModifiers;
 import net.minecraft.commands.CommandSourceStack;
@@ -50,10 +50,10 @@ public class BonusModifierCommand {
                         float value = c.getArgument("value", Float.class);
                         ItemStack stack = p.getMainHandItem();
 
-                        StackAttributeModifiers bonus = stack.getOrDefault(ALObjects.Components.BONUS_STACK_ATTRIBUTE_MODIFIERS, StackAttributeModifiers.EMPTY);
-                        AttributeModifier modif = new AttributeModifier(ApothicAttributes.loc("command_generated_" + p.level().random.nextInt()), value, op);
+                        StackAttributeModifiers bonus = stack.getOrDefault(AscendantAttributesObjects.Components.BONUS_STACK_ATTRIBUTE_MODIFIERS, StackAttributeModifiers.EMPTY);
+                        AttributeModifier modif = new AttributeModifier(AscendantAttributes.loc("command_generated_" + p.level().random.nextInt()), value, op);
 
-                        stack.set(ALObjects.Components.BONUS_STACK_ATTRIBUTE_MODIFIERS, bonus.withModifierAdded(attrib, modif, slot));
+                        stack.set(AscendantAttributesObjects.Components.BONUS_STACK_ATTRIBUTE_MODIFIERS, bonus.withModifierAdded(attrib, modif, slot));
                         return 0;
                     }))))));
     }

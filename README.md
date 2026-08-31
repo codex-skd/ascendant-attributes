@@ -1,6 +1,6 @@
 # Ascendant Attributes
 
-Ascendant Attributes is a library mod adding 20 custom attributes, 7 status effects, and a full attribute-inspection GUI to Minecraft 26.2 (NeoForge). Conceptually a module of [Ascendant Equipment](https://gitlab.com/stalking-dragons/minecraft/ascendant-equipment).
+Ascendant Attributes is a library mod adding 20 custom attributes, 7 status effects, and a full attribute-inspection GUI to Minecraft 1.21.1 (NeoForge). Conceptually a module of [Ascendant Equipment](https://gitlab.com/stalking-dragons/minecraft/ascendant-equipment).
 
 > This mod is a fork of [Apothic Attributes](https://www.curseforge.com/minecraft/mc-mods/apothic-attributes) by Shadows_of_Fire. Not affiliated with or endorsed by the original author.
 
@@ -21,15 +21,15 @@ Stable release (`1.0.0`). The full port from Apothic Attributes is complete: att
 
 | Component | Version |
 |---|---|
-| Minecraft | 26.2 |
-| NeoForge | 26.2.0.37-beta+ |
-| Java | 25+ |
+| Minecraft | 1.21.1 |
+| NeoForge | 21.1.249+ |
+| Java | 21+ |
 | [Common Toolkit](https://gitlab.com/stalking-dragons/minecraft/common-toolkit) | Required (fork of Placebo) |
-| [Curios API Updated](https://www.curseforge.com/minecraft/mc-mods/curios-api-updated) | Optional (fork of Curios API, compat only) |
+| [Regalia Slots API](https://gitlab.com/stalking-dragons/minecraft/regalia-slots-api) | Optional (our fork of Curios API, compat only) |
 
 ## Installation
 
-1. Install [NeoForge](https://neoforge.net/) for Minecraft 26.2.
+1. Install [NeoForge](https://neoforge.net/) for Minecraft 1.21.1.
 2. Install Common Toolkit.
 3. Download the mod jar and place it in your `mods/` folder.
 

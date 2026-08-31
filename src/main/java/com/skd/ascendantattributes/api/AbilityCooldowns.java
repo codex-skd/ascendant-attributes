@@ -6,7 +6,7 @@ import net.minecraft.world.entity.LivingEntity;
 /**
  * Public entry point for the cooldown system.
  * Cooldown state is stored server-side only; all queries must run on the logical server.
- * The {@link ALObjects.Attributes#COOLDOWN_REDUCTION} attribute scales how long applied cooldowns last.
+ * The {@link AscendantAttributesObjects.Attributes#COOLDOWN_REDUCTION} attribute scales how long applied cooldowns last.
  */
 public final class AbilityCooldowns {
 
@@ -17,11 +17,11 @@ public final class AbilityCooldowns {
 
     /**
      * Returns true if {@code id} is on cooldown for {@code entity}. The base cooldown is scaled by the entity's
-     * {@link ALObjects.Attributes#COOLDOWN_REDUCTION} value before comparison.
+     * {@link AscendantAttributesObjects.Attributes#COOLDOWN_REDUCTION} value before comparison.
      */
     public static boolean isOnCooldown(LivingEntity entity, ResourceLocation id, int baseCooldown) {
         int effective = applyCDR(entity, baseCooldown);
-        CooldownTracker tracker = entity.getData(ALObjects.Attachments.COOLDOWNS);
+        CooldownTracker tracker = entity.getData(AscendantAttributesObjects.Attachments.COOLDOWNS);
         return tracker.isOnCooldown(id, effective, entity.level().getGameTime());
     }
 
@@ -30,9 +30,9 @@ public final class AbilityCooldowns {
      */
     public static void startCooldown(LivingEntity entity, ResourceLocation id) {
         long gameTime = entity.level().getGameTime();
-        CooldownTracker tracker = entity.getData(ALObjects.Attachments.COOLDOWNS);
+        CooldownTracker tracker = entity.getData(AscendantAttributesObjects.Attachments.COOLDOWNS);
         tracker.startCooldown(id, gameTime);
-        entity.setData(ALObjects.Attachments.COOLDOWNS, tracker);
+        entity.setData(AscendantAttributesObjects.Attachments.COOLDOWNS, tracker);
     }
 
     /**
@@ -40,7 +40,7 @@ public final class AbilityCooldowns {
      */
     public static long getRemaining(LivingEntity entity, ResourceLocation id, int baseCooldown) {
         int effective = applyCDR(entity, baseCooldown);
-        CooldownTracker tracker = entity.getData(ALObjects.Attachments.COOLDOWNS);
+        CooldownTracker tracker = entity.getData(AscendantAttributesObjects.Attachments.COOLDOWNS);
         return tracker.getRemaining(id, effective, entity.level().getGameTime());
     }
 
@@ -49,7 +49,7 @@ public final class AbilityCooldowns {
      */
     public static int applyCDR(LivingEntity entity, int baseCooldown) {
         if (baseCooldown <= 0) return baseCooldown;
-        double cdr = entity.getAttributeValue(ALObjects.Attributes.COOLDOWN_REDUCTION);
+        double cdr = entity.getAttributeValue(AscendantAttributesObjects.Attributes.COOLDOWN_REDUCTION);
         double scaled = baseCooldown * (1.0D - cdr);
         return scaled < 1 ? 1 : (int) Math.round(scaled);
     }
@@ -58,8 +58,8 @@ public final class AbilityCooldowns {
      * Clears the cooldown entry for {@code id} on {@code entity}, if present.
      */
     public static void clear(LivingEntity entity, ResourceLocation id) {
-        CooldownTracker tracker = entity.getData(ALObjects.Attachments.COOLDOWNS);
+        CooldownTracker tracker = entity.getData(AscendantAttributesObjects.Attachments.COOLDOWNS);
         tracker.clear(id);
-        entity.setData(ALObjects.Attachments.COOLDOWNS, tracker);
+        entity.setData(AscendantAttributesObjects.Attachments.COOLDOWNS, tracker);
     }
 }

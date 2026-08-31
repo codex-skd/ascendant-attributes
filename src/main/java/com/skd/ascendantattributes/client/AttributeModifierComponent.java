@@ -5,7 +5,7 @@ import java.util.List;
 import org.jetbrains.annotations.Nullable;
 import org.joml.Matrix4f;
 
-import com.skd.ascendantattributes.ApothicAttributes;
+import com.skd.ascendantattributes.AscendantAttributes;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.inventory.tooltip.ClientTooltipComponent;
@@ -16,7 +16,7 @@ import net.minecraft.util.FormattedCharSequence;
 
 public class AttributeModifierComponent implements ClientTooltipComponent {
 
-    public static final ResourceLocation TEXTURE = ApothicAttributes.loc("textures/gui/attribute_component.png");
+    public static final ResourceLocation TEXTURE = AscendantAttributes.loc("textures/gui/attribute_component.png");
 
     @Nullable
     private final ModifierSource<?> source;

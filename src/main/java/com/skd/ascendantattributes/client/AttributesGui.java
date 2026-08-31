@@ -13,9 +13,9 @@ import javax.annotation.Nullable;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-import com.skd.ascendantattributes.ALConfig;
-import com.skd.ascendantattributes.ApothicAttributes;
-import com.skd.ascendantattributes.api.ALObjects;
+import com.skd.ascendantattributes.AttributesConfig;
+import com.skd.ascendantattributes.AscendantAttributes;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import com.skd.commontoolkit.CommonToolkitClient;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
@@ -55,8 +55,8 @@ import net.neoforged.neoforge.common.extensions.IAttributeExtension;
 
 public class AttributesGui implements Renderable, GuiEventListener {
 
-    public static final ResourceLocation TEXTURES = ApothicAttributes.loc("textures/gui/attributes_gui.png");
-    public static final WidgetSprites SWORD_BUTTON_SPRITES = new WidgetSprites(ApothicAttributes.loc("sword"), ApothicAttributes.loc("sword_highlighted"));
+    public static final ResourceLocation TEXTURES = AscendantAttributes.loc("textures/gui/ascendant_attributes_gui.png");
+    public static final WidgetSprites SWORD_BUTTON_SPRITES = new WidgetSprites(AscendantAttributes.loc("ascendant_sword"), AscendantAttributes.loc("ascendant_sword_highlighted"));
     public static final int ENTRY_HEIGHT = 22;
     public static final int MAX_ENTRIES = 6;
     public static final int WIDTH = 131;
@@ -105,7 +105,7 @@ public class AttributesGui implements Renderable, GuiEventListener {
         }
         else this.recipeBookButton = null;
         this.hideUnchangedBtn = new HideUnchangedButton(0, 0);
-        ButtonPlacement.positionGuiButton(toggleBtn, ALConfig.attributesGuiButtonOffset, parent.getGuiLeft(), parent.getGuiTop());
+        ButtonPlacement.positionGuiButton(toggleBtn, AttributesConfig.attributesGuiButtonOffset, parent.getGuiLeft(), parent.getGuiTop());
     }
 
     @SuppressWarnings("deprecation")
@@ -114,7 +114,7 @@ public class AttributesGui implements Renderable, GuiEventListener {
         BuiltInRegistries.ATTRIBUTE.holders()
             .map(this.player::getAttribute)
             .filter(Objects::nonNull)
-            .filter(ai -> !ALConfig.hiddenAttributes.contains(ai.getAttribute().unwrapKey().get().location()))
+            .filter(ai -> !AttributesConfig.hiddenAttributes.contains(ai.getAttribute().unwrapKey().get().location()))
             .filter(ai -> !hideUnchanged || (ai.getBaseValue() != ai.getValue()))
             .forEach(this.data::add);
         this.data.sort(this::compareAttrs);
@@ -171,7 +171,7 @@ public class AttributesGui implements Renderable, GuiEventListener {
 
     @Override
     public void render(GuiGraphics gfx, int mouseX, int mouseY, float partialTicks) {
-        ButtonPlacement.positionGuiButton(this.toggleBtn, ALConfig.attributesGuiButtonOffset, this.parent.getGuiLeft(), this.parent.getGuiTop());
+        ButtonPlacement.positionGuiButton(this.toggleBtn, AttributesConfig.attributesGuiButtonOffset, this.parent.getGuiLeft(), this.parent.getGuiTop());
         if (this.parent.getRecipeBookComponent().isVisible()) this.open = false;
         wasOpen = this.open;
         if (!this.open) return;
@@ -196,7 +196,7 @@ public class AttributesGui implements Renderable, GuiEventListener {
         }
         this.renderTooltip(gfx, mouseX, mouseY);
         gfx.drawString(font, Component.translatable("ascendant_attributes.gui.attributes"), this.leftPos + 8, this.topPos + 5, 0x404040, false);
-        gfx.drawString(font, ApothicAttributes.lang("text", "hide_unchanged"), this.leftPos + 20, this.topPos + 152, 0x404040, false);
+        gfx.drawString(font, AscendantAttributes.lang("text", "hide_unchanged"), this.leftPos + 20, this.topPos + 152, 0x404040, false);
     }
 
     @SuppressWarnings("deprecation")
@@ -204,7 +204,7 @@ public class AttributesGui implements Renderable, GuiEventListener {
         AttributeInstance inst = this.getHoveredSlot(mouseX, mouseY);
         if (inst != null) {
             Attribute attr = inst.getAttribute().value();
-            boolean isDynamic = inst.getAttribute().is(ALObjects.Tags.DYNAMIC_BASE_ATTRIBUTES);
+            boolean isDynamic = inst.getAttribute().is(AscendantAttributesObjects.Tags.DYNAMIC_BASE_ATTRIBUTES);
 
             List<Component> list = new ArrayList<>();
             MutableComponent name = Component.translatable(attr.getDescriptionId()).withStyle(Style.EMPTY.withColor(ChatFormatting.GOLD).withUnderlined(true));
@@ -214,7 +214,7 @@ public class AttributesGui implements Renderable, GuiEventListener {
                 name.append(Component.translatable("ascendant_attributes.gui.dynamic").withStyle(Style.EMPTY.withColor(ChatFormatting.DARK_GRAY).withUnderlined(false)));
             }
 
-            if (ApothicAttributes.getTooltipFlag().isAdvanced()) {
+            if (AscendantAttributes.getTooltipFlag().isAdvanced()) {
                 Style style = Style.EMPTY.withColor(ChatFormatting.DARK_GRAY).withUnderlined(false);
                 name.append(Component.literal(" [" + BuiltInRegistries.ATTRIBUTE.getKey(attr) + "]").withStyle(style));
             }
@@ -227,15 +227,15 @@ public class AttributesGui implements Renderable, GuiEventListener {
                 Component txt = Component.translatable(key).withStyle(ChatFormatting.YELLOW, ChatFormatting.ITALIC);
                 list.add(txt);
             }
-            else if (ApothicAttributes.getTooltipFlag().isAdvanced()) {
+            else if (AscendantAttributes.getTooltipFlag().isAdvanced()) {
                 Component txt = Component.literal(key).withStyle(ChatFormatting.DARK_GRAY, ChatFormatting.ITALIC);
                 list.add(txt);
             }
 
             int color = getValueColor(inst, ChatFormatting.GRAY.getColor());
 
-            Component valueComp = attr.toValueComponent(null, inst.getValue(), ApothicAttributes.getTooltipFlag()).withColor(color);
-            Component baseComp = attr.toValueComponent(null, inst.getBaseValue(), ApothicAttributes.getTooltipFlag()).withStyle(ChatFormatting.GRAY);
+            Component valueComp = attr.toValueComponent(null, inst.getValue(), AscendantAttributes.getTooltipFlag()).withColor(color);
+            Component baseComp = attr.toValueComponent(null, inst.getBaseValue(), AscendantAttributes.getTooltipFlag()).withStyle(ChatFormatting.GRAY);
 
             if (!isDynamic) {
                 list.add(CommonComponents.EMPTY);
@@ -244,9 +244,9 @@ public class AttributesGui implements Renderable, GuiEventListener {
                 Component base = Component.translatable("ascendant_attributes.gui.base", baseComp).withStyle(ChatFormatting.GRAY);
 
                 if (attr instanceof RangedAttribute ra) {
-                    Component min = attr.toValueComponent(null, ra.getMinValue(), ApothicAttributes.getTooltipFlag());
+                    Component min = attr.toValueComponent(null, ra.getMinValue(), AscendantAttributes.getTooltipFlag());
                     min = Component.translatable("ascendant_attributes.gui.min", min);
-                    Component max = attr.toValueComponent(null, ra.getMaxValue(), ApothicAttributes.getTooltipFlag());
+                    Component max = attr.toValueComponent(null, ra.getMaxValue(), AscendantAttributes.getTooltipFlag());
                     max = Component.translatable("ascendant_attributes.gui.max", max);
                     list.add(Component.translatable("%s \u2507 %s \u2507 %s", base, min, max).withStyle(ChatFormatting.GRAY));
                 }
@@ -281,14 +281,14 @@ public class AttributesGui implements Renderable, GuiEventListener {
                     modifiers.sort(ModifierSourceType.compareBySource(modifiersToSources));
                     for (AttributeModifier modif : modifiers) {
                         if (modif.amount() != 0) {
-                            Component comp = attr.toComponent(modif, ApothicAttributes.getTooltipFlag());
+                            Component comp = attr.toComponent(modif, AscendantAttributes.getTooltipFlag());
                             var src = modifiersToSources.get(modif.id());
                             finalTooltip.add(new AttributeModifierComponent(src, comp, this.font, this.leftPos - 16));
                         }
                     }
 
                     color = getValueColor(attr, opValue, baseValue, ChatFormatting.GRAY.getColor());
-                    Component valueComp2 = attr.toValueComponent(op, opValue, ApothicAttributes.getTooltipFlag()).withStyle(Style.EMPTY.withColor(color));
+                    Component valueComp2 = attr.toValueComponent(op, opValue, AscendantAttributes.getTooltipFlag()).withStyle(Style.EMPTY.withColor(color));
                     MutableComponent comp = Component.translatable("ascendant_attributes.gui." + op.name().toLowerCase(Locale.ROOT), valueComp2).withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC);
 
                     opValues[op.ordinal()] = comp;
@@ -359,7 +359,7 @@ public class AttributesGui implements Renderable, GuiEventListener {
 
         MutableComponent value = inst.getAttribute().value().toValueComponent(null, inst.getValue(), TooltipFlag.Default.NORMAL);
 
-        if (inst.getAttribute().is(ALObjects.Tags.DYNAMIC_BASE_ATTRIBUTES)) {
+        if (inst.getAttribute().is(AscendantAttributesObjects.Tags.DYNAMIC_BASE_ATTRIBUTES)) {
             value = Component.literal("\uFFFD");
         }
 
@@ -556,7 +556,7 @@ public class AttributesGui implements Renderable, GuiEventListener {
     public class HideUnchangedButton extends AbstractButton {
 
         public HideUnchangedButton(int pX, int pY) {
-            super(pX, pY, 10, 10, ApothicAttributes.lang("button", "hide_unchanged"));
+            super(pX, pY, 10, 10, AscendantAttributes.lang("button", "hide_unchanged"));
             this.visible = false;
         }
 

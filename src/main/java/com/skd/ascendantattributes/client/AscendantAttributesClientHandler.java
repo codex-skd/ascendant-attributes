@@ -7,11 +7,12 @@ import com.google.common.collect.Lists;
 import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
+import com.mojang.brigadier.builder.RequiredArgumentBuilder;
 import com.mojang.datafixers.util.Pair;
 
-import com.skd.ascendantattributes.ALConfig;
-import com.skd.ascendantattributes.ApothicAttributes;
-import com.skd.ascendantattributes.api.ALObjects;
+import com.skd.ascendantattributes.AttributesConfig;
+import com.skd.ascendantattributes.AscendantAttributes;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import com.skd.commontoolkit.config.Configuration;
 import com.skd.commontoolkit.util.Offset;
 import com.skd.commontoolkit.util.Offset.AnchorPoint;
@@ -46,20 +47,36 @@ import net.neoforged.neoforge.client.event.RegisterClientCommandsEvent;
 import net.neoforged.neoforge.client.event.RegisterClientReloadListenersEvent;
 import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
 import net.neoforged.neoforge.client.event.ScreenEvent;
-import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
+import org.jetbrains.annotations.Nullable;
 
-public class AttributesLibClient {
+public class AscendantAttributesClientHandler {
+    private static @Nullable AttributesGui activeAttribGui = null;
 
     @SubscribeEvent(priority = EventPriority.HIGH)
     public void addAttribComponent(ScreenEvent.Init.Post e) {
-        if (ALConfig.enableAttributesGui && e.getScreen() instanceof InventoryScreen scn) {
+        if (AttributesConfig.enableAttributesGui && e.getScreen() instanceof InventoryScreen scn) {
             var atrComp = new AttributesGui(scn);
             e.addListener(atrComp);
             e.addListener(atrComp.toggleBtn);
             e.addListener(atrComp.hideUnchangedBtn);
             if (AttributesGui.wasOpen || AttributesGui.swappedFromCurios) atrComp.toggleVisibility();
             AttributesGui.swappedFromCurios = false;
+            activeAttribGui = atrComp;
+        }
+        else if (!(e.getScreen() instanceof InventoryScreen)) {
+            activeAttribGui = null;
+        }
+    }
+
+    @SubscribeEvent
+    public void forwardScroll(ScreenEvent.MouseScrolled.Pre e) {
+        AttributesGui gui = activeAttribGui;
+        if (gui != null
+            && e.getScreen() instanceof InventoryScreen
+            && gui.isMouseOver(e.getMouseX(), e.getMouseY())
+            && gui.mouseScrolled(e.getMouseX(), e.getMouseY(), e.getScrollDeltaX(), e.getScrollDeltaY())) {
+            e.setCanceled(true);
         }
     }
 
@@ -75,7 +92,7 @@ public class AttributesLibClient {
 
         name.append(" ").append(duration);
 
-        if (ApothicAttributes.getTooltipFlag().isAdvanced()) {
+        if (AscendantAttributes.getTooltipFlag().isAdvanced()) {
             name.append(" ").append(Component.translatable("[%s]", effect.unwrapKey().get().location().toString()).withStyle(ChatFormatting.GRAY));
         }
 
@@ -83,7 +100,7 @@ public class AttributesLibClient {
         if (I18n.exists(key)) {
             tooltips.add(Component.translatable(key).withStyle(ChatFormatting.DARK_GRAY));
         }
-        else if (ApothicAttributes.getTooltipFlag().isAdvanced() && effect.value().attributeModifiers.isEmpty()) {
+        else if (AscendantAttributes.getTooltipFlag().isAdvanced() && effect.value().attributeModifiers.isEmpty()) {
             tooltips.add(Component.translatable(key).withStyle(ChatFormatting.DARK_GRAY, ChatFormatting.ITALIC));
         }
 
@@ -98,14 +115,14 @@ public class AttributesLibClient {
 
         if (!list.isEmpty()) {
             for (Pair<Holder<Attribute>, AttributeModifier> pair : list) {
-                tooltips.add(pair.getFirst().value().toComponent(pair.getSecond(), ApothicAttributes.getTooltipFlag()));
+                tooltips.add(pair.getFirst().value().toComponent(pair.getSecond(), AscendantAttributes.getTooltipFlag()));
             }
         }
     }
 
     @SubscribeEvent
     public void potionTooltips(ItemTooltipEvent e) {
-        if (!ALConfig.enablePotionTooltips) return;
+        if (!AttributesConfig.enablePotionTooltips) return;
 
         ItemStack stack = e.getItemStack();
         List<Component> tooltips = e.getToolTip();
@@ -144,34 +161,32 @@ public class AttributesLibClient {
     }
 
     private static void updateHudPos(AnchorPoint anchor, int x, int y) {
-        Configuration cfg = ALConfig.load();
-        ALConfig.attributesGuiButtonOffset = new Offset(anchor, x, y);
-        Offset.save("GUI Button Offset", "client", ALConfig.attributesGuiButtonOffset, cfg);
+        Configuration cfg = AttributesConfig.load();
+        AttributesConfig.attributesGuiButtonOffset = new Offset(anchor, x, y);
+        Offset.save("GUI Button Offset", "client", AttributesConfig.attributesGuiButtonOffset, cfg);
     }
 
     public static void apothCrit(int entityId) {
         Entity entity = Minecraft.getInstance().level.getEntity(entityId);
         if (entity != null) {
-            Minecraft.getInstance().particleEngine.createTrackingEmitter(entity, ALObjects.Particles.APOTH_CRIT.get());
+            Minecraft.getInstance().particleEngine.createTrackingEmitter(entity, AscendantAttributesObjects.Particles.ASCENDANT_CRIT.get());
         }
     }
 
     public static class ModBusSub {
         @SubscribeEvent
         public static void clientReload(RegisterClientReloadListenersEvent e) {
-            e.registerReloadListener(ALConfig.makeReloader());
+            e.registerReloadListener(AttributesConfig.makeReloader());
         }
 
         @SubscribeEvent
         public static void clientSetup(FMLClientSetupEvent e) {
-            if (ModList.get().isLoaded("curios")) {
-                NeoForge.EVENT_BUS.register(new CuriosClientCompat());
-            }
+            // Curios compat handled via regalia_slots_api
         }
 
         @SubscribeEvent
         public static void particleFactories(RegisterParticleProvidersEvent e) {
-            e.registerSprite(ALObjects.Particles.APOTH_CRIT.get(), ApothCritParticle::new);
+            e.registerSprite(AscendantAttributesObjects.Particles.ASCENDANT_CRIT.get(), ApothCritParticle::new);
         }
     }
 

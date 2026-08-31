@@ -8,14 +8,14 @@ import net.neoforged.bus.api.Event;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 
 /**
- * The {@link ApotheosisCommandEvent} is fired during the {@link RegisterCommandsEvent} to allow registration of children of the /apoth command.
+ * The {@link AttributesCommandEvent} is fired during the {@link RegisterCommandsEvent} to allow registration of children of the /ascendant command.
  */
-public class ApotheosisCommandEvent extends Event {
+public class AttributesCommandEvent extends Event {
 
     private final LiteralArgumentBuilder<CommandSourceStack> root;
     private final CommandBuildContext ctx;
 
-    public ApotheosisCommandEvent(LiteralArgumentBuilder<CommandSourceStack> root, CommandBuildContext ctx) {
+    public AttributesCommandEvent(LiteralArgumentBuilder<CommandSourceStack> root, CommandBuildContext ctx) {
         this.root = root;
         this.ctx = ctx;
     }

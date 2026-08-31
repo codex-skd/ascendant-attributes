@@ -1,6 +1,6 @@
 package com.skd.ascendantattributes.mob_effect;
 
-import com.skd.ascendantattributes.ApothicAttributes;
+import com.skd.ascendantattributes.AscendantAttributes;
 import net.minecraft.ChatFormatting;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
@@ -12,7 +12,7 @@ public class FlyingEffect extends MobEffect {
 
     public FlyingEffect() {
         super(MobEffectCategory.BENEFICIAL, ChatFormatting.RED.getColor());
-        this.addAttributeModifier(NeoForgeMod.CREATIVE_FLIGHT, ApothicAttributes.loc("flying"), 1, Operation.ADD_VALUE);
+        this.addAttributeModifier(NeoForgeMod.CREATIVE_FLIGHT, AscendantAttributes.loc("flying"), 1, Operation.ADD_VALUE);
     }
 
     @Override

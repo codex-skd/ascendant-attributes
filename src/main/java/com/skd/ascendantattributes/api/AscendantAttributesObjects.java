@@ -1,12 +1,12 @@
 package com.skd.ascendantattributes.api;
 
-import static com.skd.ascendantattributes.ApothicAttributes.R;
+import static com.skd.ascendantattributes.AscendantAttributes.R;
 
 import java.util.function.Supplier;
 
 import org.jetbrains.annotations.ApiStatus;
 
-import com.skd.ascendantattributes.ApothicAttributes;
+import com.skd.ascendantattributes.AscendantAttributes;
 import com.skd.ascendantattributes.mob_effect.BleedingEffect;
 import com.skd.ascendantattributes.mob_effect.DetonationEffect;
 import com.skd.ascendantattributes.mob_effect.FlyingEffect;
@@ -47,7 +47,7 @@ import net.neoforged.neoforge.common.PercentageAttribute;
 import net.neoforged.neoforge.event.entity.living.LivingDamageEvent;
 import net.neoforged.neoforge.registries.holdersets.AnyHolderSet;
 
-public class ALObjects {
+public class AscendantAttributesObjects {
 
     public static class BuiltInRegs {
 
@@ -229,7 +229,7 @@ public class ALObjects {
 
     public static class Particles {
 
-        public static final Supplier<SimpleParticleType> APOTH_CRIT = R.particle("apoth_crit", () -> new SimpleParticleType(false));
+        public static final Supplier<SimpleParticleType> ASCENDANT_CRIT = R.particle("ascendant_crit", () -> new SimpleParticleType(false));
 
         private static void bootstrap() {}
 
@@ -248,28 +248,28 @@ public class ALObjects {
         /**
          * Damage type used by {@link MobEffects#BLEEDING}. Bypasses armor.
          */
-        public static final ResourceKey<DamageType> BLEEDING = ResourceKey.create(Registries.DAMAGE_TYPE, ApothicAttributes.loc("bleeding"));
+        public static final ResourceKey<DamageType> BLEEDING = ResourceKey.create(Registries.DAMAGE_TYPE, AscendantAttributes.loc("bleeding"));
 
         /**
          * Damage type used by {@link MobEffects#DETONATION}. Bypasses armor, and is marked as magic damage.
          */
-        public static final ResourceKey<DamageType> DETONATION = ResourceKey.create(Registries.DAMAGE_TYPE, ApothicAttributes.loc("detonation"));
+        public static final ResourceKey<DamageType> DETONATION = ResourceKey.create(Registries.DAMAGE_TYPE, AscendantAttributes.loc("detonation"));
 
         /**
          * Damage type used by {@link Attributes#CURRENT_HP_DAMAGE}. Same properties as generic physical damage. Has attacker context.
          */
-        public static final ResourceKey<DamageType> CURRENT_HP_DAMAGE = ResourceKey.create(Registries.DAMAGE_TYPE, ApothicAttributes.loc("current_hp_damage"));
+        public static final ResourceKey<DamageType> CURRENT_HP_DAMAGE = ResourceKey.create(Registries.DAMAGE_TYPE, AscendantAttributes.loc("current_hp_damage"));
 
         /**
          * Damage type used by {@link Attributes#FIRE_DAMAGE}. Bypasses armor, and is marked as magic damage. Has attacker context.<br>
          * Not marked as fire damage until fire resistance is reworked to not block all fire damage.
          */
-        public static final ResourceKey<DamageType> FIRE_DAMAGE = ResourceKey.create(Registries.DAMAGE_TYPE, ApothicAttributes.loc("fire_damage"));
+        public static final ResourceKey<DamageType> FIRE_DAMAGE = ResourceKey.create(Registries.DAMAGE_TYPE, AscendantAttributes.loc("fire_damage"));
 
         /**
          * Damage type used by {@link Attributes#COLD_DAMAGE}. Bypasses armor, and is marked as magic damage. Has attacker context.
          */
-        public static final ResourceKey<DamageType> COLD_DAMAGE = ResourceKey.create(Registries.DAMAGE_TYPE, ApothicAttributes.loc("cold_damage"));
+        public static final ResourceKey<DamageType> COLD_DAMAGE = ResourceKey.create(Registries.DAMAGE_TYPE, AscendantAttributes.loc("cold_damage"));
 
         private static void bootstrap() {}
     }
@@ -280,7 +280,7 @@ public class ALObjects {
         public static final Holder<Potion> STRONG_RESISTANCE = R.singlePotion("strong_resistance", () -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 1800, 1));
 
         public static final Holder<Potion> ABSORPTION = R.singlePotion("absorption", () -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 1));
-        public static final Holder<Potion> LONG_ABSORPTION = R.singlePotion("long_absorption", () -> new MobEffectInstance(MobEffects.ABSORPTION, 3600, 1));
+        public static final Holder<Potion> LONG_ABSORPTION = R.singlePotion("long_absorption", () -> new MobEffectInstance(MobEffects.ABSORPTION, 3600));
         public static final Holder<Potion> STRONG_ABSORPTION = R.singlePotion("strong_absorption", () -> new MobEffectInstance(MobEffects.ABSORPTION, 600, 3));
 
         public static final Holder<Potion> HASTE = R.singlePotion("haste", () -> new MobEffectInstance(MobEffects.DIG_SPEED, 3600));
@@ -300,12 +300,12 @@ public class ALObjects {
         public static final Holder<Potion> STRONG_SUNDERING = R.singlePotion("strong_sundering", () -> new MobEffectInstance(MobEffects.SUNDERING, 1800, 1));
 
         public static final Holder<Potion> KNOWLEDGE = R.singlePotion("knowledge", () -> new MobEffectInstance(MobEffects.KNOWLEDGE, 2400));
-        public static final Holder<Potion> LONG_KNOWLEDGE = R.singlePotion("long_knowledge", () -> new MobEffectInstance(ALObjects.MobEffects.KNOWLEDGE, 4800));
-        public static final Holder<Potion> STRONG_KNOWLEDGE = R.singlePotion("strong_knowledge", () -> new MobEffectInstance(ALObjects.MobEffects.KNOWLEDGE, 1200, 3));
+        public static final Holder<Potion> LONG_KNOWLEDGE = R.singlePotion("long_knowledge", () -> new MobEffectInstance(AscendantAttributesObjects.MobEffects.KNOWLEDGE, 4800));
+        public static final Holder<Potion> STRONG_KNOWLEDGE = R.singlePotion("strong_knowledge", () -> new MobEffectInstance(AscendantAttributesObjects.MobEffects.KNOWLEDGE, 1200, 3));
 
-        public static final Holder<Potion> VITALITY = R.singlePotion("vitality", () -> new MobEffectInstance(ALObjects.MobEffects.VITALITY, 4800));
-        public static final Holder<Potion> LONG_VITALITY = R.singlePotion("long_vitality", () -> new MobEffectInstance(ALObjects.MobEffects.VITALITY, 14400));
-        public static final Holder<Potion> STRONG_VITALITY = R.singlePotion("strong_vitality", () -> new MobEffectInstance(ALObjects.MobEffects.VITALITY, 3600, 1));
+        public static final Holder<Potion> VITALITY = R.singlePotion("vitality", () -> new MobEffectInstance(AscendantAttributesObjects.MobEffects.VITALITY, 4800));
+        public static final Holder<Potion> LONG_VITALITY = R.singlePotion("long_vitality", () -> new MobEffectInstance(AscendantAttributesObjects.MobEffects.VITALITY, 14400));
+        public static final Holder<Potion> STRONG_VITALITY = R.singlePotion("strong_vitality", () -> new MobEffectInstance(AscendantAttributesObjects.MobEffects.VITALITY, 3600, 1));
 
         public static final Holder<Potion> GRIEVOUS = R.singlePotion("grievous", () -> new MobEffectInstance(MobEffects.GRIEVOUS, 4800));
         public static final Holder<Potion> LONG_GRIEVOUS = R.singlePotion("long_grievous", () -> new MobEffectInstance(MobEffects.GRIEVOUS, 14400));
@@ -369,19 +369,19 @@ public class ALObjects {
          * An attribute with a dynamic base cannot have its value computed out of context, and is instead treated as a list of modifiers
          * that will be applied when the event occurs. The applied modifiers will use the normal rules of {@link Operation} but on the dynamic base.
          */
-        public static final TagKey<Attribute> DYNAMIC_BASE_ATTRIBUTES = TagKey.create(Registries.ATTRIBUTE, ApothicAttributes.loc("dynamic_base"));
+        public static final TagKey<Attribute> DYNAMIC_BASE_ATTRIBUTES = TagKey.create(Registries.ATTRIBUTE, AscendantAttributes.loc("dynamic_base"));
 
         /**
          * This tag is a joined tag of all non-physical damage type tags (magic, fire, lightning, explosions, etc).
          * <p>
          * It is used to determine if a damage type is physical or not.
          */
-        public static final TagKey<DamageType> IS_NON_PHYSICAL = TagKey.create(Registries.DAMAGE_TYPE, ApothicAttributes.loc("is_non_physical"));
+        public static final TagKey<DamageType> IS_NON_PHYSICAL = TagKey.create(Registries.DAMAGE_TYPE, AscendantAttributes.loc("is_non_physical"));
 
         /**
          * Damage Types with this tag are immune from any processing by {@link Attributes#CRIT_CHANCE} and {@link Attributes#CRIT_DAMAGE}.
          */
-        public static final TagKey<DamageType> CANNOT_CRITICALLY_STRIKE = TagKey.create(Registries.DAMAGE_TYPE, ApothicAttributes.loc("cannot_critically_strike"));
+        public static final TagKey<DamageType> CANNOT_CRITICALLY_STRIKE = TagKey.create(Registries.DAMAGE_TYPE, AscendantAttributes.loc("cannot_critically_strike"));
     }
 
     @ApiStatus.Experimental
@@ -426,7 +426,7 @@ public class ALObjects {
         public static final EntitySlotGroup BODY = group("body", HolderSet.direct(EquipmentSlots.BODY));
 
         private static ResourceLocation id(String path) {
-            return ApothicAttributes.loc(path);
+            return AscendantAttributes.loc(path);
         }
 
         private static EntitySlotGroup group(String path, HolderSet<EntityEquipmentSlot> slots) {

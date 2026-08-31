@@ -8,7 +8,7 @@ import org.jetbrains.annotations.Nullable;
 
 import com.google.common.collect.Multimap;
 
-import com.skd.ascendantattributes.api.ALObjects.BuiltInRegs;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects.BuiltInRegs;
 import com.skd.ascendantattributes.client.ModifierSource;
 import com.skd.ascendantattributes.client.ModifierSource.ItemModifierSource;
 import com.skd.ascendantattributes.client.ModifierSourceType;

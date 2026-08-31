@@ -3,8 +3,8 @@ package com.skd.ascendantattributes.payload;
 import java.util.List;
 import java.util.Optional;
 
-import com.skd.ascendantattributes.ApothicAttributes;
-import com.skd.ascendantattributes.client.AttributesLibClient;
+import com.skd.ascendantattributes.AscendantAttributes;
+import com.skd.ascendantattributes.client.AscendantAttributesClientHandler;
 import com.skd.commontoolkit.network.PayloadProvider;
 import net.minecraft.network.ConnectionProtocol;
 import net.minecraft.network.FriendlyByteBuf;
@@ -17,7 +17,7 @@ import net.neoforged.neoforge.network.handling.IPayloadContext;
 
 public record CritParticlePayload(int entityId) implements CustomPacketPayload {
 
-    public static final Type<CritParticlePayload> TYPE = new Type<>(ApothicAttributes.loc("crit_particle"));
+    public static final Type<CritParticlePayload> TYPE = new Type<>(AscendantAttributes.loc("crit_particle"));
 
     public static final StreamCodec<FriendlyByteBuf, CritParticlePayload> CODEC = StreamCodec.composite(
         ByteBufCodecs.VAR_INT, CritParticlePayload::entityId,
@@ -42,7 +42,7 @@ public record CritParticlePayload(int entityId) implements CustomPacketPayload {
 
         @Override
         public void handle(CritParticlePayload msg, IPayloadContext ctx) {
-            AttributesLibClient.apothCrit(msg.entityId);
+            AscendantAttributesClientHandler.apothCrit(msg.entityId);
         }
 
         @Override

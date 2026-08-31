@@ -4,7 +4,7 @@ import java.util.function.Predicate;
 
 import com.mojang.serialization.Codec;
 
-import com.skd.ascendantattributes.api.ALObjects.BuiltInRegs;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects.BuiltInRegs;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderSet;
 import net.minecraft.network.RegistryFriendlyByteBuf;

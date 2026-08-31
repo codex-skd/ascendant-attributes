@@ -3,8 +3,8 @@ package com.skd.ascendantattributes.payload;
 import java.util.List;
 import java.util.Optional;
 
-import com.skd.ascendantattributes.ALConfig;
-import com.skd.ascendantattributes.ApothicAttributes;
+import com.skd.ascendantattributes.AttributesConfig;
+import com.skd.ascendantattributes.AscendantAttributes;
 import com.skd.commontoolkit.network.PayloadProvider;
 import net.minecraft.network.ConnectionProtocol;
 import net.minecraft.network.FriendlyByteBuf;
@@ -17,14 +17,14 @@ import net.neoforged.neoforge.network.handling.IPayloadContext;
 
 public record ConfigPayload(float knowledgeMultiplier) implements CustomPacketPayload {
 
-    public static final Type<ConfigPayload> TYPE = new Type<>(ApothicAttributes.loc("config"));
+    public static final Type<ConfigPayload> TYPE = new Type<>(AscendantAttributes.loc("config"));
 
     public static final StreamCodec<FriendlyByteBuf, ConfigPayload> CODEC = StreamCodec.composite(
         ByteBufCodecs.FLOAT, ConfigPayload::knowledgeMultiplier,
         ConfigPayload::new);
 
     public ConfigPayload() {
-        this(ALConfig.knowledgeMultiplier);
+        this(AttributesConfig.knowledgeMultiplier);
     }
 
     @Override
@@ -46,7 +46,7 @@ public record ConfigPayload(float knowledgeMultiplier) implements CustomPacketPa
 
         @Override
         public void handle(ConfigPayload msg, IPayloadContext ctx) {
-            ALConfig.knowledgeMultiplier = msg.knowledgeMultiplier;
+            AttributesConfig.knowledgeMultiplier = msg.knowledgeMultiplier;
         }
 
         @Override

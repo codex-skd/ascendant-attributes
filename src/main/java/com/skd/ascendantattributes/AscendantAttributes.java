@@ -6,20 +6,21 @@ import java.util.function.BiConsumer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.skd.ascendantattributes.api.ALObjects;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import com.skd.ascendantattributes.api.CooldownTracker;
-import com.skd.ascendantattributes.client.AttributesLibClient;
+import com.skd.ascendantattributes.client.AscendantAttributesClientHandler;
 import com.skd.ascendantattributes.compat.CuriosCompat;
+import com.skd.ascendantattributes.data.MixProvider;
 import com.skd.ascendantattributes.impl.AttributeEvents;
 import com.skd.ascendantattributes.payload.ConfigPayload;
 import com.skd.ascendantattributes.payload.CritParticlePayload;
-import com.skd.ascendantattributes.util.MiscDatagen;
+import com.skd.ascendantattributes.AttributesConfig;
+import com.skd.commontoolkit.datagen.DataGenBuilder;
 import com.skd.commontoolkit.network.PayloadHelper;
 import com.skd.commontoolkit.registry.DeferredHelper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.data.PackOutput.Target;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.resources.ResourceLocation;
@@ -48,14 +49,14 @@ import net.neoforged.neoforge.event.entity.EntityAttributeModificationEvent;
 import net.neoforged.neoforge.event.entity.player.AttackEntityEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 
-@Mod(ApothicAttributes.MODID)
-public class ApothicAttributes {
+@Mod(AscendantAttributes.MODID)
+public class AscendantAttributes {
 
     public static final String MODID = "ascendant_attributes";
     public static final Logger LOGGER = LogManager.getLogger(MODID);
     public static final DeferredHelper R = DeferredHelper.create(MODID);
-    public static final boolean DEBUG_AUX_DMG = "on".equalsIgnoreCase(System.getenv("APOTH_DEBUG_AUX_DMG"));
-    private static final File configDir = new File(FMLPaths.CONFIGDIR.get().toFile(), "apotheosis");
+    public static final boolean DEBUG_AUX_DMG = "on".equalsIgnoreCase(System.getenv("ASCENDANT_DEBUG_AUX_DMG"));
+    private static final File configDir = new File(new File(FMLPaths.CONFIGDIR.get().toFile(), "ascendant"), "attributes");
 
     /**
      * Static record of {@link Player#getAttackStrengthScale(float)} for use in damage events.<br>
@@ -63,25 +64,25 @@ public class ApothicAttributes {
      */
     private static float localAtkStrength = 1;
 
-    public ApothicAttributes(IEventBus bus) {
+    public AscendantAttributes(IEventBus bus) {
         bus.register(this);
         NeoForge.EVENT_BUS.register(new AttributeEvents());
-        NeoForge.EVENT_BUS.addListener(ApothicAttributes::trackAttackStrength);
-        NeoForge.EVENT_BUS.addListener(ApothicAttributes::pruneCooldowns);
+        NeoForge.EVENT_BUS.addListener(AscendantAttributes::trackAttackStrength);
+        NeoForge.EVENT_BUS.addListener(AscendantAttributes::pruneCooldowns);
         if (FMLEnvironment.dist.isClient()) {
-            NeoForge.EVENT_BUS.register(new AttributesLibClient());
-            bus.register(AttributesLibClient.ModBusSub.class);
+            NeoForge.EVENT_BUS.register(new AscendantAttributesClientHandler());
+            bus.register(AscendantAttributesClientHandler.ModBusSub.class);
         }
 
         PayloadHelper.registerPayload(new CritParticlePayload.Provider());
-        ALObjects.bootstrap(bus);
+        AscendantAttributesObjects.bootstrap(bus);
         NeoForgeMod.enableMergedAttributeTooltips();
     }
 
     @SubscribeEvent
     public void init(FMLCommonSetupEvent e) {
         e.enqueueWork(() -> {
-            ALConfig.load();
+            AttributesConfig.load();
             MobEffects.BLINDNESS.value().addAttributeModifier(Attributes.FOLLOW_RANGE, loc("blindness"), -0.75, Operation.ADD_MULTIPLIED_TOTAL);
             // TODO: Update to show in GUI without applying attribute to entity
             // if (MobEffects.SLOW_FALLING.getAttributeModifiers().isEmpty()) {
@@ -96,32 +97,31 @@ public class ApothicAttributes {
     public void applyAttribs(EntityAttributeModificationEvent e) {
         e.getTypes().forEach(type -> {
             addAll(type, e::add,
-                ALObjects.Attributes.DRAW_SPEED,
-                ALObjects.Attributes.CRIT_CHANCE,
-                ALObjects.Attributes.CRIT_DAMAGE,
-                ALObjects.Attributes.COLD_DAMAGE,
-                ALObjects.Attributes.FIRE_DAMAGE,
-                ALObjects.Attributes.LIFE_STEAL,
-                ALObjects.Attributes.CURRENT_HP_DAMAGE,
-                ALObjects.Attributes.OVERHEAL,
-                ALObjects.Attributes.GHOST_HEALTH,
-                ALObjects.Attributes.MINING_SPEED,
-                ALObjects.Attributes.ARROW_DAMAGE,
-                ALObjects.Attributes.ARROW_VELOCITY,
-                ALObjects.Attributes.EXPERIENCE_GAINED,
-                ALObjects.Attributes.HEALING_RECEIVED,
-                ALObjects.Attributes.ARMOR_PIERCE,
-                ALObjects.Attributes.ARMOR_SHRED,
-                ALObjects.Attributes.PROJECTILE_DAMAGE,
-                ALObjects.Attributes.PROT_PIERCE,
-                ALObjects.Attributes.PROT_SHRED,
-                ALObjects.Attributes.DODGE_CHANCE,
-                ALObjects.Attributes.ELYTRA_FLIGHT,
-                ALObjects.Attributes.COOLDOWN_REDUCTION);
+                AscendantAttributesObjects.Attributes.DRAW_SPEED,
+                AscendantAttributesObjects.Attributes.CRIT_CHANCE,
+                AscendantAttributesObjects.Attributes.CRIT_DAMAGE,
+                AscendantAttributesObjects.Attributes.COLD_DAMAGE,
+                AscendantAttributesObjects.Attributes.FIRE_DAMAGE,
+                AscendantAttributesObjects.Attributes.LIFE_STEAL,
+                AscendantAttributesObjects.Attributes.CURRENT_HP_DAMAGE,
+                AscendantAttributesObjects.Attributes.OVERHEAL,
+                AscendantAttributesObjects.Attributes.GHOST_HEALTH,
+                AscendantAttributesObjects.Attributes.MINING_SPEED,
+                AscendantAttributesObjects.Attributes.ARROW_DAMAGE,
+                AscendantAttributesObjects.Attributes.ARROW_VELOCITY,
+                AscendantAttributesObjects.Attributes.EXPERIENCE_GAINED,
+                AscendantAttributesObjects.Attributes.HEALING_RECEIVED,
+                AscendantAttributesObjects.Attributes.ARMOR_PIERCE,
+                AscendantAttributesObjects.Attributes.ARMOR_SHRED,
+                AscendantAttributesObjects.Attributes.PROJECTILE_DAMAGE,
+                AscendantAttributesObjects.Attributes.PROT_PIERCE,
+                AscendantAttributesObjects.Attributes.PROT_SHRED,
+                AscendantAttributesObjects.Attributes.DODGE_CHANCE,
+                AscendantAttributesObjects.Attributes.ELYTRA_FLIGHT,
+                AscendantAttributesObjects.Attributes.COOLDOWN_REDUCTION);
         });
     }
 
-    @SafeVarargs
     private static void addAll(EntityType<? extends LivingEntity> type, BiConsumer<EntityType<? extends LivingEntity>, Holder<Attribute>> add, Holder<Attribute>... attribs) {
         for (Holder<Attribute> a : attribs)
             add.accept(type, a);
@@ -135,15 +135,14 @@ public class ApothicAttributes {
                 attr.value().setSyncable(true);
             }
         });
-        if (ModList.get().isLoaded("curios")) {
+        if (ModList.get().isLoaded("regalia_slots_api")) {
             e.enqueueWork(CuriosCompat::init);
         }
     }
 
     @SubscribeEvent
     public void data(GatherDataEvent e) {
-        MiscDatagen gen = new MiscDatagen(e.getGenerator().getPackOutput().getOutputFolder(Target.DATA_PACK).resolve(MODID), e.getLookupProvider());
-        e.getGenerator().addProvider(true, gen);
+        DataGenBuilder.create(new String[]{"ascendant_attributes"}).provider(MixProvider::new).build(e);
     }
 
     public static File getConfigFile(String path) {
@@ -181,7 +180,7 @@ public class ApothicAttributes {
     }
 
     /**
-     * Constructs a mutable component with a lang key of the form "type.modid.path", using {@link ApothicAttributes#MODID}.
+     * Constructs a mutable component with a lang key of the form "type.modid.path", using {@link AscendantAttributes#MODID}.
      *
      * @param type The type of language key, "misc", "info", "title", etc...
      * @param path The path of the language key.
@@ -203,14 +202,14 @@ public class ApothicAttributes {
 
     private static void trackAttackStrength(AttackEntityEvent e) {
         Player p = e.getEntity();
-        ApothicAttributes.localAtkStrength = p.getAttackStrengthScale(0.5F);
+        AscendantAttributes.localAtkStrength = p.getAttackStrengthScale(0.5F);
     }
 
     private static void pruneCooldowns(PlayerEvent.PlayerLoggedInEvent e) {
         Player p = e.getEntity();
-        CooldownTracker tracker = p.getData(ALObjects.Attachments.COOLDOWNS);
+        CooldownTracker tracker = p.getData(AscendantAttributesObjects.Attachments.COOLDOWNS);
         if (tracker.prune(p.level().getGameTime())) {
-            p.setData(ALObjects.Attachments.COOLDOWNS, tracker);
+            p.setData(AscendantAttributesObjects.Attachments.COOLDOWNS, tracker);
         }
     }
 }

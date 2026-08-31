@@ -1,6 +1,6 @@
 package com.skd.ascendantattributes.mob_effect;
 
-import com.skd.ascendantattributes.api.ALObjects;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
@@ -22,7 +22,7 @@ public class DetonationEffect extends MobEffect {
         int ticks = entity.getRemainingFireTicks();
         if (ticks > 0) {
             entity.setRemainingFireTicks(0);
-            entity.hurt(entity.level().damageSources().source(ALObjects.DamageTypes.BLEEDING), (1 + amp) * ticks / 14F);
+            entity.hurt(entity.level().damageSources().source(AscendantAttributesObjects.DamageTypes.BLEEDING), (1 + amp) * ticks / 14F);
             ServerLevel level = (ServerLevel) entity.level();
             AABB bb = entity.getBoundingBox();
             level.sendParticles(ParticleTypes.FLAME, entity.getX(), entity.getY(), entity.getZ(), 100, bb.getXsize(), bb.getYsize(), bb.getZsize(), 0.25);

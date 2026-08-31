@@ -2,13 +2,13 @@ package com.skd.ascendantattributes.impl;
 
 import java.util.Random;
 
-import com.skd.ascendantattributes.ALConfig;
-import com.skd.ascendantattributes.ApothicAttributes;
-import com.skd.ascendantattributes.api.ALObjects;
-import com.skd.ascendantattributes.api.ALObjects.Attachments;
+import com.skd.ascendantattributes.AttributesConfig;
+import com.skd.ascendantattributes.AscendantAttributes;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects;
+import com.skd.ascendantattributes.api.AscendantAttributesObjects.Attachments;
 import com.skd.ascendantattributes.api.AttributeHelper;
 import com.skd.ascendantattributes.commands.BonusModifierCommand;
-import com.skd.ascendantattributes.event.ApotheosisCommandEvent;
+import com.skd.ascendantattributes.event.AttributesCommandEvent;
 import com.skd.ascendantattributes.modifiers.EquipmentSlotCompat;
 import com.skd.ascendantattributes.modifiers.StackAttributeModifiers;
 import com.skd.ascendantattributes.modifiers.StackAttributeModifiersEvent;
@@ -71,14 +71,14 @@ public class AttributeEvents {
     }
 
     /**
-     * This event handler is the implementation for {@link ALObjects#DRAW_SPEED}.<br>
+     * This event handler is the implementation for {@link AscendantAttributesObjects#DRAW_SPEED}.<br>
      * Each full point of draw speed provides an extra using tick per game tick.<br>
      * Each partial point of draw speed provides an extra using tick periodically.
      */
     @SubscribeEvent
     public void drawSpeed(LivingEntityUseItemEvent.Tick e) {
         if (e.getEntity() instanceof Player player) {
-            double t = player.getAttribute(ALObjects.Attributes.DRAW_SPEED).getValue() - 1;
+            double t = player.getAttribute(AscendantAttributesObjects.Attributes.DRAW_SPEED).getValue() - 1;
             if (t == 0 || !this.canBenefitFromDrawSpeed(e.getItem())) return;
 
             // Handle negative draw speed.
@@ -116,12 +116,12 @@ public class AttributeEvents {
     public void lifeStealOverheal(LivingDamageEvent.Post e) {
         if (e.getSource().getDirectEntity() instanceof LivingEntity attacker && AttributesUtil.isPhysicalDamage(e.getSource())) {
             float oldEntityHealth = e.getEntity().getData(Attachments.PRE_DAMAGE_HEALTH);
-            float lifesteal = (float) attacker.getAttributeValue(ALObjects.Attributes.LIFE_STEAL);
+            float lifesteal = (float) attacker.getAttributeValue(AscendantAttributesObjects.Attributes.LIFE_STEAL);
             float dmg = Math.min(e.getNewDamage(), oldEntityHealth);
             if (lifesteal > 0.001) {
                 attacker.heal(dmg * lifesteal);
             }
-            float overheal = (float) attacker.getAttributeValue(ALObjects.Attributes.OVERHEAL);
+            float overheal = (float) attacker.getAttributeValue(AscendantAttributesObjects.Attributes.OVERHEAL);
             float maxOverheal = attacker.getMaxHealth() * 0.5F;
             if (overheal > 0 && attacker.getAbsorptionAmount() < maxOverheal) {
                 // Overheal needs to bypass the max absorption attribute, which is used for natural absorption regeneration, but also clamps the total number of abs hearts.
@@ -139,9 +139,9 @@ public class AttributeEvents {
     /**
      * Applies the following melee damage attributes:<br>
      * <ul>
-     * <li>{@link ALObjects#CURRENT_HP_DAMAGE}</li>
-     * <li>{@link ALObjects#FIRE_DAMAGE}</li>
-     * <li>{@link ALObjects#COLD_DAMAGE}</li>
+     * <li>{@link AscendantAttributesObjects#CURRENT_HP_DAMAGE}</li>
+     * <li>{@link AscendantAttributesObjects#FIRE_DAMAGE}</li>
+     * <li>{@link AscendantAttributesObjects#COLD_DAMAGE}</li>
      * </ul>
      */
     @SubscribeEvent(priority = EventPriority.LOWEST)
@@ -153,12 +153,12 @@ public class AttributeEvents {
             LivingEntity target = e.getEntity();
 
             AuxDmgTracker.executeWith(target, tracker -> {
-                float hpDmg = (float) attacker.getAttributeValue(ALObjects.Attributes.CURRENT_HP_DAMAGE) * target.getHealth();
-                tracker.attackWith(attacker, target, ALObjects.DamageTypes.CURRENT_HP_DAMAGE, hpDmg, null);
+                float hpDmg = (float) attacker.getAttributeValue(AscendantAttributesObjects.Attributes.CURRENT_HP_DAMAGE) * target.getHealth();
+                tracker.attackWith(attacker, target, AscendantAttributesObjects.DamageTypes.CURRENT_HP_DAMAGE, hpDmg, null);
 
-                tracker.attackWith(attacker, target, ALObjects.DamageTypes.FIRE_DAMAGE, ALObjects.Attributes.FIRE_DAMAGE, AttributeEvents::applyPostFireDamage);
+                tracker.attackWith(attacker, target, AscendantAttributesObjects.DamageTypes.FIRE_DAMAGE, AscendantAttributesObjects.Attributes.FIRE_DAMAGE, AttributeEvents::applyPostFireDamage);
 
-                tracker.attackWith(attacker, target, ALObjects.DamageTypes.COLD_DAMAGE, ALObjects.Attributes.COLD_DAMAGE, AttributeEvents::applyPostColdDamage);
+                tracker.attackWith(attacker, target, AscendantAttributesObjects.DamageTypes.COLD_DAMAGE, AscendantAttributesObjects.Attributes.COLD_DAMAGE, AttributeEvents::applyPostColdDamage);
             });
 
             if (target.isDeadOrDying()) {
@@ -182,15 +182,15 @@ public class AttributeEvents {
     }
 
     /**
-     * Handles {@link ALObjects#CRIT_CHANCE} and {@link ALObjects#CRIT_DAMAGE}
+     * Handles {@link AscendantAttributesObjects#CRIT_CHANCE} and {@link AscendantAttributesObjects#CRIT_DAMAGE}
      */
     @SubscribeEvent(priority = EventPriority.HIGH)
     public void apothCriticalStrike(LivingIncomingDamageEvent e) {
         LivingEntity attacker = e.getSource().getEntity() instanceof LivingEntity le ? le : null;
-        if (attacker == null || e.getSource().is(ALObjects.Tags.CANNOT_CRITICALLY_STRIKE)) return;
+        if (attacker == null || e.getSource().is(AscendantAttributesObjects.Tags.CANNOT_CRITICALLY_STRIKE)) return;
 
-        double critChance = attacker.getAttributeValue(ALObjects.Attributes.CRIT_CHANCE);
-        float critDmg = (float) attacker.getAttributeValue(ALObjects.Attributes.CRIT_DAMAGE);
+        double critChance = attacker.getAttributeValue(AscendantAttributesObjects.Attributes.CRIT_CHANCE);
+        float critDmg = (float) attacker.getAttributeValue(AscendantAttributesObjects.Attributes.CRIT_DAMAGE);
 
         RandomSource rand = e.getEntity().getRandom();
 
@@ -213,31 +213,31 @@ public class AttributeEvents {
     }
 
     /**
-     * Handles {@link ALObjects#CRIT_DAMAGE}'s interactions with vanilla critical strikes.
+     * Handles {@link AscendantAttributesObjects#CRIT_DAMAGE}'s interactions with vanilla critical strikes.
      */
     @SubscribeEvent(priority = EventPriority.HIGH)
     public void vanillaCritDmg(CriticalHitEvent e) {
-        float critDmg = (float) e.getEntity().getAttributeValue(ALObjects.Attributes.CRIT_DAMAGE);
+        float critDmg = (float) e.getEntity().getAttributeValue(AscendantAttributesObjects.Attributes.CRIT_DAMAGE);
         if (e.isVanillaCritical()) {
             e.setDamageMultiplier(Math.max(e.getDamageMultiplier(), critDmg));
         }
     }
 
     /**
-     * Handles {@link ALObjects#MINING_SPEED}
+     * Handles {@link AscendantAttributesObjects#MINING_SPEED}
      */
     @SubscribeEvent(priority = EventPriority.HIGH)
     public void breakSpd(BreakSpeed e) {
-        e.setNewSpeed(e.getNewSpeed() * (float) e.getEntity().getAttributeValue(ALObjects.Attributes.MINING_SPEED));
+        e.setNewSpeed(e.getNewSpeed() * (float) e.getEntity().getAttributeValue(AscendantAttributesObjects.Attributes.MINING_SPEED));
     }
 
     /**
-     * This event, and {@linkplain #mobXp(LivingExperienceDropEvent) the event below} handle {@link ALObjects#EXPERIENCE_GAINED}
+     * This event, and {@linkplain #mobXp(LivingExperienceDropEvent) the event below} handle {@link AscendantAttributesObjects#EXPERIENCE_GAINED}
      */
     @SubscribeEvent(priority = EventPriority.HIGH)
     public void blockBreak(BlockDropsEvent e) {
         if (e.getBreaker() instanceof LivingEntity living) {
-            double xpMult = living.getAttributeValue(ALObjects.Attributes.EXPERIENCE_GAINED);
+            double xpMult = living.getAttributeValue(AscendantAttributesObjects.Attributes.EXPERIENCE_GAINED);
             e.setDroppedExperience((int) (e.getDroppedExperience() * xpMult));
         }
     }
@@ -246,30 +246,30 @@ public class AttributeEvents {
     public void mobXp(LivingExperienceDropEvent e) {
         Player player = e.getAttackingPlayer();
         if (player == null) return;
-        double xpMult = e.getAttackingPlayer().getAttributeValue(ALObjects.Attributes.EXPERIENCE_GAINED);
+        double xpMult = e.getAttackingPlayer().getAttributeValue(AscendantAttributesObjects.Attributes.EXPERIENCE_GAINED);
         e.setDroppedExperience((int) (e.getDroppedExperience() * xpMult));
     }
 
     /**
-     * Handles {@link ALObjects#HEALING_RECEIVED}
+     * Handles {@link AscendantAttributesObjects#HEALING_RECEIVED}
      */
     @SubscribeEvent(priority = EventPriority.HIGH)
     public void heal(LivingHealEvent e) {
-        float factor = (float) e.getEntity().getAttributeValue(ALObjects.Attributes.HEALING_RECEIVED);
+        float factor = (float) e.getEntity().getAttributeValue(AscendantAttributesObjects.Attributes.HEALING_RECEIVED);
         e.setAmount(e.getAmount() * factor);
         if (e.getAmount() <= 0) e.setCanceled(true);
     }
 
     /**
-     * Handles {@link ALObjects#ARROW_DAMAGE} and {@link ALObjects#ARROW_VELOCITY}
+     * Handles {@link AscendantAttributesObjects#ARROW_DAMAGE} and {@link AscendantAttributesObjects#ARROW_VELOCITY}
      */
     @SubscribeEvent
     public void arrow(EntityJoinLevelEvent e) {
         if (e.getEntity() instanceof AbstractArrow arrow) {
             if (arrow.level().isClientSide || arrow.getPersistentData().getBoolean("ascendant_attributes.arrow.done")) return;
             if (arrow.getOwner() instanceof LivingEntity le) {
-                arrow.setBaseDamage(arrow.getBaseDamage() * le.getAttributeValue(ALObjects.Attributes.ARROW_DAMAGE));
-                arrow.setDeltaMovement(arrow.getDeltaMovement().scale(le.getAttributeValue(ALObjects.Attributes.ARROW_VELOCITY)));
+                arrow.setBaseDamage(arrow.getBaseDamage() * le.getAttributeValue(AscendantAttributesObjects.Attributes.ARROW_DAMAGE));
+                arrow.setDeltaMovement(arrow.getDeltaMovement().scale(le.getAttributeValue(AscendantAttributesObjects.Attributes.ARROW_VELOCITY)));
             }
             arrow.getPersistentData().putBoolean("ascendant_attributes.arrow.done", true);
         }
@@ -279,13 +279,13 @@ public class AttributeEvents {
     public void projDmg(LivingIncomingDamageEvent e) {
         DamageSource src = e.getSource();
         if (src.getDirectEntity() instanceof Projectile && src.getEntity() instanceof LivingEntity projOwner) {
-            double projDmgMult = projOwner.getAttributeValue(ALObjects.Attributes.PROJECTILE_DAMAGE);
+            double projDmgMult = projOwner.getAttributeValue(AscendantAttributesObjects.Attributes.PROJECTILE_DAMAGE);
             e.setAmount(e.getAmount() * (float) projDmgMult);
         }
     }
 
     /**
-     * Handles {@link ALObjects#DODGE_CHANCE} for melee attacks.
+     * Handles {@link AscendantAttributesObjects#DODGE_CHANCE} for melee attacks.
      */
     @SubscribeEvent(priority = EventPriority.HIGH)
     public void dodge(LivingIncomingDamageEvent e) {
@@ -309,7 +309,7 @@ public class AttributeEvents {
     }
 
     /**
-     * Handles {@link ALObjects#DODGE_CHANCE} for projectiles.
+     * Handles {@link AscendantAttributesObjects#DODGE_CHANCE} for projectiles.
      */
     @SubscribeEvent(priority = EventPriority.HIGH)
     public void dodge(ProjectileImpactEvent e) {
@@ -324,7 +324,7 @@ public class AttributeEvents {
     }
 
     private void onDodge(LivingEntity target) {
-        target.level().playSound(null, target, ALObjects.Sounds.DODGE.value(), SoundSource.NEUTRAL, 1, 0.7F + target.getRandom().nextFloat() * 0.3F);
+        target.level().playSound(null, target, AscendantAttributesObjects.Sounds.DODGE.value(), SoundSource.NEUTRAL, 1, 0.7F + target.getRandom().nextFloat() * 0.3F);
         if (target.level() instanceof ServerLevel sl) {
             double height = target.getBbHeight();
             double width = target.getBbWidth();
@@ -353,7 +353,7 @@ public class AttributeEvents {
     @SubscribeEvent(priority = EventPriority.HIGH)
     public void bonusModifiers(ItemAttributeModifierEvent e) {
         ItemStack stack = e.getItemStack();
-        ItemAttributeModifiers bonus = stack.get(ALObjects.Components.BONUS_ATTRIBUTE_MODIFIERS);
+        ItemAttributeModifiers bonus = stack.get(AscendantAttributesObjects.Components.BONUS_ATTRIBUTE_MODIFIERS);
         if (bonus != null) {
             bonus.modifiers().forEach(entry -> {
                 e.addModifier(entry.attribute(), entry.modifier(), entry.slot());
@@ -381,7 +381,7 @@ public class AttributeEvents {
     @SubscribeEvent(priority = EventPriority.HIGH)
     public void bonusStackModifiers(StackAttributeModifiersEvent e) {
         ItemStack stack = e.getItemStack();
-        StackAttributeModifiers bonus = stack.get(ALObjects.Components.BONUS_STACK_ATTRIBUTE_MODIFIERS);
+        StackAttributeModifiers bonus = stack.get(AscendantAttributesObjects.Components.BONUS_STACK_ATTRIBUTE_MODIFIERS);
         if (bonus != null) {
             bonus.modifiers().forEach(entry -> {
                 e.addModifier(entry.attribute(), entry.modifier(), entry.slots());
@@ -402,25 +402,25 @@ public class AttributeEvents {
             }
         }
 
-        if (e.getItemStack().getItem() instanceof ElytraItem && e.getModifiers().stream().noneMatch(entry -> entry.attribute().equals(ALObjects.Attributes.ELYTRA_FLIGHT))) {
-            e.addModifier(ALObjects.Attributes.ELYTRA_FLIGHT, new AttributeModifier(ApothicAttributes.loc("elytra_item_flight"), 1, Operation.ADD_VALUE), EquipmentSlotGroup.CHEST);
+        if (e.getItemStack().getItem() instanceof ElytraItem && e.getModifiers().stream().noneMatch(entry -> entry.attribute().equals(AscendantAttributesObjects.Attributes.ELYTRA_FLIGHT))) {
+            e.addModifier(AscendantAttributesObjects.Attributes.ELYTRA_FLIGHT, new AttributeModifier(AscendantAttributes.loc("elytra_item_flight"), 1, Operation.ADD_VALUE), EquipmentSlotGroup.CHEST);
         }
     }
 
     @SubscribeEvent
     public void reloads(AddReloadListenerEvent e) {
-        e.addListener(ALConfig.makeReloader());
+        e.addListener(AttributesConfig.makeReloader());
     }
 
     @SubscribeEvent
     public void cmds(RegisterCommandsEvent e) {
         var builder = Commands.literal("apoth");
-        NeoForge.EVENT_BUS.post(new ApotheosisCommandEvent(builder, e.getBuildContext()));
+        NeoForge.EVENT_BUS.post(new AttributesCommandEvent(builder, e.getBuildContext()));
         e.getDispatcher().register(builder);
     }
 
     @SubscribeEvent
-    public void cmds(ApotheosisCommandEvent e) {
+    public void cmds(AttributesCommandEvent e) {
         BonusModifierCommand.register(e.getRoot());
     }
 
@@ -436,8 +436,8 @@ public class AttributeEvents {
 
     @SubscribeEvent
     public void tickDmgTrackers(EntityTickEvent.Post e) {
-        if (!e.getEntity().level().isClientSide && e.getEntity().hasData(ALObjects.Attachments.AUX_DMG_TRACKER)) {
-            AuxDmgTracker tracker = e.getEntity().getData(ALObjects.Attachments.AUX_DMG_TRACKER);
+        if (!e.getEntity().level().isClientSide && e.getEntity().hasData(AscendantAttributesObjects.Attachments.AUX_DMG_TRACKER)) {
+            AuxDmgTracker tracker = e.getEntity().getData(AscendantAttributesObjects.Attachments.AUX_DMG_TRACKER);
             tracker.tick();
         }
     }
@@ -464,13 +464,13 @@ public class AttributeEvents {
     }
 
     /**
-     * Checks if the target entity will dodge attacks in the current tick, by checking the {@link ALObjects.Attributes#DODGE_CHANCE} value and rolling a random.
+     * Checks if the target entity will dodge attacks in the current tick, by checking the {@link AscendantAttributesObjects.Attributes#DODGE_CHANCE} value and rolling a random.
      * 
      * @param target The entity being attecked who is rolling to dodge.
      * @return True if the target may dodge, false otherwise.
      */
     public static boolean isDodging(LivingEntity target) {
-        double chance = target.getAttributeValue(ALObjects.Attributes.DODGE_CHANCE);
+        double chance = target.getAttributeValue(AscendantAttributesObjects.Attributes.DODGE_CHANCE);
         dodgeRand.setSeed(computeDodgeSeed(target));
         return dodgeRand.nextFloat() <= chance;
     }
