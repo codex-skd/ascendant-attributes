@@ -1,5 +1,7 @@
 # CurseForge — Variables del proyecto
 
+> **Rama 1.21.1**: `game_versions = 9638, 9639, 11779, 10150` (Client, Server, **1.21.1** id `11779`, NeoForge). `release_type = beta`. JAR `ascendant_attributes-1.21.1-neoforge-21.1.249-<version>.jar`. Tag `1.21.1-neoforge-<version>`. Proyecto CurseForge compartido con la rama 26.2 (`1638518`).
+
 ## Proyecto
 
 | Variable | Valor |
@@ -24,8 +26,8 @@ Autenticación Core: cabecera `x-api-key`
 
 project_id = 1638518
 api_token = ee776b0a-ee95-4850-b554-06be02a8657f
-release_type = release
-game_versions = 9638, 9639, 16498, 10150
+release_type = beta
+game_versions = 9638, 9639, 11779, 10150
 relations =
 
 El script lee `project_id`, `api_token` y `game_versions` de este archivo, y `mod_id`, `mod_name`, `minecraft_version`, `mod_version` de `gradle.properties`. Sube automáticamente el JAR desde `build/libs/` con el changelog de `docs/curseforge/versions/<version>.md`.
