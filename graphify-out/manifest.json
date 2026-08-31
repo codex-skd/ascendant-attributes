@@ -1,0 +1,472 @@
+{
+  "build.gradle": {
+    "mtime": 1788193036.9916987,
+    "ast_hash": "3ea0ee1e5726c86dc7cf98061329c982",
+    "semantic_hash": ""
+  },
+  "gradlew": {
+    "mtime": 1788193006.058509,
+    "ast_hash": "794669d78aef1dd5c7d889ef618b311a",
+    "semantic_hash": ""
+  },
+  "settings.gradle": {
+    "mtime": 1788193006.1112866,
+    "ast_hash": "58a5df05c6546d7d2671a516793e02e7",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/AscendantAttributes.java": {
+    "mtime": 1788194480.5226207,
+    "ast_hash": "f575d9391fc6be003640e1373d997f6d",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/AscendantAttributesClient.java": {
+    "mtime": 1788193630.8924696,
+    "ast_hash": "6fa4859b135992c92eeced71ddcad328",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/AttributesConfig.java": {
+    "mtime": 1788193685.921448,
+    "ast_hash": "110d54a87dc65b414bf560afbf926b8e",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/api/AbilityCooldowns.java": {
+    "mtime": 1788193976.4426901,
+    "ast_hash": "792b8f581f942fd67035d490aae1a61b",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/api/AscendantAttributesObjects.java": {
+    "mtime": 1788193724.0747902,
+    "ast_hash": "0e356da5a044529ec07a7eac8b77406c",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/api/AttributeHelper.java": {
+    "mtime": 1788193112.4582462,
+    "ast_hash": "8e7e1fdbd4f61fa77b3022b1e6c1fc94",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/api/CombatRules.java": {
+    "mtime": 1788193792.259446,
+    "ast_hash": "7c4e9b682db2ff1f9135eb75cd38ec1d",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/api/CooldownTracker.java": {
+    "mtime": 1788193112.4627585,
+    "ast_hash": "a065eb3675e01a12df4606b99aa7fdd4",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/client/AscendantAttributesClientHandler.java": {
+    "mtime": 1788193800.483874,
+    "ast_hash": "751679682fca7c678fd131f88cf84b3e",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/client/AttributeModifierComponent.java": {
+    "mtime": 1788193975.817518,
+    "ast_hash": "bda3d6ad4231fc993e00c7ec8b20c1fb",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/client/AttributesGui.java": {
+    "mtime": 1788194087.4570847,
+    "ast_hash": "1adc7d53cbc62b8390f38e8b471e1ccf",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/client/ButtonPlacement.java": {
+    "mtime": 1788193112.539323,
+    "ast_hash": "711bf2936f3cd1b6bcff66246a78fe51",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/client/ModifierSource.java": {
+    "mtime": 1788193112.5743887,
+    "ast_hash": "2d5f6f57b6ec519e27df1fd33b3814c4",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/client/ModifierSourceType.java": {
+    "mtime": 1788193112.5783901,
+    "ast_hash": "596f7418f865087071b366bab5679c54",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/commands/BonusModifierCommand.java": {
+    "mtime": 1788193951.019365,
+    "ast_hash": "5023d651981657189996b4194df8d620",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/compat/CurioEquipmentSlot.java": {
+    "mtime": 1788193112.59542,
+    "ast_hash": "cdd5151354020957e553f731fec1b1c5",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/compat/CuriosCompat.java": {
+    "mtime": 1788193923.637205,
+    "ast_hash": "8999c47d970f5a8a7a8cd7fd911b680b",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/data/MixProvider.java": {
+    "mtime": 1788193628.7962084,
+    "ast_hash": "d76eebcbfc43274cdbd5b0a407530d20",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/event/AttributesCommandEvent.java": {
+    "mtime": 1788193795.4541993,
+    "ast_hash": "94c4a13157377451f0c4713eaf1bd9f8",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/impl/AttributeEvents.java": {
+    "mtime": 1788193947.1329057,
+    "ast_hash": "b417380b111e35a80c2ba35c5210692a",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/CombatRulesMixin.java": {
+    "mtime": 1788194020.3470507,
+    "ast_hash": "1ef85679f183c1c059ec7dbf972a07fe",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/EntityMixin.java": {
+    "mtime": 1788193112.673633,
+    "ast_hash": "a6c9c522840565a33705a956621c1d75",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/LivingEntityMixin.java": {
+    "mtime": 1788193973.1283083,
+    "ast_hash": "1ca596c325776575284883a81ac3e240",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/NearestAttackableTargetGoalMixin.java": {
+    "mtime": 1788193112.6995533,
+    "ast_hash": "cb14a601230eb7330676ef06cd4eea0e",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/PlayerMixin.java": {
+    "mtime": 1788193112.7035556,
+    "ast_hash": "29ee14bcc3a509b7b278b8f1c8403cd5",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/ThrownTridentMixin.java": {
+    "mtime": 1788193112.7065568,
+    "ast_hash": "dd894cff7182571de0ad0f5bf99dbc75",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mixin/client/AbstractContainerScreenMixin.java": {
+    "mtime": 1788193112.65861,
+    "ast_hash": "9b208ae43aebf831044c43e5e0676be8",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mob_effect/BleedingEffect.java": {
+    "mtime": 1788193970.0490322,
+    "ast_hash": "92fb4d0c0ff8ae8cb993c2fad296cb06",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mob_effect/DetonationEffect.java": {
+    "mtime": 1788193969.3112679,
+    "ast_hash": "05c912a2f8f6cdb01d8ae123bc55f53d",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mob_effect/FlyingEffect.java": {
+    "mtime": 1788193967.6599195,
+    "ast_hash": "74e87a2ca0b44e0c426653fcb9efc1b7",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mob_effect/GrievousEffect.java": {
+    "mtime": 1788193962.8434615,
+    "ast_hash": "3fa482ab8c0cce7162b3e7c20463fa20",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mob_effect/KnowledgeEffect.java": {
+    "mtime": 1788193960.933603,
+    "ast_hash": "fc0d2b746168716e95124a5261f854a6",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mob_effect/SunderingEffect.java": {
+    "mtime": 1788193112.7996757,
+    "ast_hash": "920684d26d5d765206ab6bc946e9b10a",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/mob_effect/VitalityEffect.java": {
+    "mtime": 1788193956.6753504,
+    "ast_hash": "9c86b84aeeaa3555cfda2336c134604e",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/modifiers/EntityEquipmentSlot.java": {
+    "mtime": 1788193928.3245084,
+    "ast_hash": "85d0cd6cc3fae80f5bf6a9907f7d470a",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/modifiers/EntitySlotGroup.java": {
+    "mtime": 1788193929.0529256,
+    "ast_hash": "3fbe229f9ec734cde3755e6ae7ecaa9f",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/modifiers/EquipmentSlotCompat.java": {
+    "mtime": 1788193953.7286367,
+    "ast_hash": "3082cc8fc7bda825e4483822e9c91d6f",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/modifiers/StackAttributeModifiers.java": {
+    "mtime": 1788193954.4332373,
+    "ast_hash": "67ec44964875ff881ed1ce7bea7e18a2",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/modifiers/StackAttributeModifiersEvent.java": {
+    "mtime": 1788193112.9025779,
+    "ast_hash": "37c89b9fcd2568eee7556ea00965526a",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/modifiers/VanillaEquipmentSlot.java": {
+    "mtime": 1788193112.922655,
+    "ast_hash": "432b15102f507b60e492f14d458d4229",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/modifiers/package-info.java": {
+    "mtime": 1788193112.870562,
+    "ast_hash": "5c7f83c3f1d66bc9dc22b74a99a382c0",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/payload/ConfigPayload.java": {
+    "mtime": 1788193952.6548924,
+    "ast_hash": "c540639d3a2e93b8c5fc1a3e61bbe84c",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/payload/CritParticlePayload.java": {
+    "mtime": 1788193830.9111884,
+    "ast_hash": "c2b2822540858da6162284d47b784888",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/util/AttributesUtil.java": {
+    "mtime": 1788193975.1570003,
+    "ast_hash": "134e882547b99b2f8d20f4dc1e12ea9b",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/util/AuxDmgTracker.java": {
+    "mtime": 1788193974.4870641,
+    "ast_hash": "b470e5dc4f103b6bad9c229465bab125",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/util/Comparators.java": {
+    "mtime": 1788193113.0548658,
+    "ast_hash": "1f3dff71386890a297f7f19155447cd8",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/ascendantattributes/util/LEInvoker.java": {
+    "mtime": 1788193113.0697398,
+    "ast_hash": "02411a86d25f1132d7a45d27bbc8f85d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/ascendant_attributes.mixins.json": {
+    "mtime": 1788193007.1482613,
+    "ast_hash": "457337947d71a3b003166533ae8fba3e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/lang/en_us.json": {
+    "mtime": 1788193006.549059,
+    "ast_hash": "d89d21eeba5a792ec2c474677319e8b6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/lang/es_es.json": {
+    "mtime": 1788193006.5627353,
+    "ast_hash": "52408e68c4747b98f36971e2a40bd229",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/particles/ascendant_crit.json": {
+    "mtime": 1788193006.530086,
+    "ast_hash": "cd080bcab8be7574848f58bccdb1c9a0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/sounds.json": {
+    "mtime": 1788193006.5362267,
+    "ast_hash": "a631bdfd2217efc34c5ca737db6074d8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/damage_type/bleeding.json": {
+    "mtime": 1788193006.4627469,
+    "ast_hash": "85f35cd0fb71dc1d85f4e38b256facf2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/damage_type/cold_damage.json": {
+    "mtime": 1788193006.471251,
+    "ast_hash": "899e8af5baed3f93eaac0a36e3a0a7c5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/damage_type/current_hp_damage.json": {
+    "mtime": 1788193006.482594,
+    "ast_hash": "5064272e65a0fc730f8b8155a6cf0eac",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/damage_type/detonation.json": {
+    "mtime": 1788193006.4906623,
+    "ast_hash": "9f500cffd14e8fd52dd9de9081eae10f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/damage_type/fire_damage.json": {
+    "mtime": 1788193006.497749,
+    "ast_hash": "e464f12d2a23ada7bc2206a64da4620b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/tags/damage_type/cannot_critically_strike.json": {
+    "mtime": 1788193006.5135324,
+    "ast_hash": "579e5cb396a925427acb83b57a2c86f9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ascendant_attributes/tags/damage_type/is_non_physical.json": {
+    "mtime": 1788193006.5057771,
+    "ast_hash": "6cdb40c9bbc25b4c5b6ad777b4322d90",
+    "semantic_hash": ""
+  },
+  ".gitlab-ci.yml": {
+    "mtime": 1788193006.1557276,
+    "ast_hash": "402e112fb0a27fd876291ce11aac8792",
+    "semantic_hash": ""
+  },
+  "CHANGELOG.md": {
+    "mtime": 1788194831.7207906,
+    "ast_hash": "179db04347f44969e4f7a57fb3aaa63f",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1788194865.066056,
+    "ast_hash": "37afe0b2da8d003c3a01d60bb2b640ac",
+    "semantic_hash": ""
+  },
+  "docs/ASCENDANT_ATTRIBUTES_RENAME_MAP.md": {
+    "mtime": 1788193006.3383021,
+    "ast_hash": "79e614b9473f8b41a7801ac11d497490",
+    "semantic_hash": ""
+  },
+  "docs/PORT_BRIEF_1.21.1.md": {
+    "mtime": 1788193250.621698,
+    "ast_hash": "5d330fe90ee7c5b64862edd62f99b993",
+    "semantic_hash": ""
+  },
+  "docs/PORT_REPORT_1.21.1.md": {
+    "mtime": 1788194332.6921928,
+    "ast_hash": "17567170b1471e478e76833bb319f821",
+    "semantic_hash": ""
+  },
+  "docs/ROADMAP_ASCENDANT_ATTRIBUTES.md": {
+    "mtime": 1788193006.3473775,
+    "ast_hash": "37c986b2ea9b5874044f64dae1cfef74",
+    "semantic_hash": ""
+  },
+  "docs/WORKFLOW_ASCENDANT_ATTRIBUTES_26-2.md": {
+    "mtime": 1788193006.3585155,
+    "ast_hash": "1a91dc60b9d0ba46579ca45f8d465746",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/project_description.md": {
+    "mtime": 1788194831.635702,
+    "ast_hash": "d9d8b9cc7f6dca883b17532b541a54f1",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/project_vars.md": {
+    "mtime": 1788193006.327146,
+    "ast_hash": "46d5a12f6c122a21b05a10ed326709ed",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.1.md": {
+    "mtime": 1788193006.2837667,
+    "ast_hash": "c2567714cb667a30bac7a9d27acbb192",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.2.md": {
+    "mtime": 1788193006.2934835,
+    "ast_hash": "6f64c5eef74f43f4f577d1a2bbafb6fe",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.3.md": {
+    "mtime": 1788193006.3165042,
+    "ast_hash": "e07d442d7a66f156a821ee4f89c17c0e",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.4.md": {
+    "mtime": 1788193006.264488,
+    "ast_hash": "8fb05eac9e0df3972b575fad7f927b75",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.0.md": {
+    "mtime": 1788193006.2730083,
+    "ast_hash": "17843dbbcdf576ba5b8d8a97eba0838c",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.1.md": {
+    "mtime": 1788193006.2566476,
+    "ast_hash": "73415a85d27da977ec1590b04d74bade",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.2.md": {
+    "mtime": 1788193006.3001049,
+    "ast_hash": "f55d07505bc1fa52523953a1d4db46cb",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.1.0.md": {
+    "mtime": 1788193006.3086195,
+    "ast_hash": "1ce81caae6e6073050164caa1d16309e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/icon.png": {
+    "mtime": 1788193006.6607637,
+    "ast_hash": "06f1cb268e94bae0b927cf6b048e90df",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/ascendant_attribute_component.png": {
+    "mtime": 1788193006.6383502,
+    "ast_hash": "f8f8454f10aad4468e40b4d9d841c93b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/ascendant_attributes_gui.png": {
+    "mtime": 1788193006.645145,
+    "ast_hash": "7573fe24b7a452fd49e5fb21d18775ec",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/ascendant_ghost_health.png": {
+    "mtime": 1788193006.6533895,
+    "ast_hash": "0bf281bc2bff3e782b19706d9627cc5a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/ascendant_sword.png": {
+    "mtime": 1788193006.62674,
+    "ast_hash": "f9669e3ddb651e8226388acf84a718c1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/ascendant_sword_highlighted.png": {
+    "mtime": 1788193006.632822,
+    "ast_hash": "ca7416eb1165cfe1f109c766bcbc74a5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/bleeding.png": {
+    "mtime": 1788193006.5784938,
+    "ast_hash": "9d10af80aab1a60162dd68e711d01ad2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/detonation.png": {
+    "mtime": 1788193006.5883625,
+    "ast_hash": "183859e3304bbfa54cad32514f834dd3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/flying.png": {
+    "mtime": 1788193006.5968244,
+    "ast_hash": "848e9dda152c7759a97909443083437c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/grievous.png": {
+    "mtime": 1788193006.6028588,
+    "ast_hash": "4216b843b7200b69ec09f44d93e29623",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/knowledge.png": {
+    "mtime": 1788193006.6084392,
+    "ast_hash": "a0f872e91980eedd37025453eeab4d8a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/sundering.png": {
+    "mtime": 1788193006.6149936,
+    "ast_hash": "cda1a2c791a76e3ee29b7e72abb9993c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/textures/gui/sprites/mob_effect/vitality.png": {
+    "mtime": 1788193006.6216807,
+    "ast_hash": "bfc4267db845356bcab16a129269b81d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ascendant_attributes/sounds/ascendant_dodge.ogg": {
+    "mtime": 1788193006.5235753,
+    "ast_hash": "0bc91d1a05a5d3eb21f4bf9efe163c98",
+    "semantic_hash": ""
+  }
+}
