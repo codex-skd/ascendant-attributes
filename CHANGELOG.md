@@ -2,6 +2,16 @@
 
 Branch `minecraft/1.21.1/neoforge-21.1.249/production`. History independent of the 26.2 branch.
 
+## [0.0.0-beta.2] - 2026-08-31
+
+### Fixed
+
+- **Client crash on startup**: `AscendantAttributesClient` had `@EventBusSubscriber` but no `@SubscribeEvent` methods, causing `IllegalArgumentException` during mod loading.
+
+### Technical
+
+- Removed unused `@EventBusSubscriber` from client entry class — event handling is registered via NeoForge bus elsewhere.
+
 ## [0.0.0-beta.1] - 2026-08-31
 
 ### Added
