@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "ascendant_attributes:current_hp_damage",
+    "#bypasses_invulnerability"
+  ]
+}

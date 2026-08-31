@@ -1,0 +1,7 @@
+{
+	"dodge": {
+		"category": "neutral",
+		"subtitle": "ascendant_attributes.subtitle.dodge",
+		"sounds": ["ascendant_attributes:ascendant_dodge"]
+	}
+}
